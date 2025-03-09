@@ -1,0 +1,37 @@
+,team_id,team_name,variable,value
+0,8149,Union Berlin,score_ag,44
+1,8149,Union Berlin,xG_ag,43.199999999999996
+2,8177,Hertha BSC,score_ag,71
+3,8177,Hertha BSC,xG_ag,59.17
+4,8178,Bayer Leverkusen,score_ag,47
+5,8178,Bayer Leverkusen,xG_ag,50.57000000000001
+6,8226,TSG Hoffenheim,score_ag,60
+7,8226,TSG Hoffenheim,xG_ag,59.11999999999999
+8,8357,Greuther Fürth,score_ag,82
+9,8357,Greuther Fürth,xG_ag,68.48
+10,8358,Freiburg,score_ag,46
+11,8358,Freiburg,xG_ag,52.05
+12,8406,Augsburg,score_ag,56
+13,8406,Augsburg,xG_ag,65.29999999999998
+14,8721,Wolfsburg,score_ag,54
+15,8721,Wolfsburg,xG_ag,53.09000000000001
+16,8722,1. FC Köln,score_ag,49
+17,8722,1. FC Köln,xG_ag,57.05
+18,9788,Borussia M'Gladbach,score_ag,61
+19,9788,Borussia M'Gladbach,xG_ag,61.97
+20,9789,Borussia Dortmund,score_ag,52
+21,9789,Borussia Dortmund,xG_ag,51.74
+22,9810,Eintracht Frankfurt,score_ag,49
+23,9810,Eintracht Frankfurt,xG_ag,53.56999999999999
+24,9823,Bayern München,score_ag,37
+25,9823,Bayern München,xG_ag,39.9
+26,9905,Mainz 05,score_ag,45
+27,9905,Mainz 05,xG_ag,49.29
+28,9911,Bochum,score_ag,50
+29,9911,Bochum,xG_ag,61.120000000000005
+30,9912,Arminia Bielefeld,score_ag,53
+31,9912,Arminia Bielefeld,xG_ag,72.00999999999999
+32,10269,VfB Stuttgart,score_ag,59
+33,10269,VfB Stuttgart,xG_ag,62.559999999999995
+34,178475,RB Leipzig,score_ag,37
+35,178475,RB Leipzig,xG_ag,44.64

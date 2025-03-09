@@ -1,0 +1,524 @@
+,Player,Nation,Pos,Age,new_pound_value
+0,Joe Aribo,ng NGA,MF,28.0,70000
+1,Jan Bednarek,pl POL,DF,28.0,60000
+2,Adam Armstrong,eng ENG,FW,27.0,60000
+3,Jack Stephens,eng ENG,DF,30.0,45000
+4,Kamaldeen Sulemana,gh GHA,LW,22.0,40000
+5,Alex McCarthy,eng ENG,GK,34.0,40000
+6,Carlos Alcaraz,ar ARG,MF,21.0,40000
+7,Duje Ćaleta-Car,hr CRO,CB,27.0,40000
+8,Paul Onuachu,ng NGA,CF,30.0,30000
+9,Sekou Mara,fr FRA,CF,21.0,25000
+10,William Smallbone,ie IRL,MF,24.0,25000
+11,Kyle Walker-Peters,eng ENG,DF,27.0,20000
+12,Gavin Bazunu,ie IRL,GK,22.0,20000
+13,Ross Stewart,sct SCO,CF,27.0,20000
+14,Ryan Manning,ie IRL,LB,28.0,15000
+15,Samuel Edozie,,LW,21.0,15000
+16,Juan Larios,,LB,20.0,15000
+17,Armel Bella Kotchap,de GER,CB,22.0,15000
+18,Joe Lumley,eng ENG,GK,29.0,10000
+19,James Bree,eng ENG,"DF,MF",26.0,10000
+20,Taylor Harwood-Bellis,eng ENG,DF,22.0,7500
+21,Shea Charles,,DM,20.0,6000
+22,Samuel Amo-Ameyaw,,RW,17.0,5000
+0,Youri Tielemans,be BEL,MF,27.0,150000
+1,Boubacar Kamara,fr FRA,DM,24.0,150000
+2,Ollie Watkins,eng ENG,FW,28.0,130000
+3,Philippe Coutinho,br BRA,AM,32.0,125000
+4,Lucas Digne,fr FRA,DF,31.0,120000
+5,Emiliano Martínez,ar ARG,GK,31.0,120000
+6,John McGinn,sct SCO,FW,29.0,120000
+7,Leon Bailey,jm JAM,FW,26.0,120000
+8,Diego Carlos,br BRA,DF,31.0,100000
+9,Tyrone Mings,eng ENG,CB,31.0,100000
+10,Pau Torres,es ESP,DF,27.0,100000
+11,Leander Dendoncker,be BEL,DM,29.0,90000
+12,Matty Cash,pl POL,DF,26.0,80000
+13,Emi Buendía,ar ARG,"FW,MF",27.0,75000
+14,Ezri Konsa,eng ENG,DF,26.0,75000
+15,Jacob Ramsey,eng ENG,FW,23.0,70000
+16,Robin Olsen,se SWE,GK,34.0,50000
+17,Calum Chambers,eng ENG,CB,29.0,50000
+18,Álex Moreno,es ESP,LB,31.0,35000
+19,Jhon Durán,co COL,FW,20.0,30000
+20,Morgan Rogers,eng ENG,MF,22.0,20000
+21,Kortney Hause,eng ENG,CB,28.0,10000
+22,Joe Gauci,,GK,23.0,10000
+23,Lino Sousa,,LB,19.0,10000
+24,Kaine Kesler,,RB,21.0,10000
+0,Kaoru Mitoma,jp JPN,FW,27.0,80000
+1,Lewis Dunk,eng ENG,DF,32.0,80000
+2,Pascal Groß,de GER,CM,33.0,65000
+3,James Milner,eng ENG,MF,38.0,60000
+4,Danny Welbeck,eng ENG,FW,33.0,60000
+5,Adam Webster,eng ENG,DF,29.0,55000
+6,Mahmoud Dahoud,de GER,CM,28.0,55000
+7,Solly March,eng ENG,RW,29.0,50000
+8,Pervis Estupiñán,ec ECU,LB,26.0,50000
+9,Joël Veltman,nl NED,DF,32.0,50000
+10,João Pedro,br BRA,MF,22.0,50000
+11,Igor,br BRA,CB,26.0,45000
+12,Tariq Lamptey,gh GHA,RB,23.0,35000
+13,Bart Verbruggen,nl NED,GK,21.0,35000
+14,Evan Ferguson,ie IRL,CF,19.0,30000
+15,Jan Paul van Hecke,nl NED,DF,24.0,30000
+16,Valentín Barco,ar ARG,DF,20.0,25000
+17,Abdallah Sima,sn SEN,RW,23.0,20577
+18,Kjell Scherpen,nl NED,GK,24.0,20000
+19,Jeremy Sarmiento,ec ECU,MF,22.0,20000
+20,Jason Steele,eng ENG,GK,33.0,20000
+21,Billy Gilmour,sct SCO,MF,23.0,20000
+22,Deniz Undav,de GER,CF,27.0,20000
+23,Simon Adingra,ci CIV,FW,22.0,12500
+24,Carlos Baleba,,DM,20.0,12500
+25,Jakub Moder,pl POL,CM,25.0,10000
+26,Tom McGill,,GK,24.0,10000
+27,Kacper Kozłowski,pl POL,CM,20.0,10000
+28,Julio Enciso,py PAR,AM,20.0,10000
+29,Jack Hinshelwood,,DM,19.0,10000
+30,Yasin Ayari,,CM,20.0,8000
+31,Carl Rushworth,eng ENG,GK,23.0,3000
+0,Abdoulaye Doucouré,ml MLI,MF,31.0,130000
+1,Jordan Pickford,eng ENG,GK,30.0,125000
+2,Dominic Calvert-Lewin,eng ENG,FW,27.0,100000
+3,James Tarkowski,eng ENG,DF,31.0,100000
+4,Jack Harrison,eng ENG,FW,27.0,90000
+5,Idrissa Gana Gueye,sn SEN,MF,34.0,80000
+6,Michael Keane,eng ENG,DF,31.0,80000
+7,Mason Holgate,eng ENG,"FW,DF",27.0,70000
+8,Vitaliy Mykolenko,ua UKR,DF,25.0,58000
+9,Séamus Coleman,ie IRL,RB,35.0,55000
+10,Beto,gw GNB,FW,26.0,50000
+11,Neal Maupay,fr FRA,"FW,MF",27.0,50000
+12,Ashley Young,eng ENG,DF,39.0,40000
+13,Jarrad Branthwaite,eng ENG,CB,22.0,35000
+14,Youssef Chermiti,,CF,20.0,30000
+15,James Garner,eng ENG,DM,23.0,30000
+16,Nathan Patterson,sct SCO,RB,22.0,28000
+17,Dwight McNeil,eng ENG,"FW,DF",24.0,25000
+18,João Virgínia,pt POR,GK,24.0,7500
+0,Kai Havertz,de GER,"FW,MF",25.0,280000
+1,Gabriel Jesus,br BRA,FW,27.0,265000
+2,Declan Rice,eng ENG,MF,25.0,240000
+3,Martin Ødegaard,no NOR,MF,25.0,240000
+4,Thomas Partey,gh GHA,MF,31.0,200000
+5,Bukayo Saka,eng ENG,FW,22.0,195000
+6,William Saliba,fr FRA,DF,23.0,190000
+7,Gabriel Martinelli,br BRA,FW,23.0,180000
+8,Oleksandr Zinchenko,ua UKR,DF,27.0,150000
+9,Ben White,eng ENG,DF,26.0,150000
+10,Riccardo Calafiori,it ITA,DF,22.0,120000
+11,Aaron Ramsdale,eng ENG,GK,26.0,120000
+12,Jorginho,it ITA,MF,32.0,110000
+13,Kieran Tierney,sct SCO,LB,27.0,110000
+14,Gabriel Magalhães,br BRA,DF,26.0,100000
+15,Reiss Nelson,eng ENG,"FW,MF",24.0,100000
+16,Takehiro Tomiyasu,jp JPN,RB,25.0,100000
+17,Eddie Nketiah,eng ENG,FW,25.0,100000
+18,Jurriën Timber,nl NED,DF,23.0,90000
+19,Leandro Trossard,be BEL,FW,29.0,90000
+20,Jakub Kiwior,pl POL,LB,24.0,58000
+21,Fabio Vieira,pt POR,AM,24.0,45000
+22,Emile Smith Rowe,eng ENG,AM,23.0,40000
+23,Karl Jakob Hein,ee EST,GK,22.0,10000
+0,Pablo Sarabia,es ESP,MF,32.0,90000
+1,Gonçalo Guedes,pt POR,"FW,MF",27.0,90000
+2,Nélson Semedo,pt POR,RB,30.0,80000
+3,Fábio Silva,pt POR,CF,21.0,80000
+4,Hwang Hee-chan,kr KOR,"FW,MF",28.0,70000
+5,Matheus Cunha,br BRA,FW,25.0,60000
+6,Boubacar Traoré,ml MLI,DM,22.0,55000
+7,Pedro Neto,pt POR,RW,24.0,50000
+8,Matt Doherty,ie IRL,DF,32.0,50000
+9,Mario Lemina,ga GAB,MF,30.0,45000
+10,Craig Dawson,eng ENG,DF,34.0,45000
+11,Ki-Jana Hoever,nl NED,RB,22.0,40385
+12,José Sá,pt POR,GK,31.0,40000
+13,Jean-Ricner Bellegarde,fr FRA,MF,26.0,35000
+14,Sasa Kalajdzic,at AUT,CF,26.0,35000
+15,João Gomes,br BRA,MF,23.0,30000
+16,Santiago Bueno,uy URU,DF,25.0,30000
+17,Toti Gomes,pt POR,DF,25.0,25000
+18,Luke Cundle,eng ENG,CM,22.0,15000
+19,Tommy Doyle,eng ENG,MF,22.0,10000
+20,Hugo Bueno,,LB,21.0,10000
+21,Rayan Aït-Nouri,dz ALG,DF,23.0,10000
+22,Chiquinho,pt POR,MF,24.0,10000
+23,Daniel Bentley,eng ENG,GK,31.0,10000
+24,Tom King,wls WAL,GK,29.0,10000
+25,Yerson Mosquera,co COL,DF,23.0,8000
+26,Louie Moulden,eng ENG,GK,22.0,5000
+27,Joe Hodge,,DM,21.0,5000
+28,Chem Campbell,wls WAL,AM,21.0,2500
+0,Casemiro,br BRA,MF,32.0,350000
+1,Marcus Rashford,eng ENG,FW,26.0,300000
+2,Bruno Fernandes,pt POR,"FW,MF",29.0,300000
+3,Jadon Sancho,eng ENG,"FW,MF",24.0,250000
+4,Mason Mount,eng ENG,MF,25.0,250000
+5,Antony,br BRA,"FW,MF",24.0,200000
+6,Matthijs de Ligt,nl NED,DF,24.0,195000
+7,Harry Maguire,eng ENG,DF,31.0,190000
+8,Luke Shaw,eng ENG,LB,28.0,150000
+9,Christian Eriksen,dk DEN,"FW,MF",32.0,150000
+10,Victor Lindelöf,se SWE,CB,29.0,120000
+11,Lisandro Martínez,ar ARG,DF,26.0,120000
+12,André Onana,cm CMR,GK,28.0,120000
+13,Leny Yoro,,CB,18.0,115000
+14,Joshua Zirkzee,nl NED,FW,23.0,105000
+15,Rasmus Højlund,dk DEN,CF,21.0,85000
+16,Diogo Dalot,pt POR,DF,25.0,85000
+17,Tyrell Malacia,nl NED,LB,24.0,75000
+18,Jonny Evans,nir NIR,DF,36.0,65000
+19,Scott McTominay,sct SCO,MF,27.0,60000
+20,Alejandro Garnacho,,LW,20.0,50000
+21,Tom Heaton,eng ENG,GK,38.0,45000
+22,Altay Bayındır,tr TUR,GK,26.0,35000
+23,Amad Diallo,ci CIV,FW,22.0,28846
+24,Kobbie Mainoo,,CM,19.0,20000
+25,Facundo Pellistri,uy URU,"FW,MF",22.0,20000
+26,Hannibal,,AM,21.0,15000
+0,Bruno Guimarães,br BRA,MF,26.0,160000
+1,Lloyd Kelly,eng ENG,DF,25.0,150000
+2,Joelinton,br BRA,MF,27.0,150000
+3,Alexander Isak,se SWE,FW,24.0,120000
+4,Sandro Tonali,it ITA,DM,24.0,120000
+5,Kieran Trippier,eng ENG,"DF,MF",33.0,120000
+6,Matt Targett,eng ENG,"DF,MF",28.0,100000
+7,Sven Botman,nl NED,CB,24.0,90000
+8,Harvey Barnes,eng ENG,FW,26.0,80000
+9,Joe Willock,eng ENG,MF,24.0,80000
+10,Nick Pope,eng ENG,GK,32.0,60000
+11,Miguel Almirón,py PAR,"FW,MF",30.0,60000
+12,Anthony Gordon,eng ENG,FW,23.0,60000
+13,Emil Krafth,se SWE,DF,29.0,55000
+14,Dan Burn,eng ENG,DF,32.0,55000
+15,Sean Longstaff,eng ENG,MF,26.0,50000
+16,Valentino Livramento,eng ENG,DF,21.0,50000
+17,Callum Wilson,eng ENG,CF,32.0,46000
+18,Fabian Schär,ch SUI,DF,32.0,45000
+19,Ryan Fraser,sct SCO,LW,30.0,42000
+20,Martin Dúbravka,sk SVK,GK,35.0,40000
+21,Jamaal Lascelles,eng ENG,CB,30.0,40000
+22,Jamal Lewis,nir NIR,LB,26.0,38000
+23,Jacob Murphy,eng ENG,FW,29.0,35000
+24,Isaac Hayden,eng ENG,DM,29.0,22000
+25,Mark Gillespie,eng ENG,GK,32.0,10000
+26,Harrison Ashby,,RB,22.0,10000
+27,Lewis Hall,,LB,19.0,7000
+28,Lewis Miley,,CM,18.0,5000
+0,Kevin De Bruyne,be BEL,MF,33.0,400000
+1,Erling Haaland,no NOR,FW,24.0,375000
+2,Bernardo Silva,pt POR,MF,29.0,300000
+3,Jack Grealish,eng ENG,"FW,MF",28.0,300000
+4,João Cancelo,pt POR,RB,30.0,250000
+5,John Stones,eng ENG,DF,30.0,250000
+6,Phil Foden,eng ENG,FW,24.0,225000
+7,Rodri,es ESP,DM,28.0,220000
+8,Joško Gvardiol,hr CRO,DF,22.0,200000
+9,Rúben Dias,pt POR,DF,27.0,180000
+10,Manuel Akanji,ch SUI,DF,29.0,180000
+11,Kyle Walker,eng ENG,"DF,MF",34.0,175000
+12,Nathan Aké,nl NED,"DF,MF",29.0,160000
+13,Mateo Kovačić,hr CRO,MF,30.0,150000
+14,Matheus Nunes,pt POR,MF,25.0,130000
+15,Ederson,br BRA,GK,30.0,100000
+16,Stefan Ortega,de GER,GK,31.0,90000
+17,Oscar Bobb,,RW,20.0,50000
+18,Jeremy Doku,be BEL,FW,22.0,50000
+19,Sergio Gómez,es ESP,LB,23.0,50000
+20,Máximo Perrone,,DM,21.0,30000
+21,Scott Carson,eng ENG,GK,38.0,30000
+22,Rico Lewis,,RB,19.0,25000
+23,Issa Kaboré,bf BFA,"DF,MF",23.0,20000
+24,James McAtee,,CM,21.0,15000
+0,Lucas Paquetá,br BRA,MF,26.0,150000
+1,Danny Ings,eng ENG,FW,32.0,125000
+2,Kurt Zouma,fr FRA,CB,29.0,125000
+3,Alphonse Areola,fr FRA,GK,31.0,120000
+4,Jarrod Bowen,eng ENG,MF,27.0,120000
+5,James Ward-Prowse,eng ENG,MF,29.0,115000
+6,Edson Álvarez,mx MEX,DM,26.0,100000
+7,Emerson Palmieri,it ITA,DF,29.0,95000
+8,Aaron Wan-Bissaka,eng ENG,DF,26.0,90000
+9,Niclas Füllkrug,de GER,FW,31.0,90000
+10,Mohammed Kudus,,AM,23.0,90000
+11,Tomáš Souček,cz CZE,MF,29.0,90000
+12,Michail Antonio,jm JAM,FW,34.0,85000
+13,Łukasz Fabiański,pl POL,GK,39.0,65000
+14,Maxwel Cornet,ci CIV,LW,27.0,65000
+15,Aaron Cresswell,eng ENG,"DF,MF",34.0,50000
+16,Konstantinos Mavropanos,gr GRE,DF,26.0,50000
+17,Nayef Aguerd,ma MAR,CB,28.0,50000
+18,Vladimír Coufal,cz CZE,DF,31.0,35000
+19,Flynn Downes,eng ENG,DM,25.0,25000
+20,Callum Marshall,,CF,19.0,10000
+0,Bernd Leno,de GER,GK,32.0,130000
+1,Raúl Jiménez,mx MEX,FW,33.0,100000
+2,Willian,br BRA,LW,35.0,90000
+3,Alex Iwobi,ng NGA,FW,28.0,80000
+4,Issa Diop,fr FRA,DF,27.0,70000
+5,Adama Traoré,es ESP,FW,28.0,65000
+6,Timothy Castagne,be BEL,"DF,MF",28.0,65000
+7,Saša Lukić,rs SRB,MF,27.0,63000
+8,Kenny Tete,nl NED,DF,28.0,50000
+9,Harrison Reed,eng ENG,MF,29.0,50000
+10,Andreas Pereira,br BRA,MF,28.0,50000
+11,Antonee Robinson,us USA,DF,26.0,50000
+12,Calvin Bassey,ng NGA,DF,24.0,45000
+13,Kevin Mbabu,ch SUI,RB,29.0,40000
+14,Carlos Vinícius,br BRA,CF,29.0,40000
+15,Bobby Reid,jm JAM,RW,31.0,35000
+16,Harry Wilson,wls WAL,FW,27.0,35000
+17,Tom Cairney,sct SCO,MF,33.0,30000
+18,Tim Ream,us USA,CB,36.0,30000
+19,Luke Harris,,AM,19.0,12500
+20,Steven Benda,de GER,GK,25.0,10000
+21,Rodrigo Muniz,br BRA,FW,23.0,7500
+0,David Raya,es ESP,GK,28.0,85000
+1,Ben Mee,eng ENG,DF,34.0,55000
+2,Mathias Jensen,dk DEN,MF,28.0,50000
+3,Bryan Mbeumo,cm CMR,FW,24.0,45000
+4,Kristoffer Ajer,no NOR,DF,26.0,40000
+5,Frank Onyeka,ng NGA,MF,26.0,40000
+6,Rico Henry,eng ENG,LB,26.0,35000
+7,Christian Nørgaard,dk DEN,MF,30.0,35000
+8,Keane Lewis-Potter,eng ENG,"FW,MF",23.0,35000
+9,Aaron Hickey,sct SCO,RB,22.0,30000
+10,Nathan Collins,ie IRL,DF,23.0,30000
+11,Vitaly Janelt,de GER,MF,26.0,30000
+12,Mikkel Damsgaard,dk DEN,MF,24.0,30000
+13,Mark Flekken,nl NED,GK,31.0,30000
+14,Josh Dasilva,eng ENG,CM,25.0,30000
+15,Ethan Pinnock,jm JAM,DF,31.0,30000
+16,Yoane Wissa,cd COD,FW,27.0,25000
+17,Mathias Jørgensen,dk DEN,CB,34.0,25000
+18,Thomas Strakosha,al ALB,GK,29.0,25000
+19,Ivan Toney,eng ENG,CF,28.0,20000
+20,Mads Roerslev,dk DEN,DF,25.0,20000
+21,Yunus Emre Konak,,DM,18.0,15000
+22,Kevin Schade,de GER,FW,22.0,10000
+23,Hákon Rafn Valdimarsson,,GK,22.0,10000
+24,Finley Stevens,wls WAL,RB,21.0,5000
+25,Yegor Yarmolyuk,,AM,20.0,5000
+26,Myles Peart-Harris,eng ENG,MF,21.0,5000
+27,Ryan Trevitt,,CM,21.0,2500
+0,Nikola Milenković,rs SRB,CB,26.0,105000
+1,Morgan Gibbs-White,eng ENG,MF,24.0,80000
+2,Callum Hudson-Odoi,eng ENG,FW,23.0,80000
+3,Chris Wood,nz NZL,FW,32.0,80000
+4,Jonjo Shelvey,eng ENG,CM,32.0,75000
+5,Ibrahim Sangaré,ci CIV,MF,26.0,75000
+6,Taiwo Awoniyi,ng NGA,FW,26.0,50000
+7,Neco Williams,wls WAL,DF,23.0,50000
+8,Joe Worrall,eng ENG,CB,27.0,50000
+9,Hwang Ui-jo,kr KOR,CF,31.0,45000
+10,Moussa Niakhate,sn SEN,CB,28.0,45000
+11,Matt Turner,us USA,GK,30.0,40000
+12,Emmanuel Dennis,ng NGA,CF,26.0,40000
+13,Ola Aina,ng NGA,DF,27.0,40000
+14,Willy Boly,ci CIV,DF,33.0,40000
+15,Nicolás Domínguez,ar ARG,FW,26.0,35000
+16,Andrew Omobamidele,ie IRL,DF,22.0,35000
+17,Matz Sels,be BEL,GK,32.0,35000
+18,Harry Toffolo,eng ENG,DF,28.0,35000
+19,Danilo,br BRA,MF,23.0,30000
+20,Murillo,,CB,21.0,30000
+21,Orel Mangala,be BEL,CM,26.0,30000
+22,Ryan Yates,eng ENG,MF,26.0,25000
+23,Anthony Elanga,se SWE,FW,22.0,25000
+24,Lewis O'Brien,eng ENG,CM,25.0,15000
+25,Jonathan Panzo,eng ENG,CB,23.0,10000
+26,Alex Mighten,eng ENG,LW,22.0,3462
+0,Axel Tuanzebe,cd COD,DF,26.0,20000
+1,George Hirst,eng ENG,CF,25.0,17115
+2,Sam Morsy,eg EGY,MF,32.0,15000
+3,Christian Walton,eng ENG,GK,28.0,10000
+4,Leif Davis,eng ENG,DF,24.0,9423
+5,George Edmundson,eng ENG,CB,26.0,8846
+6,Conor Chaplin,eng ENG,MF,27.0,7500
+7,Freddie Ladapo,eng ENG,CF,31.0,7308
+8,Marcus Harness,eng ENG,MF,28.0,6346
+9,Harry Clarke,,RB,23.0,5000
+10,Wes Burns,wls WAL,FW,29.0,5000
+11,Massimo Luongo,au AUS,MF,31.0,5000
+12,Jack Taylor,ie IRL,MF,26.0,5000
+13,Ali Al Hamadi,iq IRQ,FW,22.0,5000
+14,Gassan Ahadme,,CF,23.0,5000
+15,Cameron Burgess,au AUS,DF,28.0,4808
+16,Janoi Donacien,lc LCA,RB,30.0,4500
+17,Luke Woolfenden,eng ENG,DF,25.0,3846
+18,Nathan Broadhead,wls WAL,LW,26.0,3000
+19,Omari Hutchinson,,RW,20.0,3000
+20,Idris El Mizouni,tn TUN,CM,23.0,2500
+21,Elkan Baggott,,CB,21.0,1500
+22,Cieran Slicker,,GK,21.0,1000
+23,Cameron Humphreys,,CM,20.0,1000
+0,Mohamed Salah,eg EGY,FW,32.0,350000
+1,Virgil van Dijk,nl NED,DF,33.0,220000
+2,Trent Alexander-Arnold,eng ENG,DF,25.0,180000
+3,Alisson,br BRA,GK,31.0,150000
+4,Ryan Gravenberch,nl NED,MF,22.0,150000
+5,Alexis Mac Allister,ar ARG,MF,25.0,150000
+6,Darwin Núñez,uy URU,FW,25.0,140000
+7,Diogo Jota,pt POR,FW,27.0,140000
+8,Cody Gakpo,nl NED,FW,25.0,120000
+9,Dominik Szoboszlai,hu HUN,MF,23.0,120000
+10,Andrew Robertson,sct SCO,DF,30.0,100000
+11,Joe Gomez,eng ENG,CB,27.0,85000
+12,Kostas Tsimikas,gr GRE,DF,28.0,75000
+13,Ibrahima Konaté,fr FRA,DF,25.0,70000
+14,Nathaniel Phillips,eng ENG,CB,27.0,65000
+15,Luis Díaz,co COL,FW,27.0,55000
+16,Wataru Endo,jp JPN,"DF,MF",31.0,50000
+17,Harvey Elliott,eng ENG,"FW,MF",21.0,40000
+18,Fabio Carvalho,pt POR,AM,21.0,40000
+19,Stefan Bajcetic,,DM,19.0,40000
+20,Jarell Quansah,,CB,21.0,15000
+21,Curtis Jones,eng ENG,MF,23.0,15000
+22,Ben Doak,,RW,18.0,15000
+23,Conor Bradley,nir NIR,DF,21.0,10000
+24,Rhys Williams,eng ENG,CB,23.0,10000
+25,Caoimhín Kelleher,ie IRL,GK,25.0,10000
+0,Daichi Kamada,jp JPN,MF,27.0,105000
+1,Eberechi Eze,eng ENG,MF,26.0,100000
+2,Dean Henderson,eng ENG,GK,27.0,100000
+3,Odsonne Édouard,fr FRA,"FW,MF",26.0,90000
+4,Joachim Andersen,dk DEN,DF,28.0,80000
+5,Cheick Doucouré,ml MLI,MF,24.0,70000
+6,Jefferson Lerma,co COL,MF,29.0,70000
+7,Jeffrey Schlupp,gh GHA,"DF,FW",31.0,60000
+8,Chris Richards,us USA,DF,24.0,55000
+9,Jean-Philippe Mateta,fr FRA,FW,27.0,50000
+10,Will Hughes,eng ENG,MF,29.0,50000
+11,Nathaniel Clyne,eng ENG,DF,33.0,50000
+12,Marc Guéhi,eng ENG,DF,24.0,50000
+13,Rob Holding,eng ENG,CB,28.0,45000
+14,Daniel Muñoz,co COL,DF,28.0,45000
+15,Sam Johnstone,eng ENG,GK,31.0,40000
+16,Matheus França,,AM,20.0,40000
+17,Tyrick Mitchell,eng ENG,DF,24.0,40000
+18,Joel Ward,eng ENG,RB,34.0,35000
+19,Adam Wharton,,DM,20.0,35000
+20,Jordan Ayew,gh GHA,"FW,MF",32.0,25000
+21,Naouirou Ahamada,fr FRA,CM,22.0,20000
+22,Joe Whitworth,,GK,20.0,10000
+23,Remi Matthews,eng ENG,GK,30.0,7500
+24,Jesurun Rak-Sakyi,,RW,21.0,7500
+0,Jamie Vardy,eng ENG,FW,37.0,140000
+1,Harry Winks,eng ENG,MF,28.0,90000
+2,Ricardo Pereira,pt POR,"DF,FW",30.0,80000
+3,Boubakary Soumaré,fr FRA,MF,25.0,80000
+4,Wilfred Ndidi,ng NGA,MF,27.0,75000
+5,Conor Coady,eng ENG,CB,31.0,75000
+6,Patson Daka,zm ZAM,CF,25.0,75000
+7,Jannik Vestergaard,dk DEN,DF,31.0,60000
+8,Wout Faes,be BEL,DF,26.0,50000
+9,Hamza Choudhury,eng ENG,"DF,MF",26.0,50000
+10,Danny Ward,wls WAL,GK,31.0,40000
+11,Harry Souttar,au AUS,CB,25.0,40000
+12,James Justin,eng ENG,DF,26.0,30000
+13,Victor Kristiansen,,LB,21.0,25000
+14,Facundo Buonanotte,,AM,19.0,25000
+15,Daniel Iversen,dk DEN,GK,26.0,20000
+16,Kiernan Dewsbury-Hall,eng ENG,CM,25.0,20000
+17,Luke Thomas,eng ENG,LB,23.0,15000
+18,Mads Hermansen,,GK,23.0,10000
+19,Stephy Mavididi,eng ENG,FW,26.0,10000
+20,Issahaku Fatawu,,RW,20.0,9500
+21,Tom Cannon,,CF,21.0,8000
+22,Kasey McAteer,eng ENG,FW,22.0,5000
+23,Jakub Stolarczyk,,GK,23.0,5000
+24,Wanya Marçal,,RW,21.0,3000
+0,Romelu Lukaku,be BEL,CF,31.0,325000
+1,Raheem Sterling,eng ENG,LW,29.0,325000
+2,Reece James,eng ENG,RB,24.0,250000
+3,Wesley Fofana,fr FRA,DF,23.0,200000
+4,Ben Chilwell,eng ENG,LB,27.0,200000
+5,Christopher Nkunku,fr FRA,FW,26.0,195000
+6,Enzo Fernández,ar ARG,MF,23.0,180000
+7,Marc Cucurella,es ESP,DF,26.0,175000
+8,Moisés Caicedo,ec ECU,MF,22.0,150000
+9,Kepa Arrizabalaga,es ESP,GK,29.0,150000
+10,Cole Palmer,eng ENG,FW,22.0,130000
+11,Tosin Adarabioyo,eng ENG,DF,26.0,120000
+12,Malang Sarr,fr FRA,CB,25.0,120000
+13,Levi Colwill,eng ENG,DF,21.0,100000
+14,Mykhailo Mudryk,ua UKR,"FW,MF",23.0,100000
+15,Marc Guiu,,CF,18.0,100000
+16,Carney Chukwuemeka,eng ENG,CM,20.0,100000
+17,Benoît Badiashile,fr FRA,DF,23.0,90000
+18,Axel Disasi,fr FRA,CB,26.0,80000
+19,Nicolas Jackson,sn SEN,FW,23.0,65000
+20,Robert Sánchez,es ESP,GK,26.0,60000
+21,Trevoh Chalobah,eng ENG,CB,24.0,50000
+22,Noni Madueke,,RW,22.0,50000
+23,Malo Gusto,fr FRA,DF,21.0,45000
+24,Roméo Lavia,,DM,20.0,45000
+25,Lesley Ugochukwu,fr FRA,DM,20.0,45000
+26,Deivid Washington,,CF,19.0,40000
+27,Armando Broja,al ALB,CF,22.0,40000
+28,Marcus Bettinelli,eng ENG,GK,32.0,35000
+29,David Datro Fofana,,CF,21.0,30000
+30,Renato Veiga,,DM,20.0,25000
+31,Đorđe Petrović,rs SRB,GK,24.0,25000
+32,Andrey Santos,,CM,20.0,10000
+33,Diego Moreira,,LW,19.0,10000
+34,Cesare Casadei,,CM,21.0,7500
+0,Son Heung-min,kr KOR,"FW,MF",32.0,190000
+1,James Maddison,eng ENG,MF,27.0,170000
+2,Timo Werner,de GER,MF,28.0,165000
+3,Cristian Romero,ar ARG,DF,26.0,165000
+4,Dejan Kulusevski,se SWE,MF,24.0,110000
+5,Richarlison,br BRA,MF,27.0,90000
+6,Radu Drăgușin,ro ROU,DF,22.0,85000
+7,Pedro Porro,es ESP,DF,24.0,85000
+8,Ben Davies,wls WAL,"DF,MF",31.0,80000
+9,Destiny Udogie,it ITA,DF,21.0,75000
+10,Guglielmo Vicario,it ITA,GK,27.0,75000
+11,Archie Gray,,CM,18.0,75000
+12,Fraser Forster,eng ENG,GK,36.0,75000
+13,Rodrigo Bentancur,uy URU,MF,27.0,75000
+14,Giovani Lo Celso,ar ARG,AM,28.0,70000
+15,Brennan Johnson,wls WAL,FW,23.0,70000
+16,Pape Matar Sarr,sn SEN,MF,21.0,70000
+17,Manor Solomon,il ISR,LW,24.0,60000
+18,Yves Bissouma,ml MLI,DM,27.0,55000
+19,Sergio Reguilón,es ESP,LB,27.0,53000
+20,Micky van de Ven,nl NED,DF,23.0,50000
+21,Oliver Skipp,eng ENG,DM,23.0,40000
+22,Emerson,br BRA,RB,25.0,40000
+23,Bryan Gil,es ESP,LW,23.0,40000
+24,Djed Spence,eng ENG,DF,23.0,25000
+25,Alejo Véliz,,CF,20.0,25000
+26,Brandon Austin,eng ENG,GK,25.0,15000
+27,Ashley Phillips,,CB,19.0,15000
+28,Alfie Whiteman,eng ENG,GK,25.0,7500
+0,Justin Kluivert,nl NED,FW,25.0,80000
+1,Dominic Solanke,eng ENG,CF,26.0,70000
+2,Luis Sinisterra,co COL,FW,25.0,65000
+3,Tyler Adams,us USA,DM,25.0,60000
+4,Lewis Cook,eng ENG,MF,27.0,60000
+5,David Brooks,wls WAL,RW,26.0,50000
+6,Antoine Semenyo,gh GHA,FW,24.0,50000
+7,Neto,br BRA,GK,35.0,50000
+8,Marcos Senesi,ar ARG,CB,27.0,50000
+9,Ilya Zabarnyi,,CB,21.0,50000
+10,Ryan Christie,sct SCO,MF,29.0,50000
+11,Philip Billing,dk DEN,MF,28.0,45000
+12,Hamed Junior Traorè,ci CIV,"FW,MF",24.0,45000
+13,Alex Scott,eng ENG,MF,20.0,40000
+14,Adam Smith,eng ENG,DF,33.0,35000
+15,Dango Ouattara,bf BFA,FW,22.0,35000
+16,Marcus Tavernier,eng ENG,MF,25.0,35000
+17,Max Aarons,eng ENG,RB,24.0,35000
+18,Chris Mepham,wls WAL,CB,26.0,35000
+19,Romain Faivre,fr FRA,RM,25.0,35000
+20,Milos Kerkez,hu HUN,DF,20.0,30000
+21,Jaidon Anthony,eng ENG,"FW,MF",24.0,25000
+22,Mark Travers,ie IRL,GK,25.0,20000
+23,Kieffer Moore,wls WAL,CF,31.0,15000
+24,Enes Ünal,tr TUR,CF,27.0,15000
+25,Joe Rothwell,eng ENG,CM,29.0,8000
+26,Will Dennis,eng ENG,GK,23.0,2000
+27,Gavin Kilkenny,ie IRL,CM,24.0,1500
