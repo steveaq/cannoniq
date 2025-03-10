@@ -23,6 +23,8 @@ import matplotlib.font_manager as fm
 import matplotlib.colors as mcolors
 from matplotlib import cm
 from highlight_text import fig_text
+from tqdm import tqdm
+
 
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -306,3 +308,200 @@ class CreateFBRefDatabase:
             dataframe[col] = normalized_ratings
         
         return dataframe
+
+    def generate_pitch_iq_scores(self, position):
+        """
+        Generate Pitch IQ scores for players in a specific position.
+        
+        Parameters:
+        -----------
+        position : str
+            The position group to filter players by (e.g., "Forwards", "Defenders", etc.).
+        
+        Returns:
+        --------
+        pd.DataFrame
+            A DataFrame containing the players' stats and their Pitch IQ scores.
+        """
+        # Step 1: Create the database
+        stats = self.create_full_stats_db()
+
+        # Step 2: Filter players by position
+        key_stats_df = self.key_stats_db(stats, position)
+
+        # Step 3: Calculate metric scores
+        pitch_iq_scoring = self.create_metrics_scores(key_stats_df)
+
+        # Step 4: Adjust player ratings
+        pitch_iq_scoring = self.adjust_player_rating_range(pitch_iq_scoring)
+
+        # Step 5: Merge results
+        pitch_iq_scores = pd.merge(key_stats_df, pitch_iq_scoring[['Player', 'Passing_Score', 'Defending_Score', 'Creation_Score', 'Shooting_Score']], on='Player', how='left')
+
+        return pitch_iq_scores
+    
+    def fuzzy_merge(self, df_1, df_2, key1, key2, threshold=97, limit=1):
+        """
+        Perform a fuzzy merge between two DataFrames based on string similarity.
+        
+        :param df_1: the left table to join
+        :param df_2: the right table to join
+        :param key1: key column of the left table
+        :param key2: key column of the right table
+        :param threshold: how close the matches should be to return a match, based on Levenshtein distance
+        :param limit: the amount of matches that will get returned, sorted high to low
+        :return: dataframe with both keys and matches
+        """
+        s = df_2[key2].tolist()
+        
+        m = df_1[key1].apply(lambda x: process.extract(x, s, limit=limit))    
+        df_1['matches'] = m
+        
+        m2 = df_1['matches'].apply(lambda x: ', '.join([i[0] for i in x if i[1] >= threshold]))
+        df_1['matches'] = m2
+    
+        return df_1
+
+    def remove_accents(self, input_str):
+        """
+        Remove accents from a string and convert it to ASCII.
+        
+        :param input_str: input string with accents
+        :return: string without accents
+        """
+        nfkd_form = unicodedata.normalize('NFKD', input_str)
+        only_ascii = nfkd_form.encode('ASCII', 'ignore')
+        only_ascii = str(only_ascii)
+        only_ascii = only_ascii[2:-1]
+        only_ascii = only_ascii.replace('-', ' ')
+        return only_ascii
+
+    def years_converter(self, variable_value):
+        """
+        Convert age values in the format 'YYYY-DDDD' to a float representing years.
+        
+        :param variable_value: age value in 'YYYY-DDDD' format
+        :return: age as a float
+        """
+        if len(variable_value) > 3:
+            years = variable_value[:-4]
+            days = variable_value[3:]
+            years_value = pd.to_numeric(years)
+            days_value = pd.to_numeric(days)
+            day_conv = days_value / 365
+            final_val = years_value + day_conv
+        else:
+            final_val = pd.to_numeric(variable_value)
+
+        return final_val
+
+    def general_url_database(self, full_urls):
+        """
+        Create a database of player URLs and stats from a list of team URLs.
+        
+        :param full_urls: list of team URLs
+        :return: DataFrame containing player stats and URLs
+        """
+        appended_data = []
+        for team_url in full_urls:
+            print(team_url)
+            player_db = pd.DataFrame()
+            player_urls = []
+            links = BeautifulSoup(requests.get(team_url).text).select('th a')
+            urls = [link['href'] for link in links]
+            player_urls.append(urls)
+            player_urls = [item for sublist in player_urls for item in sublist]
+            player_urls.sort()
+            player_urls = list(set(player_urls))
+            p_url = list(filter(lambda k: 'players' in k, player_urls))
+            url_final = []
+            for y in p_url:
+                full_url = "https://fbref.com" + y
+                url_final.append(full_url)
+            player_names = []
+            for player in p_url:
+                player_name_slice = player[21:]
+                player_name_slice = player_name_slice.replace('-', ' ')
+                player_names.append(player_name_slice)
+            list_of_tuples = list(zip(player_names, url_final))
+            play_url_database = pd.DataFrame(list_of_tuples, columns=['Player', 'urls'])
+            player_db = pd.concat([play_url_database])
+
+            table = BeautifulSoup(requests.get(team_url).text, 'html5').find('table')
+            cols = []
+            for header in table.find_all('th'):
+                cols.append(header.string)
+            cols = [i for i in cols if i is not None]
+            columns = cols[6:39]  # Gets necessary column headers
+            players = cols[39:-2]
+
+            rows = []
+            for rownum, row in enumerate(table.find_all('tr')):
+                if len(row.find_all('td')) > 0:
+                    rowdata = []
+                    for i in range(0, len(row.find_all('td'))):
+                        rowdata.append(row.find_all('td')[i].text)
+                    rows.append(rowdata)
+            df = pd.DataFrame(rows, columns=columns)
+
+            df.drop(df.tail(2).index, inplace=True)
+            df["Player"] = players
+            df = df[["Player", "Pos", "Age", "Starts"]]
+
+            df['Player'] = df.apply(lambda x: self.remove_accents(x['Player']), axis=1)
+            test_merge = self.fuzzy_merge(df, player_db, 'Player', 'Player', threshold=90)
+            test_merge = test_merge.rename(columns={'matches': 'Player', 'Player': 'matches'})
+            final_merge = test_merge.merge(player_db, on='Player', how='left')
+            del df, table
+            time.sleep(10)
+            appended_data.append(final_merge)
+        appended_data = pd.concat(appended_data)
+        return appended_data
+
+    def get_360_scouting_report(self, url):
+        """
+        Generate the 360 scouting report URL for a player.
+        
+        :param url: player URL
+        :return: 360 scouting report URL
+        """
+        start = url[0:38] + "scout/365_m1/"
+        mod_string = url[38:]
+        final_string = start + mod_string + "-Scouting-Report"
+        return final_string
+
+    def get_match_logs(self, url):
+        """
+        Generate the match logs URL for a player.
+        
+        :param url: player URL
+        :return: match logs URL
+        """
+        start = url[0:38] + "matchlogs/2024-2025/summary/"
+        mod_string = url[38:]
+        final_string = start + mod_string + "-Match-Logs"
+        return final_string
+
+    def create_player_phonebook(self, top_5_league_stats_urls):
+        """
+        Create a player phonebook with scouting URLs and match logs.
+        
+        :param top_5_league_stats_urls: list of URLs for top 5 league stats
+        :return: DataFrame containing player phonebook
+        """
+        list_of_dfs = []
+        for url in tqdm(top_5_league_stats_urls):
+            team_urls = self.get_team_urls(url)
+            full_urls = list(team_urls.urls.unique())
+            Player_db = self.general_url_database(full_urls)
+            Player_db['Age'] = Player_db.apply(lambda x: self.years_converter(x['Age']), axis=1)
+            Player_db = Player_db.drop(columns=['matches'])
+            Player_db = Player_db.dropna()
+            Player_db['scouting_url'] = Player_db.apply(lambda x: self.get_360_scouting_report(x['urls']), axis=1)
+            Player_db['match_logs'] = Player_db.apply(lambda x: self.get_match_logs(x['urls']), axis=1)
+            Player_db["position_group"] = Player_db.Pos.apply(lambda x: self.position_grouping(x))
+            Player_db.reset_index(drop=True)
+            Player_db[["Starts"]] = Player_db[["Starts"]].apply(pd.to_numeric)
+            list_of_dfs.append(Player_db)
+        dfs = pd.concat(list_of_dfs)
+        return dfs
