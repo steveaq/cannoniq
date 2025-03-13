@@ -24,6 +24,7 @@ import matplotlib.colors as mcolors
 from matplotlib import cm
 from highlight_text import fig_text
 from tqdm import tqdm
+import time
 
 
 import matplotlib.pyplot as plt
@@ -364,16 +365,27 @@ class CreateFBRefDatabase:
 
     def remove_accents(self, input_str):
         """
-        Remove accents from a string and convert it to ASCII.
+        Remove accents from a string, replace special characters, and convert it to ASCII.
         
-        :param input_str: input string with accents
-        :return: string without accents
+        :param input_str: input string with accents and special characters
+        :return: string without accents and with special characters replaced
         """
+        # Replace ø with o and ð with d
+        input_str = input_str.replace('ø', 'o').replace('ð', 'd').replace('Ø', 'O').replace('Ð', 'D').replace('ı', 'i')
+        
+        # Normalize the string to decompose accented characters
         nfkd_form = unicodedata.normalize('NFKD', input_str)
+        
+        # Encode to ASCII, ignoring non-ASCII characters
         only_ascii = nfkd_form.encode('ASCII', 'ignore')
+        
+        # Convert bytes to string and remove the "b''" wrapper
         only_ascii = str(only_ascii)
         only_ascii = only_ascii[2:-1]
+        
+        # Replace hyphens with spaces
         only_ascii = only_ascii.replace('-', ' ')
+        
         return only_ascii
 
     def years_converter(self, variable_value):
@@ -394,6 +406,27 @@ class CreateFBRefDatabase:
             final_val = pd.to_numeric(variable_value)
 
         return final_val
+    
+    def get_team_urls(self, x):  
+        url = x
+        data  = requests.get(url).text
+        soup = BeautifulSoup(data)
+        player_urls = []
+        links = BeautifulSoup(data).select('th a')
+        urls = [link['href'] for link in links]
+        urls = list(set(urls))
+        full_urls = []
+        for y in urls:
+            full_url = "https://fbref.com"+y
+            full_urls.append(full_url)
+        team_names = []
+        for team in urls: 
+            team_name_slice = team[20:-6]
+            team_names.append(team_name_slice)
+        list_of_tuples = list(zip(team_names, full_urls))
+        Team_url_database = pd.DataFrame(list_of_tuples, columns = ['team_names', 'urls'])
+        return Team_url_database
+
 
     def general_url_database(self, full_urls):
         """
@@ -505,3 +538,109 @@ class CreateFBRefDatabase:
             list_of_dfs.append(Player_db)
         dfs = pd.concat(list_of_dfs)
         return dfs
+    
+    def league_performance_df(self, match_links):
+        data_append = []
+        for x in match_links:
+            print(x)
+            warnings.filterwarnings("ignore")
+            url = x
+            page =requests.get(url)
+            soup = BeautifulSoup(page.content, 'html.parser')
+            name = [element.text for element in soup.find_all("span")]
+            name = name[7]
+            html_content = requests.get(url).text.replace('<!--', '').replace('-->', '')
+            df = pd.read_html(html_content)
+            df[0].columns = df[0].columns.droplevel(0) # drop top header row
+            stats = df[0]
+            stats = stats[(stats.Comp == "Premier League") & (stats.Pos != "On matchday squad, but did not play")]
+            season = stats[['Date','Gls', 'Ast',  'xG', 'npxG', 'xAG', 'Squad']]
+            columns_to_convert = ['Gls', 'Ast', 'xG', 'npxG', 'xAG']
+            for col in columns_to_convert:
+                season[col] = pd.to_numeric(season[col], errors='coerce').fillna(0).astype(float)
+            season = season.rename({'Squad': 'team'}, axis=1)
+            season['Player'] = name
+            data_append.append(season)
+            del df, soup
+            time.sleep(10)
+        df_total = pd.concat(data_append)
+
+        return df_total
+    
+    def create_kmeans_df(self, df): 
+        KMeans_cols = ['Player','Total - Cmp%','KP', 'TB','Sw','PPA', 'PrgP','Tkl%','Blocks', 'Tkl+Int','Clr', 'Carries - PrgDist','SCA90','GCA90','CrsPA','xA', 'Rec','PrgR','xG', 'Sh','SoT']
+
+        df = df[KMeans_cols]
+        player_names = df['Player'].tolist() 
+
+        df = df.drop(['Player'], axis = 1) 
+
+        x = df.values 
+        scaler = preprocessing.MinMaxScaler()
+        x_scaled = scaler.fit_transform(x)
+        X_norm = pd.DataFrame(x_scaled)
+
+        pca = PCA(n_components = 2)
+        reduced = pd.DataFrame(pca.fit_transform(X_norm))
+
+        wcss = [] 
+        for i in range(1, 11): 
+            kmeans = KMeans(n_clusters = i, init = 'k-means++', random_state = 42)
+            kmeans.fit(reduced) 
+            wcss.append(kmeans.inertia_)
+
+        kmeans = KMeans(n_clusters=7)
+        kmeans = kmeans.fit(reduced)
+
+        labels = kmeans.predict(reduced)
+        clusters = kmeans.labels_.tolist()
+
+        reduced['cluster'] = clusters
+        reduced['name'] = player_names
+        reduced.columns = ['x', 'y', 'cluster', 'name']
+        reduced.head()
+
+        return reduced
+    
+    def create_clustering_chart(self, df,position):
+        # Create the scatter plot using lmplot
+        ax = sns.lmplot(x="x", y="y", hue='cluster', data=df, legend=False,
+                        fit_reg=False, height=20,scatter_kws={"s": 250})
+
+        texts = []
+        for x, y, s in zip(df.x, df.y, df.name):
+            texts.append(plt.text(x, y, s,fontweight='light'))
+
+
+        # Additional axes for logos and titles
+        fig = plt.gcf()
+        ax1 = plt.gca()
+
+        # Add title and logos to the current figure
+        fig.text(.1, 1.08, f'KMeans clustering - {position}', size=30, font='Karla')
+        fig.text(.1, 1.03, '24/25 Season | Viz by @stephenaq7 | Data via FBREF', size=20, font='Karla')
+
+        ax2 = fig.add_axes([0.01, 0.175, 0.07, 1.75])
+        ax2.axis('off')
+        img = image.imread('/Users/stephenahiabah/Desktop/Code/cannoniq/Images/premier-league-2-logo.png')
+        ax2.imshow(img)
+
+        ax3 = fig.add_axes([0.85, 0.175, 0.1, 1.75])
+        ax3.axis('off')
+        img = image.imread('/Users/stephenahiabah/Desktop/Code/cannoniq/Images/piqmain.png')
+        ax3.imshow(img)
+
+        # Set axis limits and labels for the lmplot
+        ax1.set(ylim=(-2, 2))
+        plt.tick_params(labelsize=15)
+        plt.xlabel("PC 1", fontsize=20)
+        plt.ylabel("PC 2", fontsize=20)
+
+        plt.tight_layout()
+        plt.show()
+
+
+
+
+    
+    
