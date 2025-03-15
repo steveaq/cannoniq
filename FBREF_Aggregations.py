@@ -553,7 +553,7 @@ class CreateFBRefDatabase:
             df = pd.read_html(html_content)
             df[0].columns = df[0].columns.droplevel(0) # drop top header row
             stats = df[0]
-            stats = stats[(stats.Comp == "Premier League") & (stats.Pos != "On matchday squad, but did not play")]
+            stats = stats[(stats.Comp.isin(['La Liga', 'Premier League', 'Bundesliga', 'Serie A', 'Ligue 1'])) & (stats.Pos != "On matchday squad, but did not play")]
             season = stats[['Date','Gls', 'Ast',  'xG', 'npxG', 'xAG', 'Squad']]
             columns_to_convert = ['Gls', 'Ast', 'xG', 'npxG', 'xAG']
             for col in columns_to_convert:
