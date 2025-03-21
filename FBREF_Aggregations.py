@@ -254,14 +254,28 @@ class CreateFBRefDatabase:
 
         return dataframe
 
-    def key_stats_db(self, df, position):
+    def key_stats_db(self, df, position=None):
         non_numeric_cols = ['Player', 'Nation', 'Pos', 'Squad', 'Age', 'position_group']
         core_stats = ['90s','Total - Cmp%','KP', 'TB','Sw','PPA', 'PrgP','Tkl%','Blocks', 'Tkl+Int','Clr', 'Carries - PrgDist','SCA90','GCA90','CrsPA','xA', 'Rec','PrgR','xG', 'Sh','SoT']
+        
+        # Drop rows with any missing values
         df.dropna(axis=0, how='any', inplace=True)
-        key_stats_df = df[df['position_group'] == position]
+        
+        # Filter by position_group if position is provided
+        if position is not None:
+            key_stats_df = df[df['position_group'] == position]
+        else:
+            key_stats_df = df
+        
+        # Select relevant columns
         key_stats_df = key_stats_df[non_numeric_cols + core_stats]
-        key_stats_df = key_stats_df[key_stats_df['90s'] > 5]
+        
+        # Filter rows where '90s' is greater than 5
+        key_stats_df = key_stats_df[key_stats_df['90s'] > 0]
+        
+        # Apply per_90fi method
         key_stats_df = self.per_90fi(key_stats_df)
+        
         return key_stats_df
 
     def create_metrics_scores(self, key_stats_df):
@@ -310,7 +324,7 @@ class CreateFBRefDatabase:
         
         return dataframe
 
-    def generate_pitch_iq_scores(self, position):
+    def generate_pitch_iq_scores(self, position=None):
         """
         Generate Pitch IQ scores for players in a specific position.
         
@@ -328,7 +342,7 @@ class CreateFBRefDatabase:
         stats = self.create_full_stats_db()
 
         # Step 2: Filter players by position
-        key_stats_df = self.key_stats_db(stats, position)
+        key_stats_df = self.key_stats_db(stats, position=None)
 
         # Step 3: Calculate metric scores
         pitch_iq_scoring = self.create_metrics_scores(key_stats_df)
