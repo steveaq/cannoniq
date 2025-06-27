@@ -6,6 +6,9 @@ import matplotlib.patheffects as path_effects
 import matplotlib.font_manager as fm
 from PIL import Image
 from highlight_text import fig_text
+import matplotlib.ticker as ticker
+import numpy as np
+from sklearn.linear_model import LinearRegression
 
 class pitchiq_plot:
     def __init__(self):
@@ -166,3 +169,113 @@ class pitchiq_plot:
         )
 
         plt.show()
+
+
+
+
+
+        # fig = plt.figure(figsize=(12, 8), dpi=200)
+        # ax = plt.subplot(111)
+        # style.use('fivethirtyeight')
+
+        # ax.plot(X, conc, label="Rolling Goals Agains")
+
+        # ax.set_xlabel("Match index", fontsize=12)
+        # ax.set_ylabel("Goals Against", fontsize=12)
+
+        # # Set y-axis tick labels as percentages
+        # # ax.yaxis.set_major_formatter(ticker.PercentFormatter(xmax=1, decimals=0))
+
+        # ax.legend()
+
+        # ax.grid(True, linestyle='dotted')
+        # main_color = '#0057B8'
+        # # Adding vertical dotted lines and labels
+        # plt.axvline(x=10, color='grey', linestyle='dotted')
+        # plt.axvline(x=17, color='grey', linestyle='dotted')
+        # plt.axvline(x=29, color='grey', linestyle='dotted')
+        # plt.axvline(x=35, color='grey', linestyle='dotted')
+
+
+        # fig_text(
+        #     x=0.15, y=1.12, s='<Arsenal> Goal Conceded Stats - EPL', family='DM Sans',
+        #     ha='left', va='center', weight='normal', size='large',
+        #     highlight_textprops=[{'weight':'bold', 'size':'x-large'}]
+        # )
+        # fig_text(
+        #     x=0.15, y=1.07, s='<5-game moving average> Goals Conceded in the 2022/2023 Premier League.\n Viz by @stephenaq7.',
+        #     family='Karla',
+        #     ha='left', va='center', size='small',
+        #     highlight_textprops=[{'weight':'bold', 'color':main_color}]
+        # )
+        # ax.annotate(
+        #     xy = (10, .50),
+        #     xytext = (20, 10),
+        #     textcoords = "offset points",
+        #     text = "Zinchenko Injury #1",
+        #     size = 10,
+        #     color = "grey",
+        #     arrowprops=dict(
+        #         arrowstyle="->", shrinkA=0, shrinkB=5, color="grey", linewidth=0.75,
+        #         connectionstyle="angle3,angleA=50,angleB=-30"
+        #     ) # Arrow to connect annotation
+        # )
+
+        # ax.annotate(
+        #     xy = (17, .55),
+        #     xytext = (20, 10),
+        #     textcoords = "offset points",
+        #     text = "G.Jesus Injury",
+        #     size = 10,
+        #     color = "grey",
+        #     arrowprops=dict(
+        #         arrowstyle="->", shrinkA=0, shrinkB=5, color="grey", linewidth=0.75,
+        #         connectionstyle="angle3,angleA=50,angleB=-30"
+        #     ) # Arrow to connect annotation
+        # )
+
+
+        # ax.annotate(
+        #     xy = (29, .55),
+        #     xytext = (20, 10),
+        #     textcoords = "offset points",
+        #     text = "W.Saliba Injury",
+        #     size = 10,
+        #     color = "grey",
+        #     arrowprops=dict(
+        #         arrowstyle="->", shrinkA=0, shrinkB=5, color="grey", linewidth=0.75,
+        #         connectionstyle="angle3,angleA=50,angleB=-30"
+        #     ) # Arrow to connect annotation
+        # )
+        # ax_size = 0.15
+        # image_ax = fig.add_axes(
+        #     [0.01, 1.0, ax_size, ax_size],
+        #     fc='None'
+        # )
+
+
+        # ax.annotate(
+        #     xy = (35, .50),
+        #     xytext = (20, 10),
+        #     textcoords = "offset points",
+        #     text = "Zinchenko Injury #2",
+        #     size = 10,
+        #     color = "grey",
+        #     arrowprops=dict(
+        #         arrowstyle="->", shrinkA=0, shrinkB=5, color="grey", linewidth=0.75,
+        #         connectionstyle="angle3,angleA=50,angleB=-30"
+        #     ) # Arrow to connect annotation
+        # )
+        # fotmob_url = 'https://images.fotmob.com/image_resources/logo/teamlogo/'
+        # club_icon = Image.open(urllib.request.urlopen(f"{fotmob_url}9825.png"))
+        # image_ax.imshow(club_icon)
+        # image_ax.axis('off')
+
+        # ax3 = fig.add_axes([0.85, 0.22, 0.11, 1.75])
+        # ax3.axis('off')
+        # img = image.imread('/Users/stephenahiabah/Desktop/GitHub/Webs-scarping-for-Fooball-Data-/outputs/logo_transparent_background.png')
+        # ax3.imshow(img)
+
+        # plt.tight_layout()  # Adjust spacing between subplots
+
+        # plt.show()
