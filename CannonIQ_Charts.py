@@ -652,6 +652,7 @@ class CannoniqCharts:
         self.plot_role_based_comparison(player_name, role, df)
         self.plot_role_based_kde(player_name, role, df)
         self.create_percentile_pizza(player_name, role, df)
+        self.create_scout_percentile_pizza(df, player_name)
         return self.combine_player_profile_plots(player_name,  role, df, include_logos=True)
 
 
@@ -719,7 +720,7 @@ class CannoniqCharts:
         return per90_df, percentile_df
 
 
-    def create_scout_percentile_pizza(self, df_in, player_name, output_subdir="ML_DOF_DCAM"):
+    def create_scout_percentile_pizza(self, df_in, player_name):
         params = [
             "Non-Penalty Goals", "npxG + xAG", "Assists",
             "Shot-Creating Actions", "Carries into Penalty Area",
@@ -815,12 +816,11 @@ class CannoniqCharts:
             print("Logo not found.")
 
         # Save
-        save_dir = os.path.join(self.data_dir, "Substack_Images", output_subdir)
-        os.makedirs(save_dir, exist_ok=True)
-        save_path = os.path.join(save_dir, f"{player_name} - plot.png")
+        output_dir = f"Player_profiles/{player_name}"
+        os.makedirs(output_dir, exist_ok=True)
+        save_path = os.path.join(output_dir, f"{player_name}_basic_percentile_pizza.png")
 
-        plt.savefig(save_path, dpi=500, facecolor="#EFE9E6", bbox_inches="tight", edgecolor="none", transparent=False)
-        plt.show()
+        plt.savefig(save_path, dpi=500, facecolor="#EBEBE9", bbox_inches="tight", edgecolor="none", transparent=False)
 
         return save_path
 
@@ -878,7 +878,7 @@ class CannoniqCharts:
 
         return filtered_kmeans
 
-    def find_similar_players_and_scores(self, player_name, kmeans_df, pitch_iq_scores, max_age=32, top_n=35):
+    def find_similar_players_and_scores(self, player_name, kmeans_df, pitch_iq_scores, max_age=30, top_n=20):
         player = kmeans_df[kmeans_df['name'] == player_name].iloc[0]
         kmeans_df['distance'] = np.sqrt((kmeans_df['x'] - player['x'])**2 + (kmeans_df['y'] - player['y'])**2)
         max_distance = kmeans_df['distance'].max()
@@ -1482,7 +1482,7 @@ class CannoniqCharts:
 
             stats = df[0]
             stats = stats[
-                (stats['Comp'].isin(['La Liga', 'Premier League', 'Bundesliga', 'Serie A', 'Ligue 1'])) &
+                (stats['Comp'].isin(['La Liga', 'Premier League', 'Bundesliga', 'Serie A', 'Ligue 1','Primeira Liga'])) &
                 (stats['Pos'] != "On matchday squad, but did not play")
             ]
 
@@ -2056,9 +2056,10 @@ team_categories = {
     'big_teams': [
         'Real Madrid', 'Barcelona', 'Atlético Madrid', 'Juventus', 'Roma',
         'Napoli', 'Inter', 'Bayern Munich', 'Arsenal', 'Chelsea',
-        'Liverpool', 'Manchester City','Manchester Utd', 'Milan','Dortmund',
+        'Liverpool', 'Manchester City','Manchester Utd', 'Milan','Dortmund', 'Sporting CP', 'Porto', 'Benfica'
     ],
-    'european_2nd_tier': [
+    'european_2nd_tier': [ 'Braga',
+
          'Aston Villa','Athletic Club','Sevilla', 'Villarreal', 'Real Sociedad', 'Fiorentina', 'Lazio','Lille','Eint Frankfurt',
         'Atalanta', 'Marseille', 'Nice', 'Monaco', 'RB Leipzig', 'Leverkusen','Paris S-G','Tottenham', 'Newcastle Utd', 
     ],
@@ -2068,16 +2069,16 @@ team_categories = {
         'Alavés', 'Angers', 'Augsburg', 'Auxerre',
         'Bochum', 'Bournemouth', 'Brest', 'Cagliari', 'Darmstadt 98',  'Espanyol', 'Everton', 
         'Fulham', 'Genoa', 'Girona', 'Gladbach', 'Heidenheim',
-        'Lecce', 'Leganés', 'Lyon',
-        'Mainz 05', 'Mallorca',  'Montpellier',
+        'Lecce', 'Leganés', 'Lyon','Boavista','Rio Ave', 'Santa Clara',
+        'Mainz 05', 'Mallorca',  'Montpellier','Estoril','Vitória',
         'Monza', 'Nantes', "Nott'ham Forest", 'Osasuna',
-        'Oviedo',  'Rayo Vallecano', 'Reims', 'Rennes',
-        'Saint-Étienne', 'Strasbourg', 'Toulouse',
+        'Oviedo',  'Rayo Vallecano', 'Reims', 'Rennes','Famalicão',
+        'Saint-Étienne', 'Strasbourg', 'Toulouse','Moreirense',
         'Udinese', 'Union Berlin', 'Valencia',  'Werder Bremen',
         'Wolfsburg'],
     'relegation_teams': [
-        'Celta Vigo', 'Como','Parma','Venezia','Salernitana','Cesena','Empoli', 'Sassuolo', 'Metz''Valladolid','Köln', 'Las Palmas', 'Le Havre','Hellas Verona', 
-        'Ipswich Town','Frosinone','Southampton', 'Leicester City', 'Lorient', 'St. Pauli','Holstein Kiel'
+        'Celta Vigo', 'Como','Parma','Farense','Venezia','Salernitana','Cesena','Empoli', 'Sassuolo', 'Metz''Valladolid','Köln', 'Las Palmas', 'Le Havre','Hellas Verona', 
+        'Ipswich Town','Nacional','Frosinone','Southampton', 'AVS Futebol','Gil Vicente FC','Leicester City', 'Lorient', 'St. Pauli','Holstein Kiel', 'Estrela','Casa Pia', 'Gil Vicente', 'Marítimo', 'Portimonense', 'Vizela', 'Tondela', 'Arouca', 'Rio Ave', 'Santa Clara'
     ]
 }
 

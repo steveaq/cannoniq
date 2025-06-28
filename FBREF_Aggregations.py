@@ -58,10 +58,13 @@ class CreateFBRefDatabase:
 
         # Position groupings
         self.keepers = ['GK']
-        self.defenders = ["DF", 'DF,MF']
+        self.defenders = ['DF', 'DF,MF']
         self.wing_backs = ['FW,DF', 'DF,FW']
-        self.midfielders = ['MF,DF', 'MF']
-        self.forwards = ['FW', 'MF,FW', "FW,MF"]
+        self.midfielders = ['MF', 'MF,DF']
+        self.center_forwards = ['FW']
+        self.attacking_mids = ['MF,FW', 'FW,MF']
+
+    # Position groupings
 
     def position_grouping(self, x):
         if x in self.keepers:
@@ -71,11 +74,14 @@ class CreateFBRefDatabase:
         elif x in self.wing_backs:
             return "Wing-Back"
         elif x in self.midfielders:
-            return "Central Midfielders"
-        elif x in self.forwards:
-            return "Forwards"
+            return "Central Midfielder"
+        elif x in self.center_forwards:
+            return "Center Forward"
+        elif x in self.attacking_mids:
+            return "Attacking Mid"
         else:
-            return "unidentified position"
+            return "Unidentified"
+
 
     def create_full_stats_db(self):
         # Passing columns 
@@ -567,7 +573,7 @@ class CreateFBRefDatabase:
             df = pd.read_html(html_content)
             df[0].columns = df[0].columns.droplevel(0) # drop top header row
             stats = df[0]
-            stats = stats[(stats.Comp.isin(['La Liga', 'Premier League', 'Bundesliga', 'Serie A', 'Ligue 1'])) & (stats.Pos != "On matchday squad, but did not play")]
+            stats = stats[(stats.Comp.isin(['La Liga', 'Premier League', 'Bundesliga', 'Serie A', 'Ligue 1',''])) & (stats.Pos != "On matchday squad, but did not play")]
             season = stats[['Date','Gls', 'Ast',  'xG', 'npxG', 'xAG', 'Squad']]
             columns_to_convert = ['Gls', 'Ast', 'xG', 'npxG', 'xAG']
             for col in columns_to_convert:
