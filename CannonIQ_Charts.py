@@ -1858,6 +1858,351 @@ class CannoniqCharts:
         team_id = self.process_and_plot_player_summary(Cannoniq_DB, team_categories, player_name)
         self.combine_attacking_performance_plots(player_name, team_id)
         return team_id
+    
+    def historic_performance(self, Cannoniq_DB, player_name, num_seasons=2):
+        """
+        Get player performance data for the current season and previous N seasons from fbref.com
+        
+        Args:
+            Cannoniq_DB: DataFrame containing player data with 'match_logs' column
+            player_name: Name of the player to get data for
+            num_seasons: Number of previous seasons to retrieve (default: 3)
+                        Note: This will get current season + 3 previous = 4 seasons total
+        
+        Returns:
+            DataFrame with consolidated match data across all seasons
+        """
+        import requests
+        from bs4 import BeautifulSoup
+        import pandas as pd
+        import warnings
+        import time
+        import re
+        
+        # Validate inputs
+        if 'match_logs' not in Cannoniq_DB.columns:
+            raise ValueError("'match_logs' column not found in Cannoniq_DB.")
+        
+        player_row = Cannoniq_DB[Cannoniq_DB['Player'] == player_name]
+        if player_row.empty:
+            raise ValueError(f"Player '{player_name}' not found in Cannoniq_DB.")
+        
+        # Get the base URL
+        raw_links = player_row['match_logs'].values[0]
+        
+        if isinstance(raw_links, str):
+            base_url = raw_links.strip()
+        elif isinstance(raw_links, list):
+            base_url = raw_links[0].strip()
+        else:
+            raise ValueError("Unsupported format in 'match_logs'. Must be string or list of URLs.")
+        
+        # Extract current season from URL and generate URLs for previous seasons
+        current_season_match = re.search(r'/(\d{4}-\d{4})/', base_url)
+        if not current_season_match:
+            raise ValueError("Could not extract season from URL format")
+        
+        current_season = current_season_match.group(1)
+        current_start_year = int(current_season.split('-')[0])
+        
+        # Generate URLs for current season and previous seasons
+        match_data_urls = []
+        
+        # Add current season first
+        match_data_urls.append(base_url)
+        
+        # Add previous seasons
+        for i in range(1, num_seasons + 1):
+            prev_start_year = current_start_year - i
+            prev_end_year = prev_start_year + 1
+            prev_season = f"{prev_start_year}-{prev_end_year}"
+            prev_url = base_url.replace(current_season, prev_season)
+            match_data_urls.append(prev_url)
+        
+        # Fetch and process data for all seasons
+        data_append = []
+        
+        for url in match_data_urls:
+            print(f"Fetching: {url}")
+            warnings.filterwarnings("ignore")
+            
+            try:
+                page = requests.get(url)
+                page.raise_for_status()  # Raise exception for bad status codes
+                soup = BeautifulSoup(page.content, 'html.parser')
+                
+                html_content = page.text.replace('<!--', '').replace('-->', '')
+                df = pd.read_html(html_content)
+                
+                try:
+                    df[0].columns = df[0].columns.droplevel(0)
+                except ValueError:
+                    pass
+                
+                stats = df[0]
+                stats = stats[
+                    (stats['Comp'].isin(['La Liga', 'Premier League', 'Bundesliga', 'Serie A', 'Ligue 1', 'Primeira Liga'])) &
+                    (stats['Pos'] != "On matchday squad, but did not play")
+                ]
+                
+                keep_cols = [
+                    'Opponent', 'Start', 'Pos', 'Date', 'Gls', 'Ast', 'xG', 'npxG', 'xAG', 'SoT',
+                    'Squad', 'CrdY', 'CrdR', 'Result', 'SCA', 'GCA', 'Cmp', 'Cmp%', 'Min',
+                    'PrgP', 'Carries', 'PrgC', 'Succ', 'Tkl', 'Int', 'Blocks', 'Touches'
+                ]
+                season = stats[keep_cols].copy()
+                
+                # Handle percentage columns
+                if season['Cmp%'].dtype == 'object':
+                    season['Cmp%'] = season['Cmp%'].str.replace('%', '', regex=False).astype(float)
+                
+                # Convert numeric columns
+                columns_to_convert = [
+                    'Gls', 'Ast', 'xG', 'npxG', 'xAG', 'SoT', 'SCA', 'GCA', 'Cmp', 'Min',
+                    'Cmp%', 'PrgP', 'Carries', 'PrgC', 'Succ', 'Tkl', 'Int', 'Blocks', 'Touches'
+                ]
+                for col in columns_to_convert:
+                    if col in season.columns and isinstance(season[col], pd.Series):
+                        season[col] = pd.to_numeric(season[col], errors='coerce').fillna(0).astype(float)
+                    else:
+                        season[col] = 0.0
+                
+                season = season.rename({'Squad': 'team'}, axis=1)
+                season['Player'] = player_name
+                
+                # Extract and add season information
+                season_match = re.search(r'/(\d{4}-\d{4})/', url)
+                if season_match:
+                    season['Season'] = season_match.group(1)
+                time.sleep(10)  # Be respectful to the server
+                data_append.append(season)
+                
+            except requests.exceptions.RequestException as e:
+                print(f"Error fetching {url}: {e}")
+                continue
+            except Exception as e:
+                print(f"Error processing {url}: {e}")
+                continue
+                
+            time.sleep(1)  # Be respectful to the server
+        
+        if not data_append:
+            raise ValueError("No data could be retrieved for any season")
+        
+        # Concatenate all seasons
+        df_total = pd.concat(data_append, ignore_index=True)
+        
+        # Final data type conversions
+        df_total['CrdY'] = pd.to_numeric(df_total['CrdY'], errors='coerce').fillna(0).astype(int)
+        df_total['CrdR'] = pd.to_numeric(df_total['CrdR'], errors='coerce').fillna(0).astype(int)
+        df_total['Min'] = pd.to_numeric(df_total['Min'], errors='coerce').fillna(0).astype(int)
+        fm_ids = pd.read_csv("/Users/stephenahiabah/Desktop/Code/cannoniq/CSVs/Top6_leagues_fotmob_ids.csv")
+        fm_ids = fm_ids[["team", "team_id"]]
+        df_total = df_total.merge(fm_ids, on='team', how='left')
+        
+        # Sort by season and date
+        df_total = df_total.sort_values(['Season', 'Date'], ascending=[False, True])
+        
+        return df_total
+
+    def plot_player_performance(self, historic_df, player_name, window=10):
+        """
+        Plot comprehensive player performance metrics with moving averages
+        
+        Args:
+            historic_df: DataFrame with historic player performance data
+            player_name: Name of the player
+            window: Moving average window size (default: 5)
+        """
+        import matplotlib.pyplot as plt
+        import matplotlib.ticker as ticker
+        import numpy as np
+        from matplotlib import style
+        import pandas as pd
+        from PIL import Image
+        import urllib.request
+        from highlight_text import fig_text
+        from matplotlib import image
+        
+        # Sort by season and date to ensure proper chronological order
+        df = historic_df.sort_values(['Season', 'Date'], ascending=[True, True]).reset_index(drop=True)
+        
+        # Calculate cumulative and moving averages
+        df['cumulative_goals'] = df['Gls'].cumsum()
+        df['cumulative_xg'] = df['xG'].cumsum()
+        df['cumulative_assists'] = df['Ast'].cumsum()
+        df['cumulative_xa'] = df['xAG'].cumsum()
+        
+        # 5-game moving averages
+        df['ma_xg'] = df['xG'].rolling(window=window, min_periods=1).mean()
+        df['ma_goals'] = df['Gls'].rolling(window=window, min_periods=1).mean()
+        df['ma_assists'] = df['Ast'].rolling(window=window, min_periods=1).mean()
+        df['ma_xa'] = df['xAG'].rolling(window=window, min_periods=1).mean()
+        df['ma_sca'] = df['SCA'].rolling(window=window, min_periods=1).mean()
+        df['ma_gca'] = df['GCA'].rolling(window=window, min_periods=1).mean()
+        df['ma_sot'] = df['SoT'].rolling(window=window, min_periods=1).mean()
+        df['ma_tackles_int'] = (df['Tkl'] + df['Int']).rolling(window=window, min_periods=1).mean()
+        df['ma_cmp_percent'] = df['Cmp%'].rolling(window=window, min_periods=1).mean()
+        
+        # Create match index
+        df['match_index'] = range(len(df))
+        
+        # Find season boundaries for vertical lines
+        season_boundaries = []
+        seasons_list = df['Season'].unique()
+        for i, season in enumerate(seasons_list):  # Skip first season
+            boundary = df[df['Season'] == season].index[0]
+            season_boundaries.append(boundary)
+        
+        # Get team info
+        team_id = df['team_id'].iloc[-1]
+        team_name = df['team'].iloc[-1]
+        
+        # Set up the plot
+        style.use('fivethirtyeight')
+        fig, axes = plt.subplots(2, 3, figsize=(18, 12), dpi=150)
+        fig.suptitle(f'{player_name} Performance Analysis', fontsize=22, fontweight='bold', y=1.02)
+        
+        main_color = '#0057B8'
+        
+        # Plot 1: Cumulative Goals vs xG
+        ax1 = axes[0, 0]
+        ax1.plot(df['match_index'], df['cumulative_goals'], label='Cumulative Goals', color='red', linewidth=2)
+        ax1.plot(df['match_index'], df['cumulative_xg'], label='Cumulative xG', color='blue', linewidth=2)
+        ax1.set_title('Cumulative Goals vs xG', fontweight='bold', fontsize=10)
+        ax1.set_ylabel('Cumulative Count', fontsize=9)
+        ax1.legend(fontsize=8)
+        ax1.grid(True, linestyle='dotted', alpha=0.7)
+        
+        # Plot 2: Cumulative Assists vs xA
+        ax2 = axes[0, 1]
+        ax2.plot(df['match_index'], df['cumulative_assists'], label='Cumulative Assists', color='green', linewidth=2)
+        ax2.plot(df['match_index'], df['cumulative_xa'], label='Cumulative xA', color='orange', linewidth=2)
+        ax2.set_title('Cumulative Assists vs xA', fontweight='bold', fontsize=10)
+        ax2.set_ylabel('Cumulative Count', fontsize=9)
+        ax2.legend(fontsize=8)
+        ax2.grid(True, linestyle='dotted', alpha=0.7)
+        
+        # Plot 3: 5-Game MA SCA and GCA
+        ax3 = axes[0, 2]
+        ax3.plot(df['match_index'], df['ma_sca'], label='10-Game MA SCA', color='purple', linewidth=2)
+        ax3.plot(df['match_index'], df['ma_gca'], label='10-Game MA GCA', color='brown', linewidth=2)
+        ax3.set_title('10-Game Moving Average: SCA & GCA', fontweight='bold', fontsize=10)
+        ax3.set_ylabel('Average per Game', fontsize=9)
+        ax3.legend(fontsize=8)
+        ax3.grid(True, linestyle='dotted', alpha=0.7)
+        
+        # Plot 4: 5-Game MA Shots on Target
+        ax4 = axes[1, 0]
+        ax4.plot(df['match_index'], df['ma_sot'], label='10-Game MA SoT', color='darkred', linewidth=2)
+        ax4.set_title('10-Game Moving Average: Shots on Target', fontweight='bold', fontsize=10)
+        ax4.set_ylabel('Average per Game', fontsize=9)
+        ax4.set_xlabel('Match Index', fontsize=9)
+        ax4.legend(fontsize=8)
+        ax4.grid(True, linestyle='dotted', alpha=0.7)
+        
+        # Plot 5: 5-Game MA Tackles + Interceptions
+        ax5 = axes[1, 1]
+        ax5.plot(df['match_index'], df['ma_tackles_int'], label='10-Game MA Tackles + Int', color='darkgreen', linewidth=2)
+        ax5.set_title('10-Game Moving Average: Tackles + Interceptions', fontweight='bold', fontsize=10)
+        ax5.set_ylabel('Average per Game', fontsize=9)
+        ax5.set_xlabel('Match Index', fontsize=9)
+        ax5.legend(fontsize=8)
+        ax5.grid(True, linestyle='dotted', alpha=0.7)
+        
+        # Plot 6: 5-Game MA Pass Completion %
+        ax6 = axes[1, 2]
+        ax6.plot(df['match_index'], df['ma_cmp_percent'], label='10-Game MA Pass %', color='navy', linewidth=2)
+        ax6.set_title('10-Game Moving Average: Pass Completion %', fontweight='bold', fontsize=10)
+        ax6.set_ylabel('Pass Completion %', fontsize=9)
+        ax6.set_xlabel('Match Index', fontsize=9)
+        ax6.legend(fontsize=8)
+        ax6.grid(True, linestyle='dotted', alpha=0.7)
+        
+        all_axes = axes.flat
+        for ax in all_axes:
+            for boundary in season_boundaries:
+                ax.axvline(x=boundary, color='grey', linestyle='--', alpha=0.5, linewidth=1)
+
+        # Add season labels to all plots (separate loop)
+        for ax in all_axes:
+            # Add label for the first season at the beginning
+            first_season = seasons_list[0]
+            ax.annotate(
+                f'{first_season}',
+                xy=(0, ax.get_ylim()[1] * 0.95),
+                xytext=(5, 0),
+                textcoords='offset points',
+                fontsize=10,
+                color='grey',
+                rotation=90,
+                ha='left',
+                va='top',
+                alpha=0.8
+            )
+            
+            # Then add labels for remaining seasons at their boundaries
+            for i, boundary in enumerate(season_boundaries):
+                if i + 1 < len(seasons_list):  # Safety check to prevent IndexError
+                    season_name = seasons_list[i + 1]
+                    ax.annotate(
+                        f'{season_name}',
+                        xy=(boundary, ax.get_ylim()[1] * 0.95),
+                        xytext=(5, 0),
+                        textcoords='offset points',
+                        fontsize=10,
+                        color='grey',
+                        rotation=90,
+                        ha='left',
+                        va='top',
+                        alpha=0.8
+                    )
+        # Add team logo
+        try:
+            fotmob_url = 'https://images.fotmob.com/image_resources/logo/teamlogo/'
+            club_icon = Image.open(urllib.request.urlopen(f"{fotmob_url}{team_id}.png"))
+            
+            # Add logo to upper left corner
+            ax_logo = fig.add_axes([0.01, 0.9, 0.12, 0.12])
+            ax_logo.imshow(club_icon)
+            ax_logo.axis('off')
+            
+        except Exception as e:
+            print(f"Could not load team logo: {e}")
+        
+        # Add subtitle with player and team info
+        fig.text(0.5, 0.98, f'{team_name} | {len(df)} matches across {len(seasons_list)} seasons', 
+                ha='center', va='center', fontsize=15, style='italic')
+        
+        fig.text(0.5, 0.94, 'Analysis of cumulative goals/assists vs expected values and rolling averages for shot creation, defensive actions, and passing accuracy', 
+                ha='center', va='center', fontsize=10, style='normal', color='grey')
+        
+        ax7 = fig.add_axes([0.85, 0.9, 0.11, 0.14])
+        ax7.axis('off')
+        img = plt.imread('/Users/stephenahiabah/Desktop/Code/cannoniq/Images/piqmain.png')
+        ax7.imshow(img)
+
+        output_dir = f"Player_profiles/{player_name}/Seasonal_Performance/"
+        os.makedirs(output_dir, exist_ok=True)
+        save_path = os.path.join(output_dir, f"{player_name}_Historic_Performance.png")
+
+        plt.savefig(save_path, dpi=500, facecolor="#EBEBE9", bbox_inches="tight", edgecolor="none", transparent=False)
+        
+        plt.tight_layout()
+        plt.subplots_adjust(top=0.88, hspace=0.3, wspace=0.3)
+        plt.show()
+        
+        return fig
+    
+    def analyze_player_performance(self, Cannoniq_DB, player_name, num_seasons=2):
+        """
+        Get historic performance data and create visualization in one step
+        """
+        performance_data = self.historic_performance(Cannoniq_DB, player_name, num_seasons)
+        return self.plot_player_performance(performance_data, player_name)
+
+
+    
 
 
 
@@ -2074,13 +2419,15 @@ team_categories = {
         'Monza', 'Nantes', "Nott'ham Forest", 'Osasuna',
         'Oviedo',  'Rayo Vallecano', 'Reims', 'Rennes','Famalicão',
         'Saint-Étienne', 'Strasbourg', 'Toulouse','Moreirense',
-        'Udinese', 'Union Berlin', 'Valencia',  'Werder Bremen',
+        'Udinese', 'Union Berlin', 'Valencia',  'Werder Bremen','Getafe'
         'Wolfsburg'],
     'relegation_teams': [
-        'Celta Vigo', 'Como','Parma','Farense','Venezia','Salernitana','Cesena','Empoli', 'Sassuolo', 'Metz''Valladolid','Köln', 'Las Palmas', 'Le Havre','Hellas Verona', 
+        'Celta Vigo', 'Como','Parma','Farense','Venezia','Salernitana','Cesena','Empoli', 'Sassuolo', 'Metz','Valladolid','Köln', 'Las Palmas', 'Le Havre','Hellas Verona', 
         'Ipswich Town','Nacional','Frosinone','Southampton', 'AVS Futebol','Gil Vicente FC','Leicester City', 'Lorient', 'St. Pauli','Holstein Kiel', 'Estrela','Casa Pia', 'Gil Vicente', 'Marítimo', 'Portimonense', 'Vizela', 'Tondela', 'Arouca', 'Rio Ave', 'Santa Clara'
     ]
 }
+
+
 
 
 
@@ -2093,3 +2440,5 @@ team_categories = {
 #     Cannoniq_DB=Cannoniq_DB
 # )
 # charts.create_player_scorecard_plot(player_name='Eberechi Eze' , role = 'Inside Forward', Cannoniq_DB=Cannoniq_DB)
+
+

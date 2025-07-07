@@ -1,0 +1,2635 @@
+,Player,Nation,Pos,Age,new_pound_value,league
+0,Mohamed Salah,eg EGY,FW,32.0,350000,Premier League
+1,Virgil van Dijk,nl NED,DF,33.0,220000,Premier League
+2,Trent Alexander-Arnold,eng ENG,DF,25.0,180000,Premier League
+3,Andrew Robertson,sct SCO,DF,30.0,160000,Premier League
+4,Alisson,br BRA,GK,31.0,150000,Premier League
+5,Federico Chiesa,it ITA,FW,26.0,150000,Premier League
+6,Ryan Gravenberch,nl NED,MF,22.0,150000,Premier League
+7,Alexis Mac Allister,ar ARG,MF,25.0,150000,Premier League
+8,Darwin Núñez,uy URU,FW,25.0,140000,Premier League
+9,Diogo Jota,pt POR,FW,27.0,140000,Premier League
+10,Cody Gakpo,nl NED,FW,25.0,120000,Premier League
+11,Dominik Szoboszlai,hu HUN,MF,23.0,120000,Premier League
+12,Joe Gomez,eng ENG,DF,27.0,85000,Premier League
+13,Kostas Tsimikas,gr GRE,DF,28.0,75000,Premier League
+14,Ibrahima Konaté,fr FRA,DF,25.0,70000,Premier League
+15,Nathaniel Phillips,eng ENG,CB,27.0,65000,Premier League
+16,Luis Díaz,co COL,FW,27.0,55000,Premier League
+17,Wataru Endo,jp JPN,"MF,DF",31.0,50000,Premier League
+18,Harvey Elliott,eng ENG,"MF,FW",21.0,40000,Premier League
+19,Stefan Bajcetic,,DM,20.0,40000,Premier League
+20,Jarell Quansah,,CB,22.0,30000,Premier League
+21,Curtis Jones,eng ENG,MF,23.0,15000,Premier League
+22,Ben Doak,,RW,19.0,15000,Premier League
+23,Conor Bradley,nir NIR,DF,21.0,10000,Premier League
+24,Caoimhín Kelleher,ie IRL,GK,25.0,10000,Premier League
+25,Rhys Williams,eng ENG,CB,24.0,10000,Premier League
+26,Vitezslav Jaros,,GK,23.0,7000,Premier League
+27,Kai Havertz,de GER,"FW,MF",25.0,280000,Premier League
+28,Gabriel Jesus,br BRA,"FW,MF",27.0,265000,Premier League
+29,Declan Rice,eng ENG,MF,25.0,240000,Premier League
+30,Martin Ødegaard,no NOR,MF,25.0,240000,Premier League
+31,Thomas Partey,gh GHA,"MF,DF",31.0,200000,Premier League
+32,Bukayo Saka,eng ENG,"FW,MF",22.0,195000,Premier League
+33,William Saliba,fr FRA,DF,23.0,190000,Premier League
+34,Gabriel Martinelli,br BRA,"FW,MF",23.0,180000,Premier League
+35,Oleksandr Zinchenko,ua UKR,"DF,MF",27.0,150000,Premier League
+36,Ben White,eng ENG,DF,26.0,150000,Premier League
+37,Mikel Merino,es ESP,"MF,FW",28.0,130000,Premier League
+38,Riccardo Calafiori,it ITA,DF,22.0,120000,Premier League
+39,Jorginho,it ITA,MF,32.0,110000,Premier League
+40,Kieran Tierney,sct SCO,"FW,DF",27.0,110000,Premier League
+41,Gabriel Magalhães,br BRA,DF,26.0,100000,Premier League
+42,Takehiro Tomiyasu,jp JPN,DF,25.0,100000,Premier League
+43,David Raya,es ESP,GK,28.0,100000,Premier League
+44,Jurriën Timber,nl NED,DF,23.0,90000,Premier League
+45,Leandro Trossard,be BEL,FW,29.0,90000,Premier League
+46,Jakub Kiwior,pl POL,DF,24.0,58000,Premier League
+47,Neto,br BRA,GK,35.0,50000,Premier League
+48,Fabio Vieira,pt POR,AM,24.0,45000,Premier League
+49,Kevin De Bruyne,be BEL,MF,33.0,400000,Premier League
+50,Erling Haaland,no NOR,FW,24.0,375000,Premier League
+51,Bernardo Silva,pt POR,"MF,FW",29.0,300000,Premier League
+52,Jack Grealish,eng ENG,"FW,MF",28.0,300000,Premier League
+53,John Stones,eng ENG,"DF,MF",30.0,250000,Premier League
+54,İlkay Gündoğan,de GER,MF,33.0,230000,Premier League
+55,Phil Foden,eng ENG,"MF,FW",24.0,225000,Premier League
+56,Rodri,es ESP,MF,28.0,220000,Premier League
+57,Joško Gvardiol,hr CRO,DF,22.0,200000,Premier League
+58,Rúben Dias,pt POR,DF,27.0,180000,Premier League
+59,Manuel Akanji,ch SUI,DF,29.0,180000,Premier League
+60,Kyle Walker,eng ENG,DF,34.0,175000,Premier League
+61,Nathan Aké,nl NED,DF,29.0,160000,Premier League
+62,Mateo Kovačić,hr CRO,MF,30.0,150000,Premier League
+63,Matheus Nunes,pt POR,"MF,DF",25.0,130000,Premier League
+64,Ederson,br BRA,GK,30.0,100000,Premier League
+65,Stefan Ortega,de GER,GK,31.0,90000,Premier League
+66,Oscar Bobb,,RW,21.0,50000,Premier League
+67,Jeremy Doku,be BEL,FW,22.0,50000,Premier League
+68,Sávio,br BRA,"FW,MF",20.0,40000,Premier League
+69,Scott Carson,eng ENG,GK,38.0,30000,Premier League
+70,Rico Lewis,,RB,19.0,25000,Premier League
+71,Issa Kaboré,bf BFA,"DF,MF",23.0,20000,Premier League
+72,James McAtee,,CM,22.0,15000,Premier League
+73,Josh Wilson-Esbrand,,LB,22.0,7000,Premier League
+74,Reece James,eng ENG,"DF,MF",24.0,250000,Premier League
+75,Wesley Fofana,fr FRA,DF,23.0,200000,Premier League
+76,Ben Chilwell,eng ENG,"DF,MF",27.0,200000,Premier League
+77,Christopher Nkunku,fr FRA,FW,26.0,195000,Premier League
+78,Enzo Fernández,ar ARG,MF,23.0,180000,Premier League
+79,Marc Cucurella,es ESP,DF,26.0,175000,Premier League
+80,Raheem Sterling,eng ENG,LW,29.0,162500,Premier League
+81,Pedro Neto,pt POR,FW,24.0,160000,Premier League
+82,Moisés Caicedo,ec ECU,"MF,DF",22.0,150000,Premier League
+83,Cole Palmer,eng ENG,"MF,FW",22.0,130000,Premier League
+84,João Félix,pt POR,"FW,MF",24.0,130000,Premier League
+85,Tosin Adarabioyo,eng ENG,DF,26.0,120000,Premier League
+86,Carney Chukwuemeka,eng ENG,MF,20.0,100000,Premier League
+87,Mykhailo Mudryk,ua UKR,FW,23.0,100000,Premier League
+88,Levi Colwill,eng ENG,DF,21.0,100000,Premier League
+89,Nicolas Jackson,sn SEN,FW,23.0,100000,Premier League
+90,Benoît Badiashile,fr FRA,DF,23.0,90000,Premier League
+91,Axel Disasi,fr FRA,DF,26.0,80000,Premier League
+92,Kiernan Dewsbury-Hall,eng ENG,"MF,FW",25.0,80000,Premier League
+93,Robert Sánchez,es ESP,GK,26.0,60000,Premier League
+94,Marc Guiu,,CF,18.0,50000,Premier League
+95,Noni Madueke,,RW,22.0,50000,Premier League
+96,Filip Jørgensen,dk DEN,GK,22.0,50000,Premier League
+97,Malo Gusto,fr FRA,DF,21.0,45000,Premier League
+98,Roméo Lavia,,DM,20.0,45000,Premier League
+99,Deivid Washington,,CF,19.0,40000,Premier League
+100,Marcus Bettinelli,eng ENG,GK,32.0,35000,Premier League
+101,Renato Veiga,,LB,21.0,25000,Premier League
+102,Lucas Bergström,fi FIN,GK,21.0,7500,Premier League
+103,Cesare Casadei,,CM,21.0,7500,Premier League
+104,Josh Acheampong,,RB,18.0,5000,Premier League
+105,Bruno Guimarães,br BRA,MF,26.0,160000,Premier League
+106,Lloyd Kelly,eng ENG,DF,25.0,150000,Premier League
+107,Anthony Gordon,eng ENG,"FW,MF",23.0,150000,Premier League
+108,Joelinton,br BRA,"MF,FW",27.0,150000,Premier League
+109,Alexander Isak,se SWE,FW,24.0,120000,Premier League
+110,Sandro Tonali,it ITA,MF,24.0,120000,Premier League
+111,Kieran Trippier,eng ENG,DF,33.0,120000,Premier League
+112,Matt Targett,eng ENG,DF,28.0,100000,Premier League
+113,Sven Botman,nl NED,DF,24.0,90000,Premier League
+114,Joe Willock,eng ENG,"MF,FW",24.0,80000,Premier League
+115,Harvey Barnes,eng ENG,FW,26.0,80000,Premier League
+116,Nick Pope,eng ENG,GK,32.0,60000,Premier League
+117,Miguel Almirón,py PAR,FW,30.0,60000,Premier League
+118,Emil Krafth,se SWE,DF,29.0,55000,Premier League
+119,Dan Burn,eng ENG,DF,32.0,55000,Premier League
+120,Sean Longstaff,eng ENG,MF,26.0,50000,Premier League
+121,Valentino Livramento,eng ENG,DF,21.0,50000,Premier League
+122,Odysseas Vlachodimos,gr GRE,GK,30.0,50000,Premier League
+123,Callum Wilson,eng ENG,FW,32.0,46000,Premier League
+124,Fabian Schär,ch SUI,DF,32.0,45000,Premier League
+125,Jamaal Lascelles,eng ENG,DF,30.0,40000,Premier League
+126,Martin Dúbravka,sk SVK,GK,35.0,40000,Premier League
+127,Jacob Murphy,eng ENG,FW,29.0,35000,Premier League
+128,Isaac Hayden,jm JAM,DM,29.0,22000,Premier League
+129,William Osula,,CF,21.0,20000,Premier League
+130,Mark Gillespie,eng ENG,GK,32.0,10000,Premier League
+131,Harrison Ashby,,RB,23.0,10000,Premier League
+132,John Ruddy,eng ENG,GK,37.0,8000,Premier League
+133,Lewis Hall,,LB,20.0,7000,Premier League
+134,Lewis Miley,,CM,18.0,5000,Premier League
+135,Garang Kuol,,LW,19.0,5000,Premier League
+136,Alex Murphy,,LB,20.0,3000,Premier League
+137,Boubacar Kamara,fr FRA,"MF,DF",24.0,150000,Premier League
+138,Youri Tielemans,be BEL,MF,27.0,150000,Premier League
+139,Emiliano Martínez,ar ARG,GK,31.0,150000,Premier League
+140,Amadou Onana,be BEL,MF,22.0,140000,Premier League
+141,Ollie Watkins,eng ENG,FW,28.0,130000,Premier League
+142,Lucas Digne,fr FRA,DF,31.0,120000,Premier League
+143,John McGinn,sct SCO,"MF,FW",29.0,120000,Premier League
+144,Leon Bailey,jm JAM,FW,26.0,120000,Premier League
+145,Diego Carlos,br BRA,DF,31.0,100000,Premier League
+146,Tyrone Mings,eng ENG,DF,31.0,100000,Premier League
+147,Ian Maatsen,nl NED,"DF,FW",22.0,100000,Premier League
+148,Pau Torres,es ESP,DF,27.0,100000,Premier League
+149,Leander Dendoncker,be BEL,DM,29.0,90000,Premier League
+150,Matty Cash,pl POL,"DF,FW",26.0,80000,Premier League
+151,Emi Buendía,ar ARG,"FW,MF",27.0,75000,Premier League
+152,Jáder Durán,co COL,FW,20.0,75000,Premier League
+153,Morgan Rogers,eng ENG,"MF,FW",22.0,75000,Premier League
+154,Ezri Konsa,eng ENG,DF,26.0,75000,Premier League
+155,Jacob Ramsey,eng ENG,FW,23.0,70000,Premier League
+156,Robin Olsen,se SWE,GK,34.0,50000,Premier League
+157,Jaden Philogene Bidace,eng ENG,FW,22.0,40000,Premier League
+158,Kosta Nedeljkovic,,RB,19.0,20000,Premier League
+159,Kortney Hause,eng ENG,CB,29.0,10000,Premier League
+160,Joe Gauci,,GK,24.0,10000,Premier League
+161,Kaine Kesler,,RB,22.0,10000,Premier League
+162,Lino Sousa,,LB,20.0,10000,Premier League
+163,Lamare Bogarde,,CB,20.0,8000,Premier League
+164,James Ward-Prowse,eng ENG,MF,29.0,115000,Premier League
+165,Nikola Milenković,rs SRB,DF,26.0,105000,Premier League
+166,Callum Hudson-Odoi,eng ENG,"FW,MF",23.0,80000,Premier League
+167,Chris Wood,nz NZL,FW,32.0,80000,Premier League
+168,Morgan Gibbs-White,eng ENG,MF,24.0,80000,Premier League
+169,Ibrahim Sangaré,ci CIV,MF,26.0,75000,Premier League
+170,Neco Williams,wls WAL,DF,23.0,50000,Premier League
+171,Ryan Yates,eng ENG,MF,26.0,50000,Premier League
+172,Taiwo Awoniyi,ng NGA,FW,26.0,50000,Premier League
+173,Emmanuel Dennis,ng NGA,CF,26.0,40000,Premier League
+174,Elliot Anderson,eng ENG,MF,21.0,40000,Premier League
+175,Willy Boly,ci CIV,DF,33.0,40000,Premier League
+176,Ola Aina,ng NGA,DF,27.0,40000,Premier League
+177,Álex Moreno,es ESP,"DF,MF",31.0,35000,Premier League
+178,Morato,br BRA,DF,23.0,35000,Premier League
+179,Matz Sels,be BEL,GK,32.0,35000,Premier League
+180,Nicolás Domínguez,ar ARG,"MF,FW",26.0,35000,Premier League
+181,Harry Toffolo,eng ENG,DF,28.0,35000,Premier League
+182,Andrew Omobamidele,ie IRL,DF,22.0,35000,Premier League
+183,Danilo,br BRA,"MF,FW",23.0,30000,Premier League
+184,Ramón Sosa,py PAR,"FW,MF",24.0,30000,Premier League
+185,Murillo,,CB,22.0,30000,Premier League
+186,Jota Silva,pt POR,"FW,MF",24.0,25000,Premier League
+187,Anthony Elanga,se SWE,"FW,MF",22.0,25000,Premier League
+188,Carlos Miguel,br BRA,GK,25.0,15000,Premier League
+189,Lewis O'Brien,eng ENG,CM,26.0,15000,Premier League
+190,Jonathan Panzo,eng ENG,CB,24.0,10000,Premier League
+191,Eric da Silva Moreira,,RW,18.0,8000,Premier League
+192,Zach Abbott,,CB,18.0,3000,Premier League
+193,Ferdi Kadioglu,tr TUR,"DF,MF",24.0,87500,Premier League
+194,Kaoru Mitoma,jp JPN,"FW,MF",27.0,80000,Premier League
+195,Lewis Dunk,eng ENG,DF,32.0,80000,Premier League
+196,Georginio Rutter,fr FRA,"MF,FW",22.0,75000,Premier League
+197,Mats Wieffer,nl NED,"DF,MF",24.0,60000,Premier League
+198,Danny Welbeck,eng ENG,FW,33.0,60000,Premier League
+199,James Milner,eng ENG,MF,38.0,60000,Premier League
+200,Adam Webster,eng ENG,DF,29.0,55000,Premier League
+201,Pervis Estupiñán,ec ECU,DF,26.0,50000,Premier League
+202,Matt O'Riley,dk DEN,MF,23.0,50000,Premier League
+203,Joël Veltman,nl NED,DF,32.0,50000,Premier League
+204,João Pedro,br BRA,"FW,MF",22.0,50000,Premier League
+205,Solly March,eng ENG,"FW,MF",30.0,50000,Premier League
+206,Brajan Gruda,,RW,20.0,50000,Premier League
+207,Igor,br BRA,DF,26.0,45000,Premier League
+208,Yankuba Minteh,,RW,20.0,40000,Premier League
+209,Tariq Lamptey,gh GHA,DF,23.0,35000,Premier League
+210,Bart Verbruggen,nl NED,GK,21.0,35000,Premier League
+211,Jan Paul van Hecke,nl NED,DF,24.0,30000,Premier League
+212,Evan Ferguson,ie IRL,FW,19.0,30000,Premier League
+213,Jason Steele,eng ENG,GK,33.0,20000,Premier League
+214,Jeremy Sarmiento,ec ECU,MF,22.0,20000,Premier League
+215,Carlos Baleba,,DM,20.0,12500,Premier League
+216,Simon Adingra,ci CIV,"FW,MF",22.0,12500,Premier League
+217,Jakub Moder,pl POL,MF,25.0,10000,Premier League
+218,Jack Hinshelwood,,RB,19.0,10000,Premier League
+219,Julio Enciso,py PAR,"MF,FW",20.0,10000,Premier League
+220,Tom McGill,,GK,25.0,10000,Premier League
+221,Yasin Ayari,,CM,20.0,8000,Premier League
+222,Ed Turns,,CB,21.0,5000,Premier League
+223,Killian Cahill,,GK,20.0,3000,Premier League
+224,Imari Samuels,eng ENG,DF,21.0,3000,Premier League
+225,Carl Rushworth,eng ENG,GK,23.0,3000,Premier League
+226,Evanilson,br BRA,FW,24.0,85000,Premier League
+227,Justin Kluivert,nl NED,MF,25.0,80000,Premier League
+228,Kepa Arrizabalaga,es ESP,GK,29.0,75000,Premier League
+229,Ryan Christie,sct SCO,MF,29.0,70000,Premier League
+230,Luis Sinisterra,co COL,"FW,MF",25.0,65000,Premier League
+231,Lewis Cook,eng ENG,"MF,DF",27.0,60000,Premier League
+232,Tyler Adams,us USA,MF,25.0,60000,Premier League
+233,David Brooks,wls WAL,"FW,MF",27.0,50000,Premier League
+234,Marcos Senesi,ar ARG,DF,27.0,50000,Premier League
+235,Antoine Semenyo,gh GHA,FW,24.0,50000,Premier League
+236,Ilya Zabarnyi,,CB,22.0,50000,Premier League
+237,Philip Billing,dk DEN,MF,28.0,45000,Premier League
+238,Alex Scott,eng ENG,MF,20.0,40000,Premier League
+239,Adam Smith,eng ENG,DF,33.0,40000,Premier League
+240,Dango Ouattara,bf BFA,FW,22.0,35000,Premier League
+241,Marcus Tavernier,eng ENG,"FW,MF",25.0,35000,Premier League
+242,Max Aarons,eng ENG,DF,24.0,35000,Premier League
+243,Chris Mepham,wls WAL,CB,27.0,35000,Premier League
+244,Milos Kerkez,hu HUN,DF,20.0,30000,Premier League
+245,Dean Huijsen,,CB,19.0,30000,Premier League
+246,Julian Araujo,mx MEX,DF,22.0,25000,Premier League
+247,Jaidon Anthony,eng ENG,"FW,MF",24.0,25000,Premier League
+248,Mark Travers,ie IRL,GK,25.0,20000,Premier League
+249,Enes Ünal,tr TUR,"FW,MF",27.0,15000,Premier League
+250,Joe Rothwell,eng ENG,CM,30.0,8000,Premier League
+251,James Hill,eng ENG,DF,22.0,5000,Premier League
+252,Will Dennis,eng ENG,GK,24.0,2000,Premier League
+253,Aaron Hickey,sct SCO,"DF,MF",22.0,70000,Premier League
+254,Ben Mee,eng ENG,DF,34.0,55000,Premier League
+255,Mathias Jensen,dk DEN,MF,28.0,50000,Premier League
+256,Igor Thiago,,CF,23.0,50000,Premier League
+257,Bryan Mbeumo,cm CMR,FW,24.0,45000,Premier League
+258,Fabio Carvalho,pt POR,"FW,MF",21.0,40000,Premier League
+259,Kristoffer Ajer,no NOR,DF,26.0,40000,Premier League
+260,Christian Nørgaard,dk DEN,MF,30.0,35000,Premier League
+261,Rico Henry,eng ENG,DF,27.0,35000,Premier League
+262,Keane Lewis-Potter,eng ENG,"DF,FW",23.0,35000,Premier League
+263,Mikkel Damsgaard,dk DEN,"MF,FW",24.0,30000,Premier League
+264,Nathan Collins,ie IRL,DF,23.0,30000,Premier League
+265,Mark Flekken,nl NED,GK,31.0,30000,Premier League
+266,Josh Dasilva,eng ENG,CM,25.0,30000,Premier League
+267,Vitaly Janelt,de GER,MF,26.0,30000,Premier League
+268,Ethan Pinnock,jm JAM,DF,31.0,30000,Premier League
+269,Yoane Wissa,cd COD,FW,27.0,25000,Premier League
+270,Gustavo Nunes,,LW,18.0,25000,Premier League
+271,Sepp van den Berg,nl NED,DF,22.0,20000,Premier League
+272,Mads Roerslev,dk DEN,DF,25.0,20000,Premier League
+273,Jayden Meghoma,,LB,18.0,15000,Premier League
+274,Yunus Emre Konak,,DM,19.0,15000,Premier League
+275,Kevin Schade,de GER,FW,22.0,10000,Premier League
+276,Hákon Rafn Valdimarsson,,GK,23.0,10000,Premier League
+277,Matthew Cox,,GK,21.0,7000,Premier League
+278,Ji-soo Kim,,CB,19.0,5000,Premier League
+279,Yegor Yarmolyuk,,AM,20.0,5000,Premier League
+280,Myles Peart-Harris,eng ENG,MF,21.0,5000,Premier League
+281,Paris Maghoma,,CM,23.0,3000,Premier League
+282,Ryan Trevitt,,CM,21.0,2500,Premier League
+283,Bernd Leno,de GER,GK,32.0,130000,Premier League
+284,Reiss Nelson,eng ENG,FW,24.0,100000,Premier League
+285,Raúl Jiménez,mx MEX,FW,33.0,100000,Premier League
+286,Joachim Andersen,dk DEN,DF,28.0,90000,Premier League
+287,Willian,br BRA,"FW,MF",35.0,90000,Premier League
+288,Alex Iwobi,ng NGA,"FW,MF",28.0,80000,Premier League
+289,Issa Diop,fr FRA,DF,27.0,70000,Premier League
+290,Adama Traoré,es ESP,"FW,MF",28.0,65000,Premier League
+291,Timothy Castagne,be BEL,DF,28.0,65000,Premier League
+292,Saša Lukić,rs SRB,MF,27.0,63000,Premier League
+293,Emile Smith Rowe,eng ENG,MF,24.0,60000,Premier League
+294,Sander Berge,no NOR,MF,26.0,55000,Premier League
+295,Kenny Tete,nl NED,DF,28.0,50000,Premier League
+296,Antonee Robinson,us USA,DF,26.0,50000,Premier League
+297,Andreas Pereira,br BRA,MF,28.0,50000,Premier League
+298,Harrison Reed,eng ENG,MF,29.0,50000,Premier League
+299,Calvin Bassey,ng NGA,DF,24.0,45000,Premier League
+300,Ryan Sessegnon,eng ENG,"FW,DF",24.0,45000,Premier League
+301,Carlos Vinícius,br BRA,"MF,FW",29.0,40000,Premier League
+302,Harry Wilson,wls WAL,"FW,MF",27.0,35000,Premier League
+303,Tom Cairney,sct SCO,MF,33.0,30000,Premier League
+304,Jorge Cuenca,es ESP,DF,24.0,25000,Premier League
+305,Luke Harris,,AM,19.0,12500,Premier League
+306,Steven Benda,de GER,GK,25.0,10000,Premier League
+307,Rodrigo Muniz,br BRA,FW,23.0,7500,Premier League
+308,Daichi Kamada,jp JPN,MF,27.0,105000,Premier League
+309,Eberechi Eze,eng ENG,"MF,FW",26.0,100000,Premier League
+310,Dean Henderson,eng ENG,GK,27.0,100000,Premier League
+311,Eddie Nketiah,eng ENG,"FW,MF",25.0,90000,Premier League
+312,Cheick Doucouré,ml MLI,MF,24.0,70000,Premier League
+313,Ismaila Sarr,sn SEN,MF,26.0,70000,Premier League
+314,Jefferson Lerma,co COL,"MF,DF",29.0,70000,Premier League
+315,Jeffrey Schlupp,gh GHA,"MF,DF",31.0,60000,Premier League
+316,Chris Richards,us USA,DF,24.0,55000,Premier League
+317,Jean-Philippe Mateta,fr FRA,FW,27.0,50000,Premier League
+318,Nathaniel Clyne,eng ENG,"DF,MF",33.0,50000,Premier League
+319,Maxence Lacroix,fr FRA,DF,24.0,50000,Premier League
+320,Marc Guéhi,eng ENG,DF,24.0,50000,Premier League
+321,Trevoh Chalobah,eng ENG,DF,25.0,50000,Premier League
+322,Will Hughes,eng ENG,MF,29.0,50000,Premier League
+323,Rob Holding,eng ENG,DF,28.0,45000,Premier League
+324,Daniel Muñoz,co COL,DF,28.0,45000,Premier League
+325,Tyrick Mitchell,eng ENG,DF,24.0,40000,Premier League
+326,Matheus França,,AM,20.0,40000,Premier League
+327,Matt Turner,us USA,GK,30.0,40000,Premier League
+328,Joel Ward,eng ENG,DF,34.0,35000,Premier League
+329,Adam Wharton,,DM,20.0,35000,Premier League
+330,Chadi Riad,,CB,21.0,30000,Premier League
+331,Joe Whitworth,,GK,20.0,10000,Premier League
+332,Remi Matthews,eng ENG,GK,30.0,7500,Premier League
+333,Jesurun Rak-Sakyi,,RW,22.0,7500,Premier League
+334,Louie Moulden,eng ENG,GK,22.0,5000,Premier League
+335,Abdoulaye Doucouré,ml MLI,MF,31.0,130000,Premier League
+336,Jordan Pickford,eng ENG,GK,30.0,125000,Premier League
+337,Idrissa Gana Gueye,sn SEN,MF,34.0,120000,Premier League
+338,Dominic Calvert-Lewin,eng ENG,FW,27.0,100000,Premier League
+339,James Tarkowski,eng ENG,DF,31.0,100000,Premier League
+340,Jack Harrison,eng ENG,FW,27.0,90000,Premier League
+341,Michael Keane,eng ENG,DF,31.0,80000,Premier League
+342,Mason Holgate,jm JAM,"FW,DF",27.0,70000,Premier League
+343,Vitaliy Mykolenko,ua UKR,DF,25.0,58000,Premier League
+344,Séamus Coleman,ie IRL,DF,35.0,55000,Premier League
+345,Beto,gw GNB,FW,26.0,50000,Premier League
+346,Orel Mangala,be BEL,MF,26.0,50000,Premier League
+347,Iliman Ndiaye,sn SEN,FW,24.0,45000,Premier League
+348,Armando Broja,al ALB,FW,22.0,40000,Premier League
+349,Ashley Young,eng ENG,DF,39.0,40000,Premier League
+350,Jarrad Branthwaite,eng ENG,DF,22.0,35000,Premier League
+351,Jake O'Brien,,CB,23.0,35000,Premier League
+352,James Garner,eng ENG,"MF,DF",23.0,30000,Premier League
+353,Asmir Begović,ba BIH,GK,37.0,30000,Premier League
+354,Youssef Chermiti,,CF,20.0,30000,Premier League
+355,Nathan Patterson,sct SCO,DF,22.0,28000,Premier League
+356,Dwight McNeil,eng ENG,"MF,FW",24.0,25000,Premier League
+357,Tim Iroegbunam,,CM,21.0,20000,Premier League
+358,João Virgínia,pt POR,GK,24.0,7500,Premier League
+359,Lucas Paquetá,br BRA,"MF,FW",26.0,150000,Premier League
+360,Jarrod Bowen,eng ENG,"FW,MF",27.0,150000,Premier League
+361,Danny Ings,eng ENG,"FW,MF",32.0,125000,Premier League
+362,Alphonse Areola,fr FRA,GK,31.0,120000,Premier League
+363,Edson Álvarez,mx MEX,MF,26.0,100000,Premier League
+364,Max Kilman,eng ENG,DF,27.0,100000,Premier League
+365,Emerson Palmieri,it ITA,DF,29.0,95000,Premier League
+366,Aaron Wan-Bissaka,eng ENG,DF,26.0,90000,Premier League
+367,Niclas Füllkrug,de GER,FW,31.0,90000,Premier League
+368,Mohammed Kudus,,AM,24.0,90000,Premier League
+369,Tomáš Souček,cz CZE,MF,29.0,90000,Premier League
+370,Michail Antonio,jm JAM,FW,34.0,85000,Premier League
+371,Carlos Soler,es ESP,"MF,FW",27.0,80000,Premier League
+372,Guido Rodríguez,ar ARG,MF,30.0,75000,Premier League
+373,Łukasz Fabiański,pl POL,GK,39.0,65000,Premier League
+374,Aaron Cresswell,eng ENG,DF,34.0,50000,Premier League
+375,Konstantinos Mavropanos,gr GRE,DF,26.0,50000,Premier League
+376,Vladimír Coufal,cz CZE,DF,31.0,35000,Premier League
+377,Crysencio Summerville,nl NED,"FW,MF",22.0,30000,Premier League
+378,Luis Guilherme,,RW,18.0,25000,Premier League
+379,Jean-Clair Todibo,fr FRA,DF,24.0,20000,Premier League
+380,Wes Foderingham,eng ENG,GK,33.0,15000,Premier League
+381,Callum Marshall,,CF,20.0,10000,Premier League
+382,Andy Irving,sct SCO,MF,24.0,5000,Premier League
+383,Casemiro,br BRA,MF,32.0,350000,Premier League
+384,Marcus Rashford,eng ENG,"FW,MF",26.0,300000,Premier League
+385,Bruno Fernandes,pt POR,MF,29.0,300000,Premier League
+386,Mason Mount,eng ENG,MF,25.0,250000,Premier League
+387,Antony,br BRA,"DF,MF",24.0,200000,Premier League
+388,Matthijs de Ligt,nl NED,DF,24.0,195000,Premier League
+389,Harry Maguire,eng ENG,DF,31.0,190000,Premier League
+390,Christian Eriksen,dk DEN,MF,32.0,150000,Premier League
+391,Jadon Sancho,eng ENG,"FW,MF",24.0,150000,Premier League
+392,Luke Shaw,eng ENG,DF,29.0,150000,Premier League
+393,Noussair Mazraoui,ma MAR,DF,26.0,135000,Premier League
+394,André Onana,cm CMR,GK,28.0,120000,Premier League
+395,Lisandro Martínez,ar ARG,DF,26.0,120000,Premier League
+396,Victor Lindelöf,se SWE,DF,30.0,120000,Premier League
+397,Manuel Ugarte,,DM,23.0,120000,Premier League
+398,Leny Yoro,,CB,18.0,115000,Premier League
+399,Joshua Zirkzee,nl NED,"FW,MF",23.0,105000,Premier League
+400,Rasmus Højlund,dk DEN,FW,21.0,85000,Premier League
+401,Diogo Dalot,pt POR,DF,25.0,85000,Premier League
+402,Tyrell Malacia,nl NED,DF,24.0,75000,Premier League
+403,Jonny Evans,nir NIR,DF,36.0,65000,Premier League
+404,Alejandro Garnacho,,LW,20.0,50000,Premier League
+405,Tom Heaton,eng ENG,GK,38.0,45000,Premier League
+406,Altay Bayındır,tr TUR,GK,26.0,35000,Premier League
+407,Amad Diallo,ci CIV,"MF,FW",22.0,28846,Premier League
+408,Kobbie Mainoo,,CM,19.0,20000,Premier League
+409,Toby Collyer,,DM,20.0,5000,Premier League
+410,Daniel Gore,,CM,19.0,5000,Premier League
+411,Pablo Sarabia,es ESP,"MF,FW",32.0,90000,Premier League
+412,Gonçalo Guedes,pt POR,"MF,FW",27.0,90000,Premier League
+413,Nélson Semedo,pt POR,DF,30.0,80000,Premier League
+414,Hwang Hee-chan,kr KOR,"MF,FW",28.0,70000,Premier League
+415,Matheus Cunha,br BRA,"MF,FW",25.0,60000,Premier League
+416,Boubacar Traoré,ml MLI,MF,22.0,55000,Premier League
+417,Matt Doherty,ie IRL,DF,32.0,50000,Premier League
+418,Craig Dawson,eng ENG,DF,34.0,45000,Premier League
+419,Mario Lemina,ga GAB,"MF,DF",30.0,45000,Premier League
+420,Sam Johnstone,eng ENG,GK,31.0,40000,Premier League
+421,José Sá,pt POR,GK,31.0,40000,Premier League
+422,André,br BRA,MF,23.0,35000,Premier League
+423,Sasa Kalajdzic,at AUT,CF,27.0,35000,Premier League
+424,Jean-Ricner Bellegarde,fr FRA,"MF,FW",26.0,35000,Premier League
+425,João Gomes,br BRA,MF,23.0,30000,Premier League
+426,Santiago Bueno,uy URU,DF,25.0,30000,Premier League
+427,Toti Gomes,pt POR,DF,25.0,25000,Premier League
+428,Rodrigo Gomes,pt POR,"DF,FW",21.0,25000,Premier League
+429,Daniel Bentley,eng ENG,GK,31.0,20000,Premier League
+430,Carlos Forbs,,LW,20.0,20000,Premier League
+431,Jørgen Strand Larsen,no NOR,FW,24.0,15000,Premier League
+432,Luke Cundle,eng ENG,MF,22.0,15000,Premier League
+433,Pedro Lima,,RB,18.0,15000,Premier League
+434,Enso González,,LW,20.0,12500,Premier League
+435,Tommy Doyle,eng ENG,MF,22.0,10000,Premier League
+436,Tom King,wls WAL,GK,29.0,10000,Premier League
+437,Rayan Aït-Nouri,dz ALG,DF,23.0,10000,Premier League
+438,Hugo Bueno,,LB,22.0,10000,Premier League
+439,Yerson Mosquera,co COL,DF,23.0,8000,Premier League
+440,Bastien Meupiyou,,CB,18.0,8000,Premier League
+441,Joe Hodge,,DM,22.0,5000,Premier League
+442,Chem Campbell,wls WAL,AM,22.0,2500,Premier League
+443,Son Heung-min,kr KOR,FW,32.0,190000,Premier League
+444,James Maddison,eng ENG,MF,27.0,170000,Premier League
+445,Timo Werner,de GER,"FW,MF",28.0,165000,Premier League
+446,Cristian Romero,ar ARG,DF,26.0,165000,Premier League
+447,Dejan Kulusevski,se SWE,"MF,FW",24.0,110000,Premier League
+448,Richarlison,br BRA,FW,27.0,90000,Premier League
+449,Dominic Solanke,eng ENG,FW,26.0,90000,Premier League
+450,Pedro Porro,es ESP,DF,24.0,85000,Premier League
+451,Radu Drăgușin,ro ROU,DF,22.0,85000,Premier League
+452,Ben Davies,wls WAL,DF,31.0,80000,Premier League
+453,Destiny Udogie,it ITA,DF,21.0,75000,Premier League
+454,Guglielmo Vicario,it ITA,GK,27.0,75000,Premier League
+455,Archie Gray,,CM,18.0,75000,Premier League
+456,Fraser Forster,eng ENG,GK,36.0,75000,Premier League
+457,Rodrigo Bentancur,uy URU,MF,27.0,75000,Premier League
+458,Brennan Johnson,wls WAL,FW,23.0,70000,Premier League
+459,Pape Matar Sarr,sn SEN,MF,21.0,70000,Premier League
+460,Manor Solomon,il ISR,LW,25.0,60000,Premier League
+461,Yves Bissouma,ml MLI,MF,27.0,55000,Premier League
+462,Sergio Reguilón,es ESP,DF,27.0,53000,Premier League
+463,Micky van de Ven,nl NED,DF,23.0,50000,Premier League
+464,Djed Spence,eng ENG,DF,23.0,50000,Premier League
+465,Wilson Odobert,,LW,20.0,25000,Premier League
+466,Lucas Bergvall,,AM,18.0,15000,Premier League
+467,Brandon Austin,eng ENG,GK,25.0,15000,Premier League
+468,Ashley Phillips,,CB,19.0,15000,Premier League
+469,Alfie Whiteman,eng ENG,GK,25.0,7500,Premier League
+470,Jamie Vardy,eng ENG,FW,37.0,140000,Premier League
+471,Odsonne Édouard,fr FRA,FW,26.0,90000,Premier League
+472,Harry Winks,eng ENG,MF,28.0,90000,Premier League
+473,Boubakary Soumaré,fr FRA,MF,25.0,80000,Premier League
+474,Ricardo Pereira,pt POR,DF,30.0,80000,Premier League
+475,Wilfred Ndidi,ng NGA,MF,27.0,75000,Premier League
+476,Conor Coady,eng ENG,DF,31.0,75000,Premier League
+477,Patson Daka,zm ZAM,"FW,MF",25.0,75000,Premier League
+478,Jannik Vestergaard,dk DEN,DF,31.0,60000,Premier League
+479,Wout Faes,be BEL,DF,26.0,50000,Premier League
+480,Oliver Skipp,eng ENG,MF,23.0,50000,Premier League
+481,Hamza Choudhury,bd BAN,"MF,DF",26.0,50000,Premier League
+482,Danny Ward,wls WAL,GK,31.0,40000,Premier League
+483,Harry Souttar,au AUS,CB,26.0,40000,Premier League
+484,Bilal El Khannouss,,AM,20.0,35000,Premier League
+485,Bobby De Cordova-Reid,jm JAM,FW,31.0,35000,Premier League
+486,James Justin,eng ENG,DF,26.0,30000,Premier League
+487,Jordan Ayew,gh GHA,"FW,MF",32.0,30000,Premier League
+488,Victor Kristiansen,,LB,22.0,25000,Premier League
+489,Facundo Buonanotte,,AM,20.0,25000,Premier League
+490,Caleb Okoli,it ITA,DF,23.0,25000,Premier League
+491,Daniel Iversen,dk DEN,GK,27.0,20000,Premier League
+492,Luke Thomas,eng ENG,DF,23.0,15000,Premier League
+493,Kasey McAteer,ie IRL,FW,22.0,15000,Premier League
+494,Jakub Stolarczyk,,GK,23.0,10000,Premier League
+495,Stephy Mavididi,eng ENG,FW,26.0,10000,Premier League
+496,Mads Hermansen,,GK,24.0,10000,Premier League
+497,Issahaku Fatawu,,RW,20.0,10000,Premier League
+498,Michael Golding,,CM,18.0,8000,Premier League
+499,Axel Tuanzebe,cd COD,DF,26.0,40000,Premier League
+500,Arijanet Muric,xk KVX,GK,25.0,35000,Premier League
+501,Dara O'Shea,ie IRL,DF,25.0,35000,Premier League
+502,Ben Johnson,eng ENG,"DF,FW",24.0,30000,Premier League
+503,Sam Morsy,eg EGY,MF,32.0,30000,Premier League
+504,George Hirst,sct SCO,FW,25.0,27500,Premier League
+505,Jacob Greaves,eng ENG,DF,23.0,25000,Premier League
+506,Leif Davis,eng ENG,DF,24.0,25000,Premier League
+507,Jack Clarke,eng ENG,"FW,MF",23.0,25000,Premier League
+508,Sammie Szmodics,ie IRL,"FW,MF",28.0,25000,Premier League
+509,Chiedozie Ogbene,ie IRL,FW,27.0,25000,Premier League
+510,Christian Walton,eng ENG,GK,28.0,20000,Premier League
+511,Liam Delap,,CF,21.0,20000,Premier League
+512,Conor Chaplin,eng ENG,"MF,FW",27.0,15000,Premier League
+513,Conor Townsend,eng ENG,DF,31.0,15000,Premier League
+514,Massimo Luongo,au AUS,MF,31.0,10000,Premier League
+515,Ali Al Hamadi,iq IRQ,FW,22.0,10000,Premier League
+516,Wes Burns,wls WAL,"FW,DF",29.0,10000,Premier League
+517,Jack Taylor,ie IRL,MF,26.0,10000,Premier League
+518,Harry Clarke,,RB,23.0,10000,Premier League
+519,Cameron Burgess,au AUS,DF,28.0,8000,Premier League
+520,Luke Woolfenden,eng ENG,DF,25.0,7500,Premier League
+521,Marcus Harness,eng ENG,MF,28.0,6346,Premier League
+522,Nathan Broadhead,wls WAL,"MF,FW",26.0,6000,Premier League
+523,Omari Hutchinson,,RW,20.0,6000,Premier League
+524,Cieran Slicker,,GK,22.0,3000,Premier League
+525,Elkan Baggott,,CB,22.0,1500,Premier League
+526,Cameron Humphreys,,CM,21.0,1000,Premier League
+527,Aaron Ramsdale,eng ENG,GK,26.0,120000,Premier League
+528,Joe Aribo,ng NGA,"MF,DF",28.0,70000,Premier League
+529,Jan Bednarek,pl POL,DF,28.0,70000,Premier League
+530,Maxwel Cornet,ci CIV,FW,27.0,65000,Premier League
+531,Adam Armstrong,eng ENG,"FW,MF",27.0,60000,Premier League
+532,Jack Stephens,eng ENG,DF,30.0,45000,Premier League
+533,Adam Lallana,eng ENG,MF,36.0,45000,Premier League
+534,Lesley Ugochukwu,fr FRA,MF,20.0,45000,Premier League
+535,Yukinari Sugawara,jp JPN,"DF,MF",24.0,40000,Premier League
+536,Ryan Fraser,sct SCO,"FW,DF",30.0,40000,Premier League
+537,Kamaldeen Sulemana,gh GHA,"FW,MF",22.0,40000,Premier League
+538,Alex McCarthy,eng ENG,GK,34.0,40000,Premier League
+539,Cameron Archer,eng ENG,FW,23.0,40000,Premier League
+540,Ben Brereton,cl CHI,FW,25.0,35000,Premier League
+541,Paul Onuachu,ng NGA,FW,30.0,30000,Premier League
+542,Charlie Taylor,eng ENG,DF,30.0,30000,Premier League
+543,Flynn Downes,eng ENG,MF,25.0,30000,Premier League
+544,William Smallbone,ie IRL,MF,24.0,25000,Premier League
+545,Kyle Walker-Peters,eng ENG,DF,27.0,20000,Premier League
+546,Gavin Bazunu,ie IRL,GK,22.0,20000,Premier League
+547,Ross Stewart,sct SCO,FW,28.0,20000,Premier League
+548,Mateus Fernandes,,CM,20.0,20000,Premier League
+549,Nathan Wood,,CB,22.0,15000,Premier League
+550,Ronnie Edwards,eng ENG,DF,21.0,15000,Premier League
+551,Armel Bella Kotchap,de GER,DF,22.0,15000,Premier League
+552,Ryan Manning,ie IRL,"DF,MF",28.0,15000,Premier League
+553,Samuel Edozie,,LW,21.0,15000,Premier League
+554,Juan Larios,,LB,21.0,15000,Premier League
+555,James Bree,eng ENG,DF,26.0,10000,Premier League
+556,Joe Lumley,eng ENG,GK,29.0,10000,Premier League
+557,Taylor Harwood-Bellis,eng ENG,DF,22.0,7500,Premier League
+558,Shea Charles,,DM,21.0,6000,Premier League
+559,Samuel Amo-Ameyaw,,RW,18.0,5000,Premier League
+560,Tyler Dibling,,RW,18.0,5000,Premier League
+561,Robert Lewandowski,pl POL,FW,35.0,544818,La Liga
+562,Frenkie de Jong,nl NED,MF,27.0,310577,La Liga
+563,Ansu Fati,es ESP,"FW,MF",21.0,228029,La Liga
+564,Jules Koundé,fr FRA,DF,25.0,221490,La Liga
+565,Raphinha,br BRA,"FW,MF",27.0,204327,La Liga
+566,Ferrán Torres,es ESP,FW,24.0,163462,La Liga
+567,Pedri,es ESP,MF,21.0,153327,La Liga
+568,Iñigo Martínez,es ESP,DF,33.0,153327,La Liga
+569,Dani Olmo,es ESP,MF,26.0,153327,La Liga
+570,Andreas Christensen,dk DEN,DF,28.0,147115,La Liga
+571,Ronald Araújo,uy URU,DF,25.0,114423,La Liga
+572,Gavi,es ESP,MF,19.0,111154,La Liga
+573,Marc-André ter Stegen,de GER,GK,32.0,102981,La Liga
+574,Eric García,es ESP,"DF,MF",23.0,98077,La Liga
+575,Pau Cubarsí,,CB,18.0,65385,La Liga
+576,Fermín López,,CM,21.0,65385,La Liga
+577,Iñaki Peña,es ESP,GK,25.0,53125,La Liga
+578,Wojciech Szczęsny,pl POL,GK,34.0,49038,La Liga
+579,Clément Lenglet,fr FRA,CB,29.0,32693,La Liga
+580,Lamine Yamal,,RW,17.0,27298,La Liga
+581,Alejandro Balde,es ESP,DF,20.0,27298,La Liga
+582,Héctor Fort,,RB,18.0,13731,La Liga
+583,Marc Casadó,,DM,20.0,8500,La Liga
+584,Pau Víctor,,CF,23.0,6212,La Liga
+585,Marc Bernal,,DM,17.0,5231,La Liga
+586,Pablo Torre,,AM,21.0,3432,La Liga
+587,Ander Astralaga,,GK,20.0,3269,La Liga
+588,Kylian Mbappé,fr FRA,FW,25.0,510818,La Liga
+589,David Alaba,at AUT,DF,32.0,367788,La Liga
+590,Vinicius Júnior,br BRA,FW,24.0,340490,La Liga
+591,Jude Bellingham,eng ENG,MF,21.0,340490,La Liga
+592,Federico Valverde,uy URU,"MF,DF",26.0,272490,La Liga
+593,Thibaut Courtois,be BEL,GK,32.0,245193,La Liga
+594,Antonio Rüdiger,de GER,DF,31.0,238327,La Liga
+595,Éder Militão,br BRA,DF,26.0,238327,La Liga
+596,Aurélien Tchouaméni,fr FRA,"MF,DF",24.0,204327,La Liga
+597,Eduardo Camavinga,fr FRA,MF,21.0,204327,La Liga
+598,Rodrygo,br BRA,"MF,FW",23.0,204327,La Liga
+599,Dani Carvajal,es ESP,DF,32.0,170327,La Liga
+600,Luka Modrić,hr CRO,MF,38.0,170327,La Liga
+601,Ferland Mendy,fr FRA,DF,29.0,170327,La Liga
+602,Dani Ceballos,es ESP,MF,27.0,170327,La Liga
+603,Lucas Vázquez,es ESP,DF,33.0,153327,La Liga
+604,Brahim Díaz,ma MAR,"FW,MF",24.0,119163,La Liga
+605,Fran Garcia,es ESP,DF,24.0,85163,La Liga
+606,Arda Güler,tr TUR,"MF,FW",19.0,85000,La Liga
+607,Andriy Lunin,ua UKR,GK,25.0,73557,La Liga
+608,Endrick,,CF,18.0,68000,La Liga
+609,Jesús Vallejo,es ESP,DF,27.0,29423,La Liga
+610,Jan Oblak,si SVN,GK,31.0,340490,La Liga
+611,Antoine Griezmann,fr FRA,"FW,MF",33.0,204327,La Liga
+612,Conor Gallagher,eng ENG,MF,24.0,147115,La Liga
+613,Marcos Llorente,es ESP,"DF,MF",29.0,136163,La Liga
+614,Axel Witsel,be BEL,DF,35.0,136163,La Liga
+615,César Azpilicueta,es ESP,DF,34.0,130769,La Liga
+616,Julián Álvarez,ar ARG,"FW,MF",24.0,115731,La Liga
+617,Rodrigo De Paul,ar ARG,MF,30.0,109029,La Liga
+618,Koke,es ESP,MF,32.0,109029,La Liga
+619,Robin Le Normand,es ESP,DF,27.0,102163,La Liga
+620,José María Giménez,uy URU,DF,29.0,102163,La Liga
+621,Alexander Sørloth,no NOR,FW,28.0,102000,La Liga
+622,Ángel Correa,ar ARG,"MF,FW",29.0,57212,La Liga
+623,Juan Musso,ar ARG,GK,30.0,54432,La Liga
+624,Thomas Lemar,fr FRA,FW,28.0,53125,La Liga
+625,Javi Galán,es ESP,DF,29.0,53125,La Liga
+626,Samuel Lino,,LM,24.0,20432,La Liga
+627,Nahuel Molina,ar ARG,DF,26.0,19615,La Liga
+628,Pablo Barrios,,CM,21.0,18798,La Liga
+629,Reinildo Mandava,mz MOZ,DF,30.0,13077,La Liga
+630,Rodrigo Riquelme,es ESP,"MF,DF",24.0,10135,La Liga
+631,Giuliano Simeone,,CF,21.0,8173,La Liga
+632,Borja Garcés,es ESP,CF,25.0,6865,La Liga
+633,Iñaki Williams,gh GHA,FW,30.0,186346,La Liga
+634,Nico Williams,es ESP,FW,22.0,170327,La Liga
+635,Yuri Berchiche,es ESP,DF,34.0,69962,La Liga
+636,Unai Simón,es ESP,GK,27.0,69962,La Liga
+637,Daniel Vivian,es ESP,DF,25.0,51163,La Liga
+638,Ander Herrera,es ESP,MF,34.0,49038,La Liga
+639,Oihan Sancet,es ESP,MF,24.0,40865,La Liga
+640,Yeray Álvarez,es ESP,DF,29.0,39231,La Liga
+641,Gorka Guruzeta,es ESP,FW,27.0,34000,La Liga
+642,Mikel Vesga,es ESP,MF,31.0,34000,La Liga
+643,Álvaro Djaló,,LW,25.0,30731,La Liga
+644,Unai Núñez,es ESP,DF,27.0,27788,La Liga
+645,Andoni Gorosabel,es ESP,DF,27.0,25500,La Liga
+646,Aitor Paredes,,CB,24.0,20432,La Liga
+647,Óscar de Marcos,es ESP,DF,35.0,20432,La Liga
+648,Álex Berenguer,es ESP,"FW,MF",29.0,20432,La Liga
+649,Beñat Prados,es ESP,MF,23.0,17000,La Liga
+650,Iñigo Lekue,es ESP,DF,31.0,16346,La Liga
+651,Iñigo Ruiz de Galarreta,es ESP,MF,30.0,12423,La Liga
+652,Julen Agirrezabala,es ESP,GK,23.0,11932,La Liga
+653,Nicolás Serrano,es ESP,FW,21.0,5068,La Liga
+654,Unai Gómez,,AM,21.0,4904,La Liga
+655,Mikel Jauregizar,,CM,21.0,3432,La Liga
+656,Adama Boiro,,LB,22.0,3432,La Liga
+657,Javier Martón,,CF,25.0,2943,La Liga
+658,Álex Padilla,,GK,21.0,2779,La Liga
+659,Juan Bernat,es ESP,"DF,MF",31.0,71596,La Liga
+660,Gerard Moreno,es ESP,FW,32.0,59173,La Liga
+661,Daniel Parejo,es ESP,MF,35.0,51000,La Liga
+662,Denis Suárez,es ESP,MF,30.0,51000,La Liga
+663,Eric Bailly,ci CIV,DF,30.0,51000,La Liga
+664,Nicolas Pépé,ci CIV,"FW,MF",29.0,51000,La Liga
+665,Alfonso Pedraza,es ESP,"DF,MF",28.0,35962,La Liga
+666,Ayoze Pérez,es ESP,FW,31.0,34000,La Liga
+667,Alex Baena,es ESP,"MF,FW",23.0,32693,La Liga
+668,Juan Foyth,ar ARG,DF,26.0,32693,La Liga
+669,Pape Gueye,sn SEN,MF,25.0,30731,La Liga
+670,Logan Costa,cv CPV,DF,23.0,27135,La Liga
+671,Sergi Cardona,es ESP,DF,25.0,25500,La Liga
+672,Luiz Júnior,,GK,23.0,23865,La Liga
+673,Yeremi Pino,es ESP,"MF,FW",21.0,22068,La Liga
+674,Santi Comesaña,es ESP,MF,27.0,20432,La Liga
+675,Willy Kambwala,,CB,20.0,17000,La Liga
+676,Kiko Femenía,es ESP,DF,33.0,16346,La Liga
+677,Raúl Albiol,es ESP,DF,38.0,15365,La Liga
+678,Thierno Barry,,CF,21.0,15038,La Liga
+679,Diego Conde,es ESP,GK,25.0,13731,La Liga
+680,Ilias Akhomach,,RW,20.0,9807,La Liga
+681,Iker Álvarez,ad AND,GK,23.0,5231,La Liga
+682,Ramón Terrats,es ESP,"MF,FW",23.0,3269,La Liga
+683,Isco,es ESP,MF,32.0,102163,La Liga
+684,Giovani Lo Celso,ar ARG,"MF,FW",28.0,68000,La Liga
+685,Vitor Roque,br BRA,FW,19.0,57212,La Liga
+686,Héctor Bellerín,es ESP,DF,29.0,51000,La Liga
+687,Pablo Fornals,es ESP,"MF,FW",28.0,51000,La Liga
+688,Diego Llorente,es ESP,DF,30.0,51000,La Liga
+689,Marc Roca,es ESP,MF,27.0,49529,La Liga
+690,Ricardo Rodríguez,ch SUI,DF,31.0,40865,La Liga
+691,Ezequiel Ávila,ar ARG,FW,30.0,39231,La Liga
+692,Juanmi,es ESP,"FW,MF",31.0,39231,La Liga
+693,William Carvalho,pt POR,MF,32.0,38413,La Liga
+694,Natan,br BRA,DF,23.0,37432,La Liga
+695,Marc Bartra,es ESP,DF,33.0,34000,La Liga
+696,Romain Perraud,fr FRA,DF,26.0,30731,La Liga
+697,Cédric Bakambu,cd COD,FW,33.0,19615,La Liga
+698,Aitor Ruibal,es ESP,"DF,FW",28.0,19615,La Liga
+699,Rui Silva,pt POR,GK,30.0,14712,La Liga
+700,Youssouf Sabaly,sn SEN,DF,31.0,13894,La Liga
+701,Adrián,es ESP,GK,37.0,13731,La Liga
+702,Abde Ezzalzouli,,LW,23.0,13077,La Liga
+703,Johnny,,DM,22.0,11443,La Liga
+704,Rodri,es ESP,FW,24.0,8173,La Liga
+705,Assane Diao,,RW,18.0,8173,La Liga
+706,Iker Losada,,SS,23.0,5231,La Liga
+707,Sergi Altimira,,CM,23.0,3269,La Liga
+708,Fran Vieites,es ESP,GK,25.0,2615,La Liga
+709,Jonathan Bamba,ci CIV,"FW,MF",28.0,68000,La Liga
+710,Marcos Alonso,es ESP,DF,33.0,51000,La Liga
+711,Iago Aspas,es ESP,"FW,MF",36.0,47404,La Liga
+712,Vicente Guaita,es ESP,GK,37.0,39231,La Liga
+713,Fran Beltrán,es ESP,MF,25.0,32693,La Liga
+714,Borja Iglesias,es ESP,FW,31.0,27135,La Liga
+715,Ilaix Moriba,gn GUI,MF,21.0,26481,La Liga
+716,Joseph Aidoo,gh GHA,DF,28.0,26154,La Liga
+717,Anastasios Douvikas,gr GRE,FW,24.0,21250,La Liga
+718,Franco Cervi,ar ARG,"FW,MF",30.0,19615,La Liga
+719,Óscar Mingueza,es ESP,"MF,DF",25.0,18798,La Liga
+720,Javier Manquillo,es ESP,DF,30.0,18635,La Liga
+721,Carl Starfelt,se SWE,DF,29.0,17981,La Liga
+722,Mihailo Ristić,rs SRB,"DF,MF",28.0,17163,La Liga
+723,Tadeo Allende,ar ARG,FW,25.0,17163,La Liga
+724,Iván Villar,es ESP,GK,27.0,17000,La Liga
+725,Hugo Álvarez,,LW,21.0,15365,La Liga
+726,Jailson,,DM,29.0,15202,La Liga
+727,Sergio Carreira,es ESP,"MF,DF",23.0,9807,La Liga
+728,Hugo Sotelo,,CM,20.0,8500,La Liga
+729,Luca de la Torre,us USA,MF,26.0,4413,La Liga
+730,Williot Swedberg,se SWE,"FW,MF",20.0,4087,La Liga
+731,Damián Rodríguez,,DM,21.0,2615,La Liga
+732,Carlos Dominguez,es ESP,DF,23.0,2452,La Liga
+733,Alfon,es ESP,"FW,MF",25.0,2288,La Liga
+734,Pablo Durán,,CF,23.0,2288,La Liga
+735,James Rodríguez,co COL,"MF,FW",33.0,68000,La Liga
+736,Raúl de Tomás,es ESP,"DF,FW",29.0,50673,La Liga
+737,Álvaro García,es ESP,"FW,MF",31.0,23702,La Liga
+738,Florian Lejeune,fr FRA,DF,33.0,20432,La Liga
+739,Isaac Palazón Camacho,es ESP,"MF,FW",29.0,19615,La Liga
+740,Adri Embarba,es ESP,"FW,MF",32.0,15693,La Liga
+741,Óscar Valentín,es ESP,MF,29.0,14385,La Liga
+742,Jorge de Frutos,es ESP,"FW,MF",27.0,13077,La Liga
+743,Augusto Batalla,ar ARG,GK,28.0,12750,La Liga
+744,Pedro Díaz,es ESP,MF,26.0,11769,La Liga
+745,Sergio Camello,es ESP,FW,23.0,10625,La Liga
+746,Gerard Gumbau,es ESP,MF,29.0,10625,La Liga
+747,Alfonso Espino,uy URU,DF,32.0,9481,La Liga
+748,Unai López,es ESP,MF,28.0,8827,La Liga
+749,Óscar Trejo,ar ARG,MF,36.0,8337,La Liga
+750,Andrei Ratiu,ro ROU,DF,26.0,8173,La Liga
+751,Aridane Hernández,es ESP,DF,35.0,7519,La Liga
+752,Iván Balliu,al ALB,DF,32.0,7356,La Liga
+753,Dani Cárdenas,es ESP,GK,27.0,7356,La Liga
+754,Pep Chavarría,es ESP,"DF,FW",26.0,5721,La Liga
+755,Abdul Mumin,gh GHA,DF,26.0,5721,La Liga
+756,Pathé Ciss,sn SEN,"MF,DF",30.0,5557,La Liga
+757,Randy Nteka,ao ANG,FW,26.0,3760,La Liga
+758,Joni Montiel,es ESP,MF,25.0,2943,La Liga
+759,Pelayo Fernández,,CB,21.0,2615,La Liga
+760,Bryan Zaragoza,,LW,23.0,102163,La Liga
+761,Ante Budimir,hr CRO,FW,33.0,22068,La Liga
+762,Rubén García,es ESP,"FW,MF",31.0,22068,La Liga
+763,Catena,es ESP,DF,29.0,16346,La Liga
+764,Jon Moncayola,es ESP,MF,26.0,16346,La Liga
+765,Aimar Oroz,,AM,22.0,15529,La Liga
+766,Sergio Herrera,es ESP,GK,31.0,15529,La Liga
+767,Moi Gómez,es ESP,"MF,FW",30.0,14712,La Liga
+768,Nacho Vidal,es ESP,DF,29.0,14221,La Liga
+769,Aitor Fernández,es ESP,GK,33.0,13731,La Liga
+770,Rubén Peña,es ESP,"FW,DF",33.0,13568,La Liga
+771,Lucas Torró,es ESP,MF,30.0,12260,La Liga
+772,Iker Muñoz,,DM,21.0,11769,La Liga
+773,José Arnaiz,es ESP,"FW,MF",29.0,11115,La Liga
+774,Raúl García,,CF,24.0,9807,La Liga
+775,Unai García,es ESP,DF,32.0,8663,La Liga
+776,Enzo Boyomo,,CB,23.0,8500,La Liga
+777,Kike Barja,es ESP,"FW,MF",27.0,6865,La Liga
+778,Juan Cruz Armada,es ESP,DF,32.0,6538,La Liga
+779,Jesús Areso,es ESP,DF,25.0,6538,La Liga
+780,Abel Bretones,,LB,24.0,5231,La Liga
+781,Jorge Herrando,,CB,23.0,3269,La Liga
+782,Iker Benito,,RW,22.0,3269,La Liga
+783,Pablo Ibáñez,es ESP,MF,25.0,2943,La Liga
+784,Javi Martínez,es ESP,MF,24.0,2615,La Liga
+785,Vedat Muriqi,xk KVX,FW,30.0,74865,La Liga
+786,Sergi Darder,es ESP,"MF,FW",30.0,36779,La Liga
+787,Toni Lato,es ESP,DF,26.0,24519,La Liga
+788,Manu Morlanes,es ESP,MF,25.0,21413,La Liga
+789,Johan Mojica,co COL,DF,31.0,17000,La Liga
+790,Pablo Maffeo,es ESP,DF,27.0,16019,La Liga
+791,Antonio Raillo,es ESP,DF,32.0,14385,La Liga
+792,Siebe Van Der Heyden,be BEL,"DF,MF",26.0,13894,La Liga
+793,Cyle Larin,ca CAN,FW,29.0,13731,La Liga
+794,Antonio Sánchez,es ESP,"MF,DF",27.0,13731,La Liga
+795,Takuma Asano,jp JPN,"FW,MF",29.0,13731,La Liga
+796,Omar Mascarell,gq EQG,MF,31.0,13404,La Liga
+797,Roberto Navarro,es ESP,"MF,FW",22.0,11769,La Liga
+798,Samu Costa,pt POR,MF,23.0,11443,La Liga
+799,Martin Valjent,sk SVK,DF,28.0,11443,La Liga
+800,Chiquinho,pt POR,"MF,FW",24.0,9807,La Liga
+801,Dani Rodríguez,es ESP,"MF,FW",36.0,8500,La Liga
+802,Abdón Prats,es ESP,"FW,MF",31.0,8500,La Liga
+803,Mateu Morey,es ESP,DF,24.0,6865,La Liga
+804,Valery Fernández,es ESP,"MF,FW",24.0,5885,La Liga
+805,Dominik Greif,sk SVK,GK,27.0,4904,La Liga
+806,Leo Román,es ESP,GK,24.0,4413,La Liga
+807,Javi Llabrés,,LW,21.0,4413,La Liga
+808,Copete,es ESP,DF,24.0,3432,La Liga
+809,Iván Cuéllar,es ESP,GK,40.0,2943,La Liga
+810,Mikel Oyarzabal,es ESP,FW,27.0,58846,La Liga
+811,Nayef Aguerd,ma MAR,DF,28.0,49038,La Liga
+812,Martín Zubimendi,es ESP,MF,25.0,49038,La Liga
+813,Álex Remiro,es ESP,GK,29.0,45769,La Liga
+814,Álvaro Odriozola,es ESP,DF,28.0,44135,La Liga
+815,Takefusa Kubo,jp JPN,"MF,FW",23.0,40865,La Liga
+816,Hamari Traoré,ml MLI,DF,32.0,39231,La Liga
+817,Sergio Gómez,es ESP,"MF,DF",23.0,37596,La Liga
+818,Brais Méndez,es ESP,MF,27.0,35962,La Liga
+819,Aritz Elustondo,es ESP,DF,30.0,35962,La Liga
+820,Igor Zubeldia,es ESP,DF,27.0,32693,La Liga
+821,Ander Barrenetxea,es ESP,"MF,FW",22.0,25500,La Liga
+822,Sheraldo Becker,sr SUR,"FW,MF",29.0,22885,La Liga
+823,Beñat Turrientes,es ESP,MF,22.0,20432,La Liga
+824,Luka Sučić,hr CRO,MF,21.0,20432,La Liga
+825,Umar Sadiq,ng NGA,FW,27.0,19615,La Liga
+826,Jon Pacheco,es ESP,DF,23.0,17000,La Liga
+827,Orri Óskarsson,,CF,20.0,17000,La Liga
+828,Aihen Muñoz,es ESP,DF,26.0,14057,La Liga
+829,Arsen Zakharyan,,AM,21.0,12260,La Liga
+830,Javi López,es ESP,DF,22.0,11769,La Liga
+831,Pablo Marín,,AM,21.0,10298,La Liga
+832,Urko González de Zarate,,DM,23.0,6702,La Liga
+833,Jon Martín,,CB,18.0,5231,La Liga
+834,Olasagasti,es ESP,MF,23.0,4904,La Liga
+835,Jon Aramburu,,RB,22.0,4087,La Liga
+836,Jon Magunazelaia,,AM,23.0,3269,La Liga
+837,Unai Marrero,,GK,22.0,2943,La Liga
+838,José Luis Gayà,es ESP,DF,29.0,95298,La Liga
+839,Hugo Duro,es ESP,FW,24.0,68163,La Liga
+840,Mouctar Diakhaby,gn GUI,DF,27.0,65385,La Liga
+841,Hugo Guillamón,es ESP,MF,24.0,31385,La Liga
+842,Rafa Mir,es ESP,"FW,MF",27.0,31057,La Liga
+843,Cristhian Mosquera,es ESP,DF,20.0,30731,La Liga
+844,Dimitri Foulquier,fr FRA,DF,31.0,30568,La Liga
+845,Thierry Correia,pt POR,DF,25.0,30077,La Liga
+846,Sergi Canós,es ESP,"MF,FW",27.0,24519,La Liga
+847,Giorgi Mamardashvili,ge GEO,GK,23.0,24519,La Liga
+848,Jaume Doménech,es ESP,GK,33.0,23702,La Liga
+849,José Luis García Vayá,es ESP,MF,25.0,21250,La Liga
+850,Stole Dimitrievski,mk MKD,GK,30.0,20269,La Liga
+851,Luis Rioja,es ESP,"MF,FW",30.0,17000,La Liga
+852,Enzo Barrenechea,,DM,23.0,17000,La Liga
+853,Diego López,,LW,22.0,13077,La Liga
+854,Jesus Vazquez,es ESP,DF,21.0,10135,La Liga
+855,Fran Pérez,,RW,21.0,10135,La Liga
+856,Domingos André Ribeiro Almeida,pt POR,"MF,FW",24.0,9807,La Liga
+857,Dani Gómez,es ESP,FW,26.0,8990,La Liga
+858,Maximiliano Caufriez,be BEL,DF,27.0,8663,La Liga
+859,Javi Guerra,,CM,21.0,6538,La Liga
+860,Germán Valera,es ESP,MF,22.0,5231,La Liga
+861,Yarek Gasiorowski,,CB,20.0,3269,La Liga
+862,César Tárrega,,CB,22.0,3269,La Liga
+863,Borja Mayoral,es ESP,FW,27.0,78298,La Liga
+864,Carles Pérez,es ESP,"MF,FW",26.0,41846,La Liga
+865,Mauro Arambarri,uy URU,MF,28.0,41193,La Liga
+866,Djené,tg TOG,"DF,MF",32.0,35962,La Liga
+867,David Soria,es ESP,GK,31.0,24682,La Liga
+868,Diego Rico,es ESP,DF,31.0,20269,La Liga
+869,Omar Alderete,py PAR,DF,27.0,19615,La Liga
+870,Domingos Duarte,pt POR,DF,29.0,17654,La Liga
+871,Alex Sola,es ESP,"MF,FW",25.0,17000,La Liga
+872,Luis Milla,es ESP,MF,29.0,12750,La Liga
+873,Carles Aleñá,es ESP,"MF,FW",26.0,10298,La Liga
+874,Bertuğ Yıldırım,tr TUR,FW,22.0,9807,La Liga
+875,Fabrizio Angileri,ar ARG,LB,30.0,9807,La Liga
+876,Álvaro Rodríguez,,CF,20.0,8500,La Liga
+877,Peter Federico,,RW,22.0,8500,La Liga
+878,Juan Berrocal,es ESP,DF,25.0,8500,La Liga
+879,Jiri Letacek,,GK,26.0,6865,La Liga
+880,Iglesias,es ESP,DF,26.0,2943,La Liga
+881,Christantus Uche,,DM,21.0,2943,La Liga
+882,Yellu Santiago,,CM,20.0,2288,La Liga
+883,Marash Kumbulla,al ALB,DF,24.0,61298,La Liga
+884,Alex Král,cz CZE,MF,26.0,32365,La Liga
+885,Alejo Veliz,,CF,20.0,24519,La Liga
+886,Sergi Gómez,es ESP,DF,32.0,19615,La Liga
+887,Edu Expósito,es ESP,MF,27.0,19615,La Liga
+888,Salvi,es ESP,MF,33.0,19615,La Liga
+889,Fernando Pacheco,es ESP,GK,32.0,16346,La Liga
+890,Álvaro Aguado,es ESP,MF,28.0,15365,La Liga
+891,Leandro Cabrera,uy URU,DF,33.0,13731,La Liga
+892,Jofre Carreras,,RW,23.0,11769,La Liga
+893,Álvaro Tejero,es ESP,"MF,DF",28.0,10135,La Liga
+894,Pol Lozano,es ESP,MF,24.0,10135,La Liga
+895,Irvin Cardona,fr FRA,"FW,MF",26.0,9154,La Liga
+896,Brian Oliván,es ESP,DF,30.0,8827,La Liga
+897,Fernando Calero,es ESP,"DF,MF",28.0,8500,La Liga
+898,Pere Milla,es ESP,"MF,FW",31.0,8500,La Liga
+899,José Gragera,,CM,24.0,7846,La Liga
+900,Carlos Romero,,LB,22.0,7356,La Liga
+901,Naci Ünüvar,,LW,21.0,6865,La Liga
+902,Javi Puado,es ESP,"FW,MF",26.0,6212,La Liga
+903,Walid Cheddira,ma MAR,FW,26.0,5068,La Liga
+904,Joan García,es ESP,GK,23.0,3923,La Liga
+905,Omar El Hilali,,RB,20.0,3432,La Liga
+906,Ángel Fortuño,,GK,23.0,3432,La Liga
+907,Omar Sadik,,CF,20.0,3106,La Liga
+908,Antoniu Roca,,RW,21.0,2943,La Liga
+909,Joan Jordán,es ESP,MF,30.0,58846,La Liga
+910,Toni Martínez,es ESP,FW,27.0,29096,La Liga
+911,Luka Romero,ar ARG,"FW,MF",19.0,27298,La Liga
+912,Stoichkov,es ESP,"MF,FW",30.0,25500,La Liga
+913,Manu Sánchez,es ESP,DF,23.0,16346,La Liga
+914,Ander Guevara,es ESP,MF,27.0,14712,La Liga
+915,Antonio Sivera,es ESP,GK,27.0,14385,La Liga
+916,Tomás Conechny,ar ARG,"FW,MF",26.0,13731,La Liga
+917,Aleksandar Sedlar,rs SRB,DF,32.0,11932,La Liga
+918,Asier Villalibre,es ESP,FW,26.0,11769,La Liga
+919,Kiké,es ESP,FW,34.0,10625,La Liga
+920,Abde Rebbach,,LW,26.0,8500,La Liga
+921,Antonio Blanco,,DM,24.0,8173,La Liga
+922,Jon Guridi,es ESP,"MF,FW",29.0,7519,La Liga
+923,Nahuel Tenaglia,ar ARG,DF,28.0,7356,La Liga
+924,Carlos Vicente,,RW,25.0,7356,La Liga
+925,Carlos Martín,,CF,22.0,6865,La Liga
+926,Abdel Abqar,,CB,25.0,6048,La Liga
+927,Moussa Diarra,ml MLI,DF,23.0,5721,La Liga
+928,Hugo Novoa,es ESP,"DF,MF",21.0,5721,La Liga
+929,Carlos Benavídez,uy URU,MF,26.0,5394,La Liga
+930,Santiago Mouriño,,CB,22.0,5231,La Liga
+931,Jesús Owono,,GK,23.0,3923,La Liga
+932,Pau López,es ESP,GK,29.0,62932,La Liga
+933,David López,es ESP,DF,34.0,61298,La Liga
+934,Oriol Romeu,es ESP,MF,32.0,57212,La Liga
+935,Arnaut Danjuma,nl NED,FW,27.0,51163,La Liga
+936,Donny van de Beek,nl NED,"MF,FW",27.0,51163,La Liga
+937,Bryan Gil,es ESP,"FW,MF",23.0,40865,La Liga
+938,Portu,es ESP,"FW,MF",32.0,29423,La Liga
+939,Daley Blind,nl NED,DF,34.0,29096,La Liga
+940,Abel Ruiz,es ESP,FW,24.0,27135,La Liga
+941,Iván Martín,es ESP,MF,25.0,27135,La Liga
+942,Viktor Tsyhankov,ua UKR,FW,26.0,22885,La Liga
+943,Paulo Gazzaniga,ar ARG,GK,32.0,20269,La Liga
+944,Ladislav Krejci,,CB,25.0,20269,La Liga
+945,Arnau Martinez,es ESP,"DF,MF",21.0,20269,La Liga
+946,Cristhian Stuani,uy URU,FW,37.0,19615,La Liga
+947,Yangel Herrera,ve VEN,MF,26.0,17981,La Liga
+948,Yaser Asprilla,co COL,"MF,FW",20.0,17000,La Liga
+949,Bojan Miovski,mk MKD,FW,25.0,11769,La Liga
+950,Juanpe,es ESP,DF,33.0,9807,La Liga
+951,Alejandro Francés,es ESP,DF,21.0,8500,La Liga
+952,Juan Carlos,es ESP,GK,36.0,6048,La Liga
+953,Miguel Gutiérrez,es ESP,"MF,DF",23.0,5394,La Liga
+954,Jhon Solís,,CM,19.0,2943,La Liga
+955,Gabriel Misehouy,,AM,19.0,2943,La Liga
+956,Saúl Ñíguez,es ESP,MF,29.0,81731,La Liga
+957,Kelechi Iheanacho,ng NGA,FW,27.0,78462,La Liga
+958,Marcão,br BRA,DF,28.0,71596,La Liga
+959,Tanguy Nianzou,fr FRA,DF,22.0,68163,La Liga
+960,Djibril Sow,ch SUI,MF,27.0,68163,La Liga
+961,Loïc Bade,fr FRA,DF,24.0,68163,La Liga
+962,Nemanja Gudelj,rs SRB,"MF,DF",32.0,67019,La Liga
+963,Jesús Navas,es ESP,"FW,MF",38.0,51163,La Liga
+964,Dodi Lukebakio,be BEL,FW,26.0,49038,La Liga
+965,Suso,es ESP,"FW,MF",30.0,45769,La Liga
+966,Isaac Romero,,CF,24.0,34000,La Liga
+967,Chidera Ejuke,ng NGA,FW,26.0,29096,La Liga
+968,Lucas Ocampos,ar ARG,FW,30.0,27788,La Liga
+969,Valentín Barco,ar ARG,"DF,FW",20.0,25500,La Liga
+970,Gonzalo Montiel,ar ARG,"DF,MF",27.0,22557,La Liga
+971,Kike Salas,,CB,22.0,20432,La Liga
+972,José Ángel Carmona,,RB,23.0,20432,La Liga
+973,Adrià Pedrosa,es ESP,DF,26.0,17981,La Liga
+974,Lucien Agoume,fr FRA,MF,22.0,17000,La Liga
+975,Ørjan Nyland,no NOR,GK,33.0,11932,La Liga
+976,Álvaro Fernández,es ESP,GK,26.0,11769,La Liga
+977,Peque Fernández,,SS,21.0,10135,La Liga
+978,Juanlu Sánchez,,RB,21.0,4087,La Liga
+979,Pedro Ortiz,,CM,24.0,3923,La Liga
+980,Manu Bueno,,CM,20.0,2943,La Liga
+981,Sébastien Haller,ci CIV,FW,30.0,40865,La Liga
+982,Valentin Rosier,fr FRA,DF,27.0,29096,La Liga
+983,Renato Tapia,pe PER,"MF,DF",29.0,23865,La Liga
+984,Munir El Haddadi,ma MAR,"FW,MF",28.0,23865,La Liga
+985,Óscar Rodríguez Arnaiz,es ESP,"MF,FW",26.0,17000,La Liga
+986,Javi Hernández,es ESP,DF,26.0,13731,La Liga
+987,Roberto López,es ESP,MF,24.0,13731,La Liga
+988,Jackson Porozo,ec ECU,DF,23.0,10788,La Liga
+989,Juan Soriano,es ESP,GK,26.0,10135,La Liga
+990,Matija Nastasić,rs SRB,DF,31.0,10135,La Liga
+991,Darko Brašanac,rs SRB,MF,32.0,8500,La Liga
+992,Juan Cruz,es ESP,"FW,MF",24.0,8500,La Liga
+993,Marko Dmitrović,rs SRB,GK,32.0,8500,La Liga
+994,Enric Franquesa,es ESP,"DF,FW",27.0,7846,La Liga
+995,Dani Raba,es ESP,"FW,MF",28.0,7193,La Liga
+996,Miguel de la Fuente,,CF,25.0,7029,La Liga
+997,Diego García,,CF,24.0,6865,La Liga
+998,Jorge Sáenz,es ESP,DF,27.0,5885,La Liga
+999,Julián Chicco,ar ARG,"MF,DF",26.0,4904,La Liga
+1000,Yvan Neyou,cm CMR,MF,27.0,4904,La Liga
+1001,Sergio González,,CB,32.0,3432,La Liga
+1002,Adrià Altimira,es ESP,"DF,FW",23.0,2452,La Liga
+1003,Naim García,es ESP,MF,22.0,2288,La Liga
+1004,Seydouba Cissé,gn GUI,MF,23.0,490,La Liga
+1005,Fábio Silva,pt POR,FW,22.0,80913,La Liga
+1006,Adnan Januzaj,be BEL,"MF,FW",29.0,52307,La Liga
+1007,Oliver McBurnie,sct SCO,FW,28.0,34000,La Liga
+1008,Scott McKenna,sct SCO,DF,27.0,34000,La Liga
+1009,Jaime Mata,es ESP,"FW,MF",35.0,25500,La Liga
+1010,Daley Sinkgraven,nl NED,DF,29.0,24519,La Liga
+1011,Sandro Ramírez,es ESP,"FW,MF",29.0,24356,La Liga
+1012,Álvaro Vallés,es ESP,GK,27.0,20269,La Liga
+1013,Jasper Cillessen,nl NED,GK,35.0,13731,La Liga
+1014,Kirian Rodríguez,es ESP,MF,28.0,13568,La Liga
+1015,José Campaña,es ESP,MF,31.0,13568,La Liga
+1016,Pejiño,,LW,28.0,11769,La Liga
+1017,Javier Muñoz,es ESP,"MF,DF",29.0,11769,La Liga
+1018,Álex Suárez,es ESP,DF,31.0,10298,La Liga
+1019,Enzo Loiodice,fr FRA,MF,23.0,10298,La Liga
+1020,Marc Cardona,es ESP,"FW,DF",29.0,10298,La Liga
+1021,Alberto Moleiro,es ESP,"FW,MF",20.0,10135,La Liga
+1022,Álex Muñoz,es ESP,DF,30.0,10135,La Liga
+1023,Manu Fuster,,LW,27.0,8500,La Liga
+1024,Dinko Horkas,,GK,25.0,8500,La Liga
+1025,Dario Essugo,pt POR,MF,19.0,7846,La Liga
+1026,Iván Gil,es ESP,MF,24.0,6865,La Liga
+1027,Marvin Park,,RW,24.0,6865,La Liga
+1028,Mika Mármol,,CB,23.0,6865,La Liga
+1029,Viti Rozada,,RB,26.0,6865,La Liga
+1030,Benito Ramírez,es ESP,"DF,FW",29.0,6212,La Liga
+1031,Juanma Herzog,,CB,20.0,2943,La Liga
+1032,Fabio González,es ESP,MF,27.0,1962,La Liga
+1033,Kenedy,br BRA,"MF,FW",28.0,26481,La Liga
+1034,Anuar,ma MAR,"MF,FW",29.0,24519,La Liga
+1035,Marcos André,br BRA,FW,27.0,24519,La Liga
+1036,Darwin Machís,ve VEN,"MF,FW",31.0,23702,La Liga
+1037,Stanko Jurić,hr CRO,MF,27.0,20432,La Liga
+1038,Iván Sánchez,es ESP,"MF,FW",31.0,17654,La Liga
+1039,Raúl Moro,es ESP,"MF,FW",21.0,17000,La Liga
+1040,Eray Cömert,ch SUI,"DF,MF",26.0,17000,La Liga
+1041,Mamadou Sylla,sn SEN,"FW,MF",30.0,14712,La Liga
+1042,Víctor Meseguer,es ESP,MF,25.0,14221,La Liga
+1043,Juanmi Latasa,,CF,23.0,13731,La Liga
+1044,Amath,sn SEN,"FW,DF",28.0,11769,La Liga
+1045,Javi Sánchez,es ESP,DF,27.0,10788,La Liga
+1046,Karl Jakob Hein,ee EST,GK,22.0,10135,La Liga
+1047,Cenk Özkacar,tr TUR,DF,23.0,9644,La Liga
+1048,Luis Pérez,es ESP,DF,29.0,8500,La Liga
+1049,Selim Amallah,ma MAR,MF,27.0,7519,La Liga
+1050,Kike Pérez,es ESP,MF,27.0,6865,La Liga
+1051,César de la Hoz,es ESP,MF,32.0,5885,La Liga
+1052,André Ferreira,pt POR,GK,28.0,5231,La Liga
+1053,David Torres,,CB,21.0,4413,La Liga
+1054,Álvaro Aceves,,GK,21.0,1635,La Liga
+1055,Lucas Rosa,,RB,24.0,1635,La Liga
+1056,Chuki,,AM,20.0,1635,La Liga
+1057,Mario Martín,,DM,20.0,1635,La Liga
+1058,Harry Kane,eng ENG,FW,31.0,408654,Bundesliga
+1059,Manuel Neuer,de GER,GK,38.0,343269,Bundesliga
+1060,Thomas Müller,de GER,"MF,FW",34.0,335096,Bundesliga
+1061,Joshua Kimmich,de GER,"MF,DF",29.0,318750,Bundesliga
+1062,Serge Gnabry,de GER,FW,29.0,308452,Bundesliga
+1063,Kingsley Coman,fr FRA,FW,28.0,277885,Bundesliga
+1064,Leroy Sané,de GER,"FW,MF",28.0,245193,Bundesliga
+1065,Michael Olise,fr FRA,"FW,MF",22.0,220673,Bundesliga
+1066,Leon Goretzka,de GER,MF,29.0,212500,Bundesliga
+1067,Kim Min-jae,kr KOR,DF,27.0,196154,Bundesliga
+1068,Alphonso Davies,ca CAN,DF,23.0,183894,Bundesliga
+1069,Dayot Upamecano,fr FRA,DF,25.0,163462,Bundesliga
+1070,João Palhinha,pt POR,MF,29.0,163462,Bundesliga
+1071,Konrad Laimer,at AUT,DF,27.0,147115,Bundesliga
+1072,Raphaël Guerreiro,pt POR,"DF,MF",30.0,130769,Bundesliga
+1073,Josip Stanišić,hr CRO,DF,24.0,107885,Bundesliga
+1074,Jamal Musiala,de GER,MF,21.0,81731,Bundesliga
+1075,Mathys Tel,fr FRA,"MF,FW",19.0,81731,Bundesliga
+1076,Eric Dier,eng ENG,DF,30.0,81731,Bundesliga
+1077,Hiroki Ito,jp JPN,DF,25.0,61788,Bundesliga
+1078,Sacha Boey,fr FRA,DF,23.0,49038,Bundesliga
+1079,Sven Ulreich,de GER,GK,35.0,32693,Bundesliga
+1080,Aleksandar Pavlovic,,DM,20.0,29423,Bundesliga
+1081,Daniel Peretz,,GK,24.0,24519,Bundesliga
+1082,Arijon Ibrahimović,,LW,18.0,24519,Bundesliga
+1083,Nestory Irankunda,,RW,18.0,12423,Bundesliga
+1084,Adam Aznou,,LB,18.0,4577,Bundesliga
+1085,Noël Aséko Nkili,,DM,18.0,3923,Bundesliga
+1086,Tarek Buchmann,,CB,19.0,2452,Bundesliga
+1087,Álex Grimaldo,es ESP,"DF,FW",28.0,98077,Bundesliga
+1088,Patrik Schick,cz CZE,FW,28.0,98077,Bundesliga
+1089,Edmond Tapsoba,bf BFA,DF,25.0,81731,Bundesliga
+1090,Exequiel Palacios,ar ARG,MF,25.0,81731,Bundesliga
+1091,Aleix García,es ESP,MF,27.0,77154,Bundesliga
+1092,Florian Wirtz,de GER,"MF,FW",21.0,73557,Bundesliga
+1093,Granit Xhaka,ch SUI,MF,31.0,67837,Bundesliga
+1094,Jeremie Frimpong,nl NED,"DF,FW",23.0,65385,Bundesliga
+1095,Jonas Hofmann,de GER,"MF,FW",32.0,65385,Bundesliga
+1096,Piero Hincapié,ec ECU,DF,22.0,61788,Bundesliga
+1097,Amine Adli,ma MAR,"MF,FW",24.0,55577,Bundesliga
+1098,Martin Terrier,fr FRA,MF,27.0,55577,Bundesliga
+1099,Robert Andrich,de GER,"MF,DF",29.0,52307,Bundesliga
+1100,Jonathan Tah,de GER,DF,28.0,46260,Bundesliga
+1101,Lukáš Hrádecký,fi FIN,GK,34.0,42500,Bundesliga
+1102,Victor Boniface,,CF,24.0,32693,Bundesliga
+1103,Nathan Tella,ng NGA,"FW,MF",25.0,29423,Bundesliga
+1104,Matej Kovar,cz CZE,GK,24.0,12260,Bundesliga
+1105,Jeanuël Belocian,,CB,19.0,12260,Bundesliga
+1106,Arthur,,RB,21.0,11769,Bundesliga
+1107,Niklas Lomb,de GER,GK,31.0,9318,Bundesliga
+1108,Sadik Fofana,tg TOG,CB,21.0,2943,Bundesliga
+1109,Ayman Aourir,,AM,19.0,2615,Bundesliga
+1110,Matija Marsenic,,CM,20.0,2288,Bundesliga
+1111,Arthur Theate,be BEL,DF,24.0,59500,Bundesliga
+1112,Mario Götze,de GER,"MF,FW",32.0,57212,Bundesliga
+1113,Kevin Trapp,de GER,GK,34.0,57212,Bundesliga
+1114,Hugo Ekitike,fr FRA,FW,22.0,57212,Bundesliga
+1115,Mahmoud Dahoud,de GER,MF,28.0,52307,Bundesliga
+1116,Rasmus Kristensen,dk DEN,DF,27.0,49365,Bundesliga
+1117,Ellyes Skhiri,tn TUN,MF,29.0,45769,Bundesliga
+1118,Robin Koch,de GER,DF,28.0,40212,Bundesliga
+1119,Hugo Larsson,,CM,20.0,30894,Bundesliga
+1120,Omar Marmoush,eg EGY,"FW,MF",25.0,26154,Bundesliga
+1121,Tuta,br BRA,"DF,MF",25.0,24519,Bundesliga
+1122,Timothy Chandler,us USA,"DF,MF",34.0,19615,Bundesliga
+1123,Can Uzun,,AM,18.0,13731,Bundesliga
+1124,Farès Chaïbi,,AM,21.0,13077,Bundesliga
+1125,Junior Dina Ebimbe,fr FRA,"MF,FW",23.0,11769,Bundesliga
+1126,Jean-Mattéo Bahoya,,LW,19.0,11443,Bundesliga
+1127,Niels Nkounkou,fr FRA,"DF,MF",23.0,11443,Bundesliga
+1128,Nnamdi Collins,,CB,20.0,10788,Bundesliga
+1129,Aurele Amenda,ch SUI,DF,21.0,10462,Bundesliga
+1130,Kauã Santos,,GK,21.0,9154,Bundesliga
+1131,Jérôme Onguéné,cm CMR,CB,26.0,8827,Bundesliga
+1132,Ansgar Knauff,de GER,"MF,FW",22.0,8827,Bundesliga
+1133,Krisztián Lisztes,,AM,19.0,6212,Bundesliga
+1134,Jens Grahl,de GER,GK,35.0,5721,Bundesliga
+1135,Oscar Højlund,,CM,19.0,5557,Bundesliga
+1136,Igor Matanovic,hr CRO,FW,21.0,4577,Bundesliga
+1137,Nathaniel Brown,de GER,"FW,DF",21.0,4577,Bundesliga
+1138,Niklas Süle,de GER,DF,28.0,163462,Bundesliga
+1139,Serhou Guirassy,gn GUI,FW,28.0,154144,Bundesliga
+1140,Gregor Kobel,ch SUI,GK,26.0,147115,Bundesliga
+1141,Emre Can,de GER,"DF,MF",30.0,130769,Bundesliga
+1142,Marcel Sabitzer,at AUT,MF,30.0,122596,Bundesliga
+1143,Julian Brandt,de GER,MF,28.0,114423,Bundesliga
+1144,Donyell Malen,nl NED,FW,25.0,98077,Bundesliga
+1145,Felix Nmecha,de GER,MF,23.0,98077,Bundesliga
+1146,Julian Ryerson,no NOR,DF,26.0,81731,Bundesliga
+1147,Karim Adeyemi,de GER,"FW,MF",22.0,81731,Bundesliga
+1148,Nico Schlotterbeck,de GER,DF,24.0,77154,Bundesliga
+1149,Ramy Bensebaini,dz ALG,DF,29.0,73557,Bundesliga
+1150,Pascal Groß,de GER,"MF,DF",33.0,68000,Bundesliga
+1151,Waldemar Anton,de GER,DF,28.0,64731,Bundesliga
+1152,Maximilian Beier,de GER,"FW,MF",21.0,61788,Bundesliga
+1153,Jamie Gittens,eng ENG,"FW,MF",19.0,49038,Bundesliga
+1154,Gio Reyna,us USA,"MF,FW",21.0,40865,Bundesliga
+1155,Alexander Meyer,de GER,GK,33.0,18635,Bundesliga
+1156,Yan Couto,br BRA,DF,22.0,18635,Bundesliga
+1157,Kjell Wätjen,,CM,18.0,4577,Bundesliga
+1158,Julien Duranville,,RW,18.0,3923,Bundesliga
+1159,Marcel Lotka,pl POL,GK,23.0,3923,Bundesliga
+1160,Cole Campbell,,RW,18.0,2943,Bundesliga
+1161,Almugera Kabar,,LB,18.0,2943,Bundesliga
+1162,Matthias Ginter,de GER,DF,30.0,123413,Bundesliga
+1163,Maximilian Philipp,de GER,"MF,FW",30.0,34327,Bundesliga
+1164,Michael Gregoritsch,at AUT,FW,30.0,18635,Bundesliga
+1165,Christian Günter,de GER,DF,31.0,16673,Bundesliga
+1166,Maximilian Eggestein,de GER,MF,27.0,15693,Bundesliga
+1167,Vincenzo Grifo,it ITA,"FW,MF",31.0,15529,Bundesliga
+1168,Merlin Röhl,de GER,"MF,FW",22.0,15529,Bundesliga
+1169,Nicolas Höfler,de GER,MF,34.0,14712,Bundesliga
+1170,Ritsu Doan,jp JPN,"FW,MF",26.0,13731,Bundesliga
+1171,Patrick Osterhage,de GER,MF,24.0,13731,Bundesliga
+1172,Eren Dinkçi,de GER,"MF,FW",22.0,12260,Bundesliga
+1173,Junior Adamu,,CF,23.0,11443,Bundesliga
+1174,Philipp Lienhart,at AUT,DF,28.0,11115,Bundesliga
+1175,Kenneth Schmidt,,CB,22.0,10788,Bundesliga
+1176,Jannik Huth,de GER,GK,30.0,9154,Bundesliga
+1177,Florent Muslija,xk KVX,"FW,MF",26.0,8990,Bundesliga
+1178,Lucas Höler,de GER,"FW,MF",30.0,8500,Bundesliga
+1179,Florian Müller,de GER,GK,26.0,8173,Bundesliga
+1180,Manuel Gulde,de GER,CB,33.0,7846,Bundesliga
+1181,Lukas Kübler,de GER,DF,31.0,6375,Bundesliga
+1182,Daniel Kyereh,gh GHA,AM,28.0,5885,Bundesliga
+1183,Kiliann Sildillia,fr FRA,DF,22.0,5231,Bundesliga
+1184,Jordy Makengo,,LB,23.0,3596,Bundesliga
+1185,Max Rosenfelder,,CB,21.0,2943,Bundesliga
+1186,Noah Weißhaupt,de GER,FW,22.0,2779,Bundesliga
+1187,Noah Atubolu,de GER,GK,22.0,2779,Bundesliga
+1188,Johan Manzambi,,CM,18.0,2779,Bundesliga
+1189,Bruno Ogbus,,CB,18.0,2779,Bundesliga
+1190,Silvan Widmer,ch SUI,DF,31.0,30894,Bundesliga
+1191,Jonathan Burkardt,de GER,FW,24.0,30894,Bundesliga
+1192,Lee Jae-sung,kr KOR,MF,31.0,30894,Bundesliga
+1193,Stefan Bell,de GER,DF,32.0,29423,Bundesliga
+1194,Robin Zentner,de GER,GK,29.0,29423,Bundesliga
+1195,Dominik Kohr,de GER,"DF,MF",30.0,29423,Bundesliga
+1196,Karim Onisiwo,at AUT,"MF,FW",32.0,27788,Bundesliga
+1197,Nadiem Amiri,de GER,MF,27.0,27788,Bundesliga
+1198,Anthony Caci,fr FRA,DF,27.0,27462,Bundesliga
+1199,Hyun-seok Hong,,AM,25.0,23212,Bundesliga
+1200,Moritz Jenz,de GER,DF,25.0,22885,Bundesliga
+1201,Andreas Hanche-Olsen,no NOR,DF,27.0,19615,Bundesliga
+1202,Maxim Leitsch,de GER,DF,26.0,15693,Bundesliga
+1203,Danny da Costa,de GER,DF,31.0,15693,Bundesliga
+1204,Phillipp Mwene,at AUT,DF,30.0,14712,Bundesliga
+1205,Aymen Barkok,ma MAR,MF,26.0,13731,Bundesliga
+1206,Gabriel Vidovic,hr CRO,MF,20.0,9154,Bundesliga
+1207,Kaishu Sano,,DM,23.0,7682,Bundesliga
+1208,Armindo Sieb,de GER,"FW,MF",21.0,7682,Bundesliga
+1209,Lasse Rieß,de GER,GK,23.0,6212,Bundesliga
+1210,Nelson Weiper,de GER,"FW,MF",19.0,5885,Bundesliga
+1211,Nikolas Veratschnig,at AUT,"DF,MF",21.0,4577,Bundesliga
+1212,Paul Nebel,de GER,MF,21.0,4413,Bundesliga
+1213,Maxim Dal,,CB,18.0,3596,Bundesliga
+1214,Daniel Batz,de GER,GK,33.0,3596,Bundesliga
+1215,David Raum,de GER,DF,26.0,123413,Bundesliga
+1216,Benjamin Henrichs,de GER,"DF,MF",27.0,123413,Bundesliga
+1217,Yussuf Poulsen,dk DEN,"FW,MF",30.0,107885,Bundesliga
+1218,Willi Orban,hu HUN,DF,31.0,107885,Bundesliga
+1219,Lukas Klostermann,de GER,DF,28.0,107885,Bundesliga
+1220,Elif Elmas,mk MKD,MF,24.0,92519,Bundesliga
+1221,Loïs Openda,be BEL,FW,24.0,92519,Bundesliga
+1222,Benjamin Šeško,si SVN,FW,21.0,92519,Bundesliga
+1223,Péter Gulácsi,hu HUN,GK,34.0,91538,Bundesliga
+1224,André Silva,pt POR,FW,28.0,81731,Bundesliga
+1225,Castello Lukeba,fr FRA,DF,21.0,81731,Bundesliga
+1226,Lutsharel Geertruida,nl NED,DF,24.0,77154,Bundesliga
+1227,Xaver Schlager,at AUT,MF,26.0,65385,Bundesliga
+1228,Amadou Haidara,ml MLI,MF,26.0,62115,Bundesliga
+1229,Arthur Vermeeren,,CM,19.0,46260,Bundesliga
+1230,Christoph Baumgartner,at AUT,"MF,FW",24.0,40865,Bundesliga
+1231,Kevin Kampl,si SVN,MF,33.0,40865,Bundesliga
+1232,Nicolas Seiwald,at AUT,"MF,DF",23.0,35962,Bundesliga
+1233,El Chadaille Bitshiabu,fr FRA,DF,19.0,29423,Bundesliga
+1234,Antonio Nusa,no NOR,"MF,DF",19.0,24519,Bundesliga
+1235,Maarten Vandevoordt,be BEL,GK,22.0,21577,Bundesliga
+1236,Assan Ouédraogo,,CM,18.0,19943,Bundesliga
+1237,Leopold Zingerle,de GER,GK,30.0,9318,Bundesliga
+1238,Naby Keïta,gn GUI,CM,29.0,40865,Bundesliga
+1239,Leonardo Bittencourt,de GER,MF,30.0,40865,Bundesliga
+1240,Marvin Ducksch,de GER,FW,30.0,36943,Bundesliga
+1241,Mitchell Weiser,de GER,"DF,MF",30.0,32365,Bundesliga
+1242,Niklas Stark,de GER,DF,29.0,23538,Bundesliga
+1243,Miloš Veljković,rs SRB,DF,28.0,19615,Bundesliga
+1244,Anthony Jung,de GER,DF,32.0,18798,Bundesliga
+1245,Felix Agu,ng NGA,DF,24.0,18798,Bundesliga
+1246,Justin Njinmah,,RW,23.0,18798,Bundesliga
+1247,Senne Lynen,be BEL,MF,25.0,17981,Bundesliga
+1248,Oliver Burke,sct SCO,FW,27.0,16673,Bundesliga
+1249,Marco Grüll,at AUT,"FW,MF",26.0,15529,Bundesliga
+1250,Skelly Alvero,,CM,22.0,13894,Bundesliga
+1251,Michael Zetterer,de GER,GK,29.0,12750,Bundesliga
+1252,Olivier Deman,be BEL,DF,24.0,12260,Bundesliga
+1253,Marco Friedl,at AUT,DF,26.0,11769,Bundesliga
+1254,Jens Stage,dk DEN,MF,27.0,9807,Bundesliga
+1255,Amos Pieper,de GER,DF,26.0,9807,Bundesliga
+1256,Derrick Köhn,de GER,"DF,FW",25.0,9318,Bundesliga
+1257,Keke Topp,,CF,20.0,7846,Bundesliga
+1258,Julián Malatini,ar ARG,DF,23.0,7356,Bundesliga
+1259,Markus Kolke,de GER,GK,33.0,6212,Bundesliga
+1260,Romano Schmid,at AUT,MF,24.0,5885,Bundesliga
+1261,Isak Hansen-Aarøen,,AM,20.0,5721,Bundesliga
+1262,Mio Backhaus,de GER,GK,20.0,4577,Bundesliga
+1263,Leon Opitz,,LM,19.0,2288,Bundesliga
+1264,Abdenego Nankishi,de GER,FW,22.0,1471,Bundesliga
+1265,Deniz Undav,de GER,"FW,MF",28.0,61788,Bundesliga
+1266,Alexander Nübel,de GER,GK,27.0,57212,Bundesliga
+1267,Dan-Axel Zagadou,fr FRA,DF,25.0,46260,Bundesliga
+1268,Ermedin Demirović,ba BIH,FW,26.0,46260,Bundesliga
+1269,Chris Führich,de GER,"FW,MF",26.0,40865,Bundesliga
+1270,Maximilian Mittelstädt,de GER,DF,27.0,30894,Bundesliga
+1271,Enzo Millot,fr FRA,"MF,FW",22.0,30894,Bundesliga
+1272,Jamie Leweling,de GER,"FW,MF",23.0,29423,Bundesliga
+1273,Ameen Al-Dakhil,be BEL,"DF,MF",22.0,21577,Bundesliga
+1274,Angelo Stiller,de GER,MF,23.0,21250,Bundesliga
+1275,Julian Chabot,de GER,DF,26.0,18471,Bundesliga
+1276,Fabian Bredlow,de GER,GK,29.0,18471,Bundesliga
+1277,Fabian Rieder,ch SUI,"FW,MF",22.0,17981,Bundesliga
+1278,Josha Vagnoman,de GER,"DF,FW",23.0,15365,Bundesliga
+1279,Pascal Stenzel,de GER,DF,28.0,15365,Bundesliga
+1280,Yannik Keitel,de GER,MF,24.0,12260,Bundesliga
+1281,Nikolas Nartey,dk DEN,MF,24.0,10135,Bundesliga
+1282,Thomas Kastanaras,gr GRE,FW,21.0,9807,Bundesliga
+1283,Frans Krätzig,,LB,21.0,9807,Bundesliga
+1284,Nick Woltemade,de GER,"FW,MF",22.0,7682,Bundesliga
+1285,Justin Diehl,,LW,20.0,7682,Bundesliga
+1286,Atakan Karazor,,MF,27.0,7682,Bundesliga
+1287,Dennis Seimen,,GK,19.0,7682,Bundesliga
+1288,Stefan Drljača,de GER,GK,25.0,5721,Bundesliga
+1289,Ramon Hendriks,nl NED,DF,23.0,5557,Bundesliga
+1290,Wahid Faghir,dk DEN,CF,21.0,5068,Bundesliga
+1291,Leonidas Stergiou,ch SUI,DF,22.0,3106,Bundesliga
+1292,Mohamed Sankoh,nl NED,CF,21.0,2452,Bundesliga
+1293,Luca Raimund,,RW,19.0,1962,Bundesliga
+1294,Anthony Rouault,fr FRA,DF,23.0,1962,Bundesliga
+1295,Anrie Chase,,CB,20.0,1962,Bundesliga
+1296,Alassane Pléa,fr FRA,"MF,FW",31.0,77154,Bundesliga
+1297,Florian Neuhaus,de GER,MF,27.0,65385,Bundesliga
+1298,Julian Weigl,de GER,MF,28.0,64731,Bundesliga
+1299,Nico Elvedi,ch SUI,DF,27.0,57212,Bundesliga
+1300,Jonas Omlin,ch SUI,GK,30.0,49038,Bundesliga
+1301,Stefan Lainer,at AUT,DF,31.0,40865,Bundesliga
+1302,Tim Kleindienst,de GER,FW,28.0,40048,Bundesliga
+1303,Luca Netz,de GER,DF,21.0,39231,Bundesliga
+1304,Marvin Friedrich,de GER,DF,28.0,32693,Bundesliga
+1305,Ko Itakura,jp JPN,DF,27.0,30894,Bundesliga
+1306,Kevin Stöger,at AUT,MF,30.0,23212,Bundesliga
+1307,Franck Honorat,fr FRA,FW,27.0,20432,Bundesliga
+1308,Joe Scally,us USA,DF,21.0,19615,Bundesliga
+1309,Moritz Nicolas,de GER,GK,26.0,17000,Bundesliga
+1310,Nathan N'Goumou,cm CMR,FW,24.0,17000,Bundesliga
+1311,Robin Hack,de GER,"FW,MF",25.0,17000,Bundesliga
+1312,Tomas Cvancara,,CF,24.0,13077,Bundesliga
+1313,Philipp Sander,de GER,MF,26.0,12260,Bundesliga
+1314,Rocco Reitz,de GER,MF,22.0,11769,Bundesliga
+1315,Grant-Leon Ranos,,CF,21.0,8173,Bundesliga
+1316,Tobias Sippel,de GER,GK,36.0,7682,Bundesliga
+1317,Lukas Ullrich,,LB,20.0,6538,Bundesliga
+1318,Yvandro Borges Sanches,lu LUX,LW,20.0,5885,Bundesliga
+1319,Jan Olschowsky,de GER,GK,22.0,5885,Bundesliga
+1320,Fabio Chiarodia,it ITA,DF,19.0,4577,Bundesliga
+1321,Shio Fukuda,,CF,20.0,2288,Bundesliga
+1322,Charles Herrmann,,LW,18.0,2288,Bundesliga
+1323,Maximilian Arnold,de GER,MF,30.0,89904,Bundesliga
+1324,Lovro Majer,hr CRO,MF,26.0,77154,Bundesliga
+1325,Aster Vranckx,be BEL,MF,21.0,61788,Bundesliga
+1326,Salih Özcan,tr TUR,MF,26.0,61788,Bundesliga
+1327,Yannick Gerhardt,de GER,"MF,DF",30.0,58846,Bundesliga
+1328,Mattias Svanberg,se SWE,MF,25.0,46260,Bundesliga
+1329,Sebastiaan Bornauw,be BEL,DF,25.0,46096,Bundesliga
+1330,Jonas Wind,dk DEN,"FW,MF",25.0,33346,Bundesliga
+1331,Patrick Wimmer,at AUT,"MF,FW",23.0,32693,Bundesliga
+1332,Lukas Nmecha,de GER,"FW,MF",25.0,32693,Bundesliga
+1333,Joakim Mæhle,dk DEN,DF,27.0,31057,Bundesliga
+1334,Denis Vavro,sk SVK,DF,28.0,30894,Bundesliga
+1335,Ridle Baku,de GER,"FW,MF",26.0,29423,Bundesliga
+1336,Rogério,br BRA,LB,27.0,27788,Bundesliga
+1337,Kamil Grabara,pl POL,GK,25.0,24519,Bundesliga
+1338,Tiago Tomás,pt POR,"FW,MF",22.0,24519,Bundesliga
+1339,Kevin Behrens,de GER,FW,33.0,21250,Bundesliga
+1340,Pavao Pervan,at AUT,GK,36.0,19615,Bundesliga
+1341,Jakub Kamiński,pl POL,"DF,MF",22.0,18798,Bundesliga
+1342,Cedric Zesiger,ch SUI,DF,26.0,16346,Bundesliga
+1343,Kevin Paredes,us USA,DF,21.0,14712,Bundesliga
+1344,Kilian Fischer,de GER,DF,23.0,14221,Bundesliga
+1345,Marius Müller,de GER,GK,31.0,12260,Bundesliga
+1346,Konstantinos Koulierakis,,CB,20.0,12260,Bundesliga
+1347,Bartosz Białek,pl POL,FW,22.0,7682,Bundesliga
+1348,Mohamed Amoura,,CF,24.0,7682,Bundesliga
+1349,Bence Dárdai,,AM,18.0,6702,Bundesliga
+1350,Niklas Klinger,de GER,GK,28.0,4904,Bundesliga
+1351,Bennit Bröger,,AM,18.0,1962,Bundesliga
+1352,David Odogu,,CB,18.0,1962,Bundesliga
+1353,Mathys Angély,,CB,17.0,1635,Bundesliga
+1354,Steve Mounié,bj BEN,"FW,MF",29.0,43154,Bundesliga
+1355,Frank Onyeka,ng NGA,MF,26.0,40048,Bundesliga
+1356,Kristijan Jakić,hr CRO,MF,27.0,36943,Bundesliga
+1357,Marius Wolf,de GER,DF,29.0,34000,Bundesliga
+1358,Elvis Rexhbeçaj,xk KVX,MF,26.0,22557,Bundesliga
+1359,Keven Schlotterbeck,de GER,DF,27.0,21577,Bundesliga
+1360,Arne Maier,de GER,MF,25.0,20106,Bundesliga
+1361,Jeffrey Gouweleeuw,nl NED,DF,33.0,20106,Bundesliga
+1362,Alexis Claude-Maurice,fr FRA,"MF,FW",26.0,18635,Bundesliga
+1363,Ruben Vargas,ch SUI,"MF,FW",25.0,13894,Bundesliga
+1364,Finn Dahmen,de GER,GK,26.0,13731,Bundesliga
+1365,Mads Pedersen,dk DEN,DF,27.0,13077,Bundesliga
+1366,Reece Oxford,eng ENG,CB,26.0,13077,Bundesliga
+1367,Chrislain Matsima,fr FRA,DF,22.0,12260,Bundesliga
+1368,Samuel Essende,cd COD,FW,26.0,12260,Bundesliga
+1369,Nediljko Labrovic,,GK,25.0,12260,Bundesliga
+1370,Phillip Tietz,de GER,FW,27.0,12260,Bundesliga
+1371,Masaya Okugawa,jp JPN,LW,28.0,11443,Bundesliga
+1372,Dimitris Giannoulis,gr GRE,DF,28.0,10788,Bundesliga
+1373,Fredrik Jensen,fi FIN,MF,26.0,9154,Bundesliga
+1374,Nathanael Mbuku,cd COD,LW,22.0,9154,Bundesliga
+1375,Tim Breithaupt,de GER,MF,22.0,8173,Bundesliga
+1376,Maximilian Bauer,de GER,DF,24.0,4904,Bundesliga
+1377,Yusuf Kabadayi,,LW,20.0,4577,Bundesliga
+1378,Robert Gumny,pl POL,DF,26.0,4087,Bundesliga
+1379,Henri Koudossou,de GER,DF,24.0,3106,Bundesliga
+1380,Mert Kömür,,AM,19.0,1962,Bundesliga
+1381,Mahmut Kücüksahin,,DM,20.0,1962,Bundesliga
+1382,Daniel Klein,de GER,GK,23.0,1962,Bundesliga
+1383,Noahkai Banks,,CB,18.0,1635,Bundesliga
+1384,Lucas Tousart,fr FRA,MF,27.0,42500,Bundesliga
+1385,Kevin Volland,de GER,"FW,MF",32.0,39231,Bundesliga
+1386,Jordan Pefok,us USA,FW,28.0,29423,Bundesliga
+1387,László Bénes,sk SVK,"MF,FW",26.0,26154,Bundesliga
+1388,Josip Juranović,hr CRO,"DF,MF",28.0,26154,Bundesliga
+1389,Jérôme Roussillon,fr FRA,"DF,MF",31.0,24519,Bundesliga
+1390,András Schäfer,hu HUN,MF,25.0,19615,Bundesliga
+1391,Frederik Rønnow,dk DEN,GK,31.0,19615,Bundesliga
+1392,Janik Haberer,de GER,"MF,DF",30.0,19615,Bundesliga
+1393,Kevin Vogt,de GER,DF,32.0,17981,Bundesliga
+1394,Tom Rothe,de GER,"DF,MF",19.0,15529,Bundesliga
+1395,Yorbe Vertessen,be BEL,"MF,FW",23.0,14712,Bundesliga
+1396,Alexander Schwolow,de GER,GK,32.0,14712,Bundesliga
+1397,Christopher Trimmel,at AUT,"DF,MF",37.0,14712,Bundesliga
+1398,Rani Khedira,de GER,MF,30.0,13894,Bundesliga
+1399,Jeong Woo-yeong,kr KOR,"MF,FW",24.0,13077,Bundesliga
+1400,Leopold Querfeld,at AUT,DF,20.0,12260,Bundesliga
+1401,Tim Skarke,de GER,"FW,MF",27.0,12260,Bundesliga
+1402,Danilho Doekhi,nl NED,DF,26.0,9807,Bundesliga
+1403,Benedict Hollerbach,,CF,23.0,8173,Bundesliga
+1404,Andrej Ilic,,CF,24.0,7193,Bundesliga
+1405,Ivan Prtajin,hr CRO,FW,28.0,5557,Bundesliga
+1406,Diogo Leite,pt POR,DF,25.0,5557,Bundesliga
+1407,Carl Klaus,de GER,GK,30.0,4904,Bundesliga
+1408,Aljoscha Kemlein,,DM,20.0,2452,Bundesliga
+1409,Yannic Stein,,GK,19.0,1962,Bundesliga
+1410,David Preu,,LW,20.0,1635,Bundesliga
+1411,Oluwaseun Ogbemudia,,CB,18.0,1635,Bundesliga
+1412,Nikola Vasilj,ba BIH,GK,28.0,16346,Bundesliga
+1413,Eric Smith,se SWE,"DF,MF",27.0,15693,Bundesliga
+1414,Morgan Guilavogui,gn GUI,"FW,MF",26.0,13894,Bundesliga
+1415,Manolis Saliakas,gr GRE,"MF,DF",27.0,13731,Bundesliga
+1416,Johannes Eggestein,de GER,FW,26.0,13731,Bundesliga
+1417,Hauke Wahl,de GER,DF,30.0,13731,Bundesliga
+1418,David Nemeth,at AUT,DF,23.0,12750,Bundesliga
+1419,Oladapo Afolayan,,RW,27.0,12750,Bundesliga
+1420,Jackson Irvine,au AUS,MF,31.0,10788,Bundesliga
+1421,Simon Zoller,de GER,CF,33.0,10788,Bundesliga
+1422,Maurides,,CF,30.0,9807,Bundesliga
+1423,Connor Metcalfe,au AUS,"MF,FW",24.0,9318,Bundesliga
+1424,Danel Sinani,lu LUX,"FW,MF",27.0,7846,Bundesliga
+1425,Erik Ahlstrand,,CM,23.0,7846,Bundesliga
+1426,Andreas Albers,dk DEN,FW,34.0,7682,Bundesliga
+1427,Sascha Burchert,de GER,GK,35.0,6865,Bundesliga
+1428,Karol Mets,ee EST,DF,31.0,5068,Bundesliga
+1429,Elias Saad,,LW,25.0,4904,Bundesliga
+1430,Ben Alexander Voll,de GER,GK,23.0,4577,Bundesliga
+1431,Finley Stevens,wls WAL,DF,21.0,4250,Bundesliga
+1432,Adam Dźwigała,pl POL,"DF,MF",28.0,3106,Bundesliga
+1433,Philipp Treu,,LB,23.0,2943,Bundesliga
+1434,Robert Wagner,de GER,MF,21.0,1962,Bundesliga
+1435,Scott Banks,,RW,22.0,1962,Bundesliga
+1436,Lars Ritzka,de GER,"DF,MF",26.0,1635,Bundesliga
+1437,Carlo Boukhalfa,ma MAR,MF,25.0,1635,Bundesliga
+1438,Muhammad Dahaba,,CB,19.0,1471,Bundesliga
+1439,Sören Ahlers,de GER,GK,26.0,1307,Bundesliga
+1440,Andrej Kramarić,hr CRO,"FW,MF",33.0,65385,Bundesliga
+1441,Diadie Samassékou,ml MLI,MF,28.0,63750,Bundesliga
+1442,Oliver Baumann,de GER,GK,34.0,57212,Bundesliga
+1443,Mergim Berisha,de GER,FW,26.0,57212,Bundesliga
+1444,Ozan Kabak,tr TUR,CB,24.0,51490,Bundesliga
+1445,Adam Hložek,cz CZE,"FW,MF",22.0,46260,Bundesliga
+1446,Ihlas Bebou,tg TOG,MF,30.0,44135,Bundesliga
+1447,Florian Grillitsch,at AUT,"MF,DF",28.0,40865,Bundesliga
+1448,Valentin Gendrey,fr FRA,DF,24.0,36943,Bundesliga
+1449,Dennis Geiger,de GER,"MF,FW",26.0,35307,Bundesliga
+1450,Marius Bülter,de GER,"FW,DF",31.0,34327,Bundesliga
+1451,Alexander Prass,at AUT,DF,23.0,34000,Bundesliga
+1452,Pavel Kadeřábek,cz CZE,DF,32.0,32693,Bundesliga
+1453,Attila Szalai,hu HUN,"DF,MF",26.0,32693,Bundesliga
+1454,David Jurásek,,LB,24.0,31385,Bundesliga
+1455,Anton Stach,de GER,"DF,MF",25.0,31057,Bundesliga
+1456,Jacob Bruun Larsen,dk DEN,"FW,MF",25.0,29423,Bundesliga
+1457,Kevin Akpoguma,ng NGA,DF,29.0,24519,Bundesliga
+1458,Robin Hranac,,CB,24.0,21577,Bundesliga
+1459,Stanley N'Soki,fr FRA,DF,25.0,19615,Bundesliga
+1460,Haris Tabakovic,ba BIH,"FW,MF",30.0,18635,Bundesliga
+1461,Grischa Prömel,de GER,MF,29.0,13731,Bundesliga
+1462,Umut Tohumcu,,CM,20.0,9318,Bundesliga
+1463,Tim Drexler,,CB,19.0,7846,Bundesliga
+1464,Luca Philipp,de GER,GK,23.0,6212,Bundesliga
+1465,Finn Ole Becker,de GER,MF,24.0,5885,Bundesliga
+1466,Arthur Chaves,br BRA,DF,23.0,4904,Bundesliga
+1467,Max Moerstedt,,CF,19.0,4577,Bundesliga
+1468,Marco John,de GER,LB,22.0,2288,Bundesliga
+1469,Tom Bischof,de GER,MF,19.0,2288,Bundesliga
+1470,Lúkas Petersson,,GK,20.0,1962,Bundesliga
+1471,Paul Wanner,de GER,"MF,FW",18.0,32693,Bundesliga
+1472,Benedikt Gimber,de GER,DF,27.0,24519,Bundesliga
+1473,Niklas Dorsch,de GER,MF,26.0,21577,Bundesliga
+1474,Kevin Müller,de GER,GK,33.0,17981,Bundesliga
+1475,Marvin Pieringer,de GER,"FW,MF",24.0,12750,Bundesliga
+1476,Patrick Mainka,de GER,DF,29.0,12260,Bundesliga
+1477,Marnon Busch,de GER,"DF,MF",29.0,12260,Bundesliga
+1478,Denis Thomalla,de GER,MF,31.0,11769,Bundesliga
+1479,Mikkel Kaufmann,dk DEN,FW,23.0,11769,Bundesliga
+1480,Adrian Beck,de GER,"MF,FW",27.0,11769,Bundesliga
+1481,Jonas Föhrenbach,de GER,DF,28.0,8500,Bundesliga
+1482,Jan Schöppner,de GER,MF,25.0,7846,Bundesliga
+1483,Julian Niehues,de GER,MF,23.0,6865,Bundesliga
+1484,Norman Theuerkauf,de GER,MF,37.0,6865,Bundesliga
+1485,Sirlord Conteh,de GER,"FW,MF",28.0,6212,Bundesliga
+1486,Mathias Honsak,at AUT,"FW,DF",27.0,5394,Bundesliga
+1487,Stefan Schimmer,de GER,"FW,MF",30.0,4904,Bundesliga
+1488,Omar Traoré,,RB,26.0,4904,Bundesliga
+1489,Léo Scienza,br BRA,"FW,MF",25.0,4577,Bundesliga
+1490,Vitus Eicher,de GER,GK,33.0,4413,Bundesliga
+1491,Maximilian Breunig,,CF,24.0,3596,Bundesliga
+1492,Paul Tschernuth,at AUT,GK,22.0,2779,Bundesliga
+1493,Thomas Keller,de GER,"DF,MF",24.0,2779,Bundesliga
+1494,Frank Feller,,GK,21.0,2452,Bundesliga
+1495,Lennard Maloney,us USA,MF,24.0,2452,Bundesliga
+1496,Luka Janes,,DM,20.0,2452,Bundesliga
+1497,Tim Siersleben,de GER,DF,24.0,2452,Bundesliga
+1498,Christopher Negele,,LW,19.0,2125,Bundesliga
+1499,Tymoteusz Puchacz,pl POL,DF,25.0,18635,Bundesliga
+1500,Jann-Fiete Arp,de GER,"FW,MF",24.0,16346,Bundesliga
+1501,Steven Skrzybski,de GER,"MF,FW",31.0,12260,Bundesliga
+1502,Armin Gigovic,ba BIH,MF,22.0,12260,Bundesliga
+1503,Magnus Knudsen,no NOR,MF,23.0,12260,Bundesliga
+1504,Benedikt Pichler,at AUT,FW,27.0,10625,Bundesliga
+1505,Timo Becker,de GER,DF,27.0,9644,Bundesliga
+1506,Marvin Schulz,de GER,"MF,DF",29.0,8990,Bundesliga
+1507,Thomas Dähne,de GER,GK,30.0,8500,Bundesliga
+1508,Alexander Bernhardsson,,RW,26.0,7846,Bundesliga
+1509,Patrick Erras,de GER,DF,29.0,7682,Bundesliga
+1510,Shuto Machino,,CF,25.0,6865,Bundesliga
+1511,Lewis Holtby,de GER,MF,33.0,6865,Bundesliga
+1512,Colin Kleine-Bekel,,CB,21.0,5885,Bundesliga
+1513,Timon Weiner,de GER,GK,25.0,5557,Bundesliga
+1514,Carl Johansson,,CB,30.0,4904,Bundesliga
+1515,Marko Ivezic,,DM,23.0,4413,Bundesliga
+1516,Nicolai Remberg,,CM,24.0,3923,Bundesliga
+1517,Lasse Rosenboom,,RB,23.0,3923,Bundesliga
+1518,Dominik Javorcek,,LB,22.0,3596,Bundesliga
+1519,Max Geschwill,,CB,23.0,3269,Bundesliga
+1520,Phil Harres,,CF,22.0,3269,Bundesliga
+1521,Finn Porath,de GER,"DF,MF",27.0,3106,Bundesliga
+1522,Marcel Engelhardt,,GK,31.0,2452,Bundesliga
+1523,Andu Kelati,,LW,22.0,2288,Bundesliga
+1524,Marco Komenda,hr CRO,DF,27.0,1962,Bundesliga
+1525,Aurel Wagbe,,LM,20.0,1962,Bundesliga
+1526,Tyler Dogan,,GK,18.0,1635,Bundesliga
+1527,Ivan Ordets,ua UKR,DF,32.0,30894,Bundesliga
+1528,Ibrahima Sissoko,ml MLI,MF,26.0,24519,Bundesliga
+1529,Myron Boadu,nl NED,FW,23.0,23048,Bundesliga
+1530,Bernardo,br BRA,DF,29.0,21577,Bundesliga
+1531,Dani de Wit,nl NED,"MF,FW",26.0,21577,Bundesliga
+1532,Erhan Mašović,rs SRB,DF,25.0,19615,Bundesliga
+1533,Felix Passlack,de GER,"DF,MF",26.0,16346,Bundesliga
+1534,Timo Horn,de GER,GK,31.0,15365,Bundesliga
+1535,Anthony Losilla,fr FRA,MF,38.0,15365,Bundesliga
+1536,Gerrit Holtmann,ph PHI,"DF,FW",29.0,13894,Bundesliga
+1537,Manuel Riemann,de GER,GK,35.0,13731,Bundesliga
+1538,Maximilian Wittek,de GER,DF,28.0,13077,Bundesliga
+1539,Philipp Hofmann,de GER,FW,31.0,12750,Bundesliga
+1540,Koji Miyoshi,jp JPN,"FW,MF",27.0,12423,Bundesliga
+1541,Matúš Bero,sk SVK,MF,28.0,11443,Bundesliga
+1542,Cristian Gamboa,cr CRC,DF,34.0,9807,Bundesliga
+1543,Jakov Medić,hr CRO,DF,25.0,8500,Bundesliga
+1544,Lukas Daschner,de GER,"MF,FW",25.0,8173,Bundesliga
+1545,Moritz-Broni Kwarteng,gh GHA,"MF,FW",26.0,7356,Bundesliga
+1546,Aliou Badara Baldé,gn GUI,"MF,FW",21.0,6538,Bundesliga
+1547,Noah Loosli,ch SUI,DF,27.0,6048,Bundesliga
+1548,Patrick Drewes,de GER,GK,31.0,6048,Bundesliga
+1549,Agon Elezi,,CM,23.0,4577,Bundesliga
+1550,Samuel Bamba,,RW,20.0,4577,Bundesliga
+1551,Tim Oermann,de GER,DF,20.0,4413,Bundesliga
+1552,Niklas Jahn,,DM,20.0,2943,Bundesliga
+1553,Paul Grave,de GER,GK,23.0,2943,Bundesliga
+1554,Mohammed Tolba,,CB,20.0,1962,Bundesliga
+1555,Moritz Broschinski,,CF,24.0,1962,Bundesliga
+1556,Mats Pannewig,,CM,19.0,1962,Bundesliga
+1557,Lennart Koerdt,,AM,19.0,1962,Bundesliga
+1558,Romelu Lukaku,be BEL,FW,31.0,125702,Serie A
+1559,Matteo Politano,it ITA,"FW,MF",30.0,96932,Serie A
+1560,David Neres,br BRA,FW,27.0,90885,Serie A
+1561,Scott McTominay,sct SCO,MF,27.0,90885,Serie A
+1562,Giovanni Di Lorenzo,it ITA,DF,30.0,90885,Serie A
+1563,Victor Osimhen,ng NGA,CF,25.0,83856,Serie A
+1564,Giacomo Raspadori,it ITA,"FW,MF",24.0,75682,Serie A
+1565,Alessandro Buongiorno,it ITA,DF,25.0,75682,Serie A
+1566,Alex Meret,it ITA,GK,27.0,60481,Serie A
+1567,Stanislav Lobotka,sk SVK,MF,29.0,58682,Serie A
+1568,Andre-Frank Zambo Anguissa,cm CMR,MF,28.0,56557,Serie A
+1569,Giovanni Simeone,ar ARG,FW,29.0,54432,Serie A
+1570,Mário Rui,pt POR,LB,33.0,54432,Serie A
+1571,Leonardo Spinazzola,it ITA,"DF,FW",31.0,54432,Serie A
+1572,Billy Gilmour,sct SCO,MF,23.0,54432,Serie A
+1573,Amir Rrahmani,xk KVX,DF,30.0,52471,Serie A
+1574,Rafa Marín,,CB,22.0,36288,Serie A
+1575,Michael Folorunsho,it ITA,"FW,MF",26.0,36288,Serie A
+1576,Khvicha Kvaratskhelia,ge GEO,"FW,MF",23.0,33510,Serie A
+1577,Mathías Olivera,uy URU,DF,26.0,31385,Serie A
+1578,Juan Jesus,br BRA,DF,33.0,30240,Serie A
+1579,Pasquale Mazzocchi,it ITA,"DF,FW",29.0,30240,Serie A
+1580,Cyril Ngonge,be BEL,FW,24.0,25173,Serie A
+1581,Elia Caprile,it ITA,GK,22.0,10462,Serie A
+1582,Nikita Contini Baranovsky,it ITA,GK,28.0,9154,Serie A
+1583,Alessio Zerbin,it ITA,"FW,DF",25.0,5394,Serie A
+1584,Lautaro Martínez,ar ARG,FW,26.0,272490,Serie A
+1585,Nicolò Barella,it ITA,MF,27.0,196807,Serie A
+1586,Hakan Çalhanoğlu,tr TUR,MF,30.0,181606,Serie A
+1587,Alessandro Bastoni,it ITA,DF,25.0,166568,Serie A
+1588,Piotr Zieliński,pl POL,MF,30.0,136163,Serie A
+1589,Marcus Thuram,fr FRA,FW,26.0,125702,Serie A
+1590,Federico Dimarco,it ITA,"DF,FW",26.0,121125,Serie A
+1591,Stefan de Vrij,nl NED,DF,32.0,115077,Serie A
+1592,Joaquín Correa,ar ARG,"FW,MF",29.0,105923,Serie A
+1593,Benjamin Pavard,fr FRA,DF,28.0,104779,Serie A
+1594,Mehdi Taremi,ir IRN,FW,32.0,90885,Serie A
+1595,Davide Frattesi,it ITA,MF,24.0,84837,Serie A
+1596,Denzel Dumfries,nl NED,DF,28.0,83856,Serie A
+1597,Henrikh Mkhitaryan,am ARM,MF,35.0,79606,Serie A
+1598,Marko Arnautović,at AUT,FW,35.0,73394,Serie A
+1599,Matteo Darmian,it ITA,DF,34.0,52471,Serie A
+1600,Yann Sommer,ch SUI,GK,35.0,52471,Serie A
+1601,Carlos Augusto,br BRA,DF,25.0,46096,Serie A
+1602,Francesco Acerbi,it ITA,DF,36.0,45443,Serie A
+1603,Josep Martinez,es ESP,GK,26.0,45443,Serie A
+1604,Tajon Buchanan,ca CAN,"DF,FW",25.0,45443,Serie A
+1605,Kristjan Asllani,al ALB,MF,22.0,45443,Serie A
+1606,Yann Aurel Bisseck,de GER,DF,23.0,31385,Serie A
+1607,Ionuț Radu,ro ROU,GK,27.0,30240,Serie A
+1608,Tomás Palacios,,CB,21.0,18144,Serie A
+1609,Eddie Salcedo,it ITA,CF,22.0,6048,Serie A
+1610,Raffaele Di Gennaro,it ITA,GK,30.0,4577,Serie A
+1611,Gianluca Scamacca,it ITA,FW,25.0,96932,Serie A
+1612,Ben Godfrey,eng ENG,DF,26.0,75682,Serie A
+1613,Nicolò Zaniolo,it ITA,"FW,MF",25.0,75682,Serie A
+1614,Raoul Bellanova,it ITA,DF,24.0,54432,Serie A
+1615,Charles De Ketelaere,be BEL,"FW,MF",23.0,52471,Serie A
+1616,Mateo Retegui,it ITA,FW,25.0,46096,Serie A
+1617,Juan Cuadrado,co COL,DF,36.0,45443,Serie A
+1618,Sead Kolašinac,ba BIH,DF,31.0,41846,Serie A
+1619,Éderson,br BRA,MF,25.0,41846,Serie A
+1620,Ademola Lookman,ng NGA,"FW,MF",26.0,37760,Serie A
+1621,Rui Patrício,pt POR,GK,36.0,31385,Serie A
+1622,Lazar Samardzic,rs SRB,MF,22.0,31385,Serie A
+1623,Mario Pašalić,hr CRO,MF,29.0,30240,Serie A
+1624,Rafael Tolói,it ITA,DF,33.0,30240,Serie A
+1625,Odilon Kossounou,ci CIV,DF,23.0,30240,Serie A
+1626,Marten de Roon,nl NED,MF,33.0,30240,Serie A
+1627,Marco Brescianini,it ITA,"MF,FW",24.0,30240,Serie A
+1628,Davide Zappacosta,it ITA,DF,32.0,27298,Serie A
+1629,Isak Hien,,CB,26.0,27298,Serie A
+1630,Berat Djimsiti,al ALB,DF,31.0,24193,Serie A
+1631,Ibrahim Sulemana,,DM,21.0,15202,Serie A
+1632,Matteo Ruggeri,it ITA,DF,22.0,15202,Serie A
+1633,Brandon Soppy,fr FRA,RB,22.0,12587,Serie A
+1634,Giorgio Scalvini,it ITA,DF,20.0,9154,Serie A
+1635,Marco Carnesecchi,it ITA,GK,24.0,3106,Serie A
+1636,Francesco Rossi,it ITA,GK,33.0,3106,Serie A
+1637,Dušan Vlahović,rs SRB,FW,24.0,363212,Serie A
+1638,Gleison Bremer,br BRA,DF,27.0,151365,Serie A
+1639,Douglas Luiz,br BRA,MF,26.0,136163,Serie A
+1640,Arthur Melo,br BRA,DM,28.0,104779,Serie A
+1641,Manuel Locatelli,it ITA,"MF,DF",26.0,99875,Serie A
+1642,Teun Koopmeiners,nl NED,MF,26.0,94318,Serie A
+1643,Danilo,br BRA,DF,33.0,83856,Serie A
+1644,Francisco Conceição,pt POR,FW,21.0,75682,Serie A
+1645,Nicolás González,ar ARG,FW,26.0,75519,Serie A
+1646,Arkadiusz Milik,pl POL,CF,31.0,73394,Serie A
+1647,Andrea Cambiaso,it ITA,DF,24.0,72577,Serie A
+1648,Khéphren Thuram,fr FRA,MF,23.0,60481,Serie A
+1649,Michele Di Gregorio,it ITA,GK,27.0,60481,Serie A
+1650,Weston McKennie,us USA,"MF,DF",25.0,52471,Serie A
+1651,Kenan Yıldız,,SS,19.0,48385,Serie A
+1652,Mattia Perin,it ITA,GK,31.0,45443,Serie A
+1653,Nicolò Fagioli,it ITA,"MF,FW",23.0,45443,Serie A
+1654,Federico Gatti,it ITA,DF,26.0,42337,Serie A
+1655,Pierre Kalulu,fr FRA,DF,24.0,41846,Serie A
+1656,Timothy Weah,us USA,"DF,FW",24.0,41846,Serie A
+1657,Juan David Cabal,co COL,DF,23.0,36288,Serie A
+1658,Tiago Djaló,pt POR,CB,24.0,24193,Serie A
+1659,Carlo Pinsoglio,it ITA,GK,34.0,9154,Serie A
+1660,Samuel Mbangula,,LW,21.0,9154,Serie A
+1661,Nicolò Savona,,RB,22.0,6048,Serie A
+1662,Jonas Rouhi,,LB,20.0,6048,Serie A
+1663,Paul Pogba,fr FRA,CM,31.0,687,Serie A
+1664,Paulo Dybala,ar ARG,"FW,MF",30.0,115077,Serie A
+1665,Gianluca Mancini,it ITA,DF,28.0,105923,Serie A
+1666,Lorenzo Pellegrini,it ITA,MF,28.0,105923,Serie A
+1667,Mario Hermoso,es ESP,DF,29.0,105923,Serie A
+1668,Leandro Paredes,ar ARG,MF,30.0,94318,Serie A
+1669,Artem Dovbyk,ua UKR,FW,27.0,90885,Serie A
+1670,Bryan Cristante,it ITA,MF,29.0,84837,Serie A
+1671,Manu Koné,fr FRA,MF,23.0,84837,Serie A
+1672,Obite N'Dicka,ci CIV,DF,24.0,83856,Serie A
+1673,Stephan El Shaarawy,it ITA,"DF,MF",31.0,75682,Serie A
+1674,Enzo Le Fée,fr FRA,MF,24.0,69635,Serie A
+1675,Angeliño,es ESP,DF,27.0,60481,Serie A
+1676,Matías Soulé,,RW,21.0,60481,Serie A
+1677,Mats Hummels,de GER,DF,35.0,60481,Serie A
+1678,Zeki Çelik,tr TUR,DF,27.0,41846,Serie A
+1679,Tommaso Baldanzi,it ITA,"MF,FW",21.0,32693,Serie A
+1680,Eldor Shomurodov,uz UZB,"FW,MF",29.0,31385,Serie A
+1681,Samuel Dahl,,LB,21.0,30240,Serie A
+1682,Saud Abdulhamid,,RB,25.0,30240,Serie A
+1683,Mile Svilar,rs SRB,GK,24.0,20923,Serie A
+1684,Alexis Saelemaekers,be BEL,"DF,FW",25.0,20923,Serie A
+1685,Mathew Ryan,au AUS,GK,32.0,15202,Serie A
+1686,Nicola Zalewski,pl POL,"DF,FW",22.0,9154,Serie A
+1687,Niccolò Pisilli,,CM,20.0,2779,Serie A
+1688,Robin Gosens,de GER,DF,30.0,60481,Serie A
+1689,Christian Kouamé,ci CIV,"FW,MF",26.0,51490,Serie A
+1690,Cristiano Biraghi,it ITA,DF,31.0,51490,Serie A
+1691,Rolando Mandragora,it ITA,MF,27.0,48385,Serie A
+1692,Albert Guðmundsson,is ISL,"FW,MF",27.0,46096,Serie A
+1693,Moise Kean,it ITA,FW,24.0,46096,Serie A
+1694,Danilo Cataldi,it ITA,MF,29.0,45443,Serie A
+1695,Fabiano Parisi,it ITA,"DF,MF",23.0,45443,Serie A
+1696,Marin Pongračić,hr CRO,DF,26.0,43971,Serie A
+1697,Lucas Beltrán,,CF,23.0,37760,Serie A
+1698,Amir Richardson,ma MAR,MF,22.0,36288,Serie A
+1699,Andrea Colpani,it ITA,"FW,MF",25.0,36288,Serie A
+1700,David de Gea,es ESP,GK,33.0,36288,Serie A
+1701,Luca Ranieri,it ITA,DF,25.0,36288,Serie A
+1702,Jonathan Ikone,fr FRA,"FW,MF",26.0,35635,Serie A
+1703,Dodô,br BRA,DF,25.0,31385,Serie A
+1704,Lucas Martínez Quarta,ar ARG,DF,28.0,31385,Serie A
+1705,Edoardo Bove,it ITA,"MF,FW",22.0,30240,Serie A
+1706,Michael Kayode,,RB,20.0,30240,Serie A
+1707,Pietro Terracciano,it ITA,GK,34.0,27298,Serie A
+1708,Abdelhamid Sabiri,ma MAR,AM,27.0,24193,Serie A
+1709,Riccardo Sottil,it ITA,"FW,MF",25.0,18144,Serie A
+1710,Yacine Adli,fr FRA,MF,24.0,16837,Serie A
+1711,Pietro Comuzzo,,CB,19.0,15202,Serie A
+1712,Tommaso Martinelli,,GK,19.0,15202,Serie A
+1713,Matías Moreno,,CB,21.0,12096,Serie A
+1714,Oliver Christensen,dk DEN,GK,25.0,10462,Serie A
+1715,Gino Infantino,ar ARG,MF,21.0,7356,Serie A
+1716,Mattia Zaccagni,it ITA,FW,29.0,90885,Serie A
+1717,Alessio Romagnoli,it ITA,DF,29.0,84837,Serie A
+1718,Elseid Hysaj,al ALB,DF,30.0,84837,Serie A
+1719,Adam Marušić,me MNE,DF,31.0,66529,Serie A
+1720,Samuel Gigot,fr FRA,DF,30.0,66529,Serie A
+1721,Gaetano Castrovilli,it ITA,"MF,FW",27.0,60481,Serie A
+1722,Nicolò Rovella,it ITA,MF,22.0,60481,Serie A
+1723,Nuno Tavares,pt POR,DF,24.0,60481,Serie A
+1724,Ivan Provedel,it ITA,GK,30.0,60481,Serie A
+1725,Matías Vecino,uy URU,MF,32.0,54432,Serie A
+1726,Mattéo Guendouzi,fr FRA,MF,25.0,52471,Serie A
+1727,Manuel Lazzari,it ITA,DF,30.0,51490,Serie A
+1728,Pedro,es ESP,"FW,MF",37.0,46096,Serie A
+1729,Boulaye Dia,sn SEN,"MF,FW",27.0,41846,Serie A
+1730,Fisayo Dele-Bashiru,ng NGA,"MF,FW",23.0,39394,Serie A
+1731,Tijjani Noslin,nl NED,"FW,MF",25.0,39394,Serie A
+1732,Luca Pellegrini,it ITA,DF,25.0,39394,Serie A
+1733,Valentín Castellanos,ar ARG,FW,25.0,37760,Serie A
+1734,Patric,es ESP,DF,31.0,36288,Serie A
+1735,Toma Bašić,hr CRO,MF,27.0,33510,Serie A
+1736,Gustav Isaksen,,RW,23.0,31385,Serie A
+1737,Loum Tchaouna,fr FRA,"FW,MF",20.0,30240,Serie A
+1738,Jean-Daniel Akpa-Akpro,ci CIV,"DF,MF",31.0,27298,Serie A
+1739,Mario Gila,,CB,24.0,20923,Serie A
+1740,Anderson Lima,br BRA,AM,24.0,15202,Serie A
+1741,Christos Mandas,,GK,23.0,2125,Serie A
+1742,Diego González,,RW,21.0,1962,Serie A
+1743,Alessio Furlanetto,it ITA,GK,22.0,1798,Serie A
+1744,Álvaro Morata,es ESP,FW,31.0,136163,Serie A
+1745,Ismaël Bennacer,dz ALG,MF,26.0,115077,Serie A
+1746,Rafael Leão,pt POR,FW,25.0,104779,Serie A
+1747,Tammy Abraham,eng ENG,FW,26.0,94318,Serie A
+1748,Alessandro Florenzi,it ITA,FW,33.0,90885,Serie A
+1749,Youssouf Fofana,fr FRA,MF,25.0,90885,Serie A
+1750,Theo Hernández,fr FRA,DF,26.0,83856,Serie A
+1751,Christian Pulisic,us USA,"FW,MF",25.0,83856,Serie A
+1752,Ruben Loftus-Cheek,eng ENG,MF,28.0,83856,Serie A
+1753,Samuel Chukwueze,ng NGA,FW,25.0,83856,Serie A
+1754,Emerson,br BRA,DF,25.0,75682,Serie A
+1755,Fikayo Tomori,eng ENG,DF,26.0,73394,Serie A
+1756,Davide Calabria,it ITA,DF,27.0,60481,Serie A
+1757,Mike Maignan,fr FRA,GK,29.0,58682,Serie A
+1758,Matteo Gabbia,it ITA,DF,24.0,54432,Serie A
+1759,Luka Jović,rs SRB,"FW,MF",26.0,52471,Serie A
+1760,Strahinja Pavlović,rs SRB,DF,23.0,51490,Serie A
+1761,Yunus Musah,us USA,"FW,MF",21.0,41846,Serie A
+1762,Noah Okafor,ch SUI,"FW,MF",24.0,41846,Serie A
+1763,Tijjani Reijnders,nl NED,MF,26.0,35635,Serie A
+1764,Filippo Terracciano,,RB,21.0,24193,Serie A
+1765,Álex Jiménez,,LB,19.0,18144,Serie A
+1766,Malick Thiaw,de GER,DF,22.0,16837,Serie A
+1767,Marco Sportiello,it ITA,GK,32.0,15202,Serie A
+1768,Kevin Zeroli,,CM,19.0,4577,Serie A
+1769,Lorenzo Torriani,,GK,19.0,2125,Serie A
+1770,Riccardo Orsolini,it ITA,"FW,MF",27.0,60481,Serie A
+1771,Thijs Dallinga,nl NED,FW,23.0,48385,Serie A
+1772,Juan Miranda,es ESP,DF,24.0,36288,Serie A
+1773,Tommaso Pobega,it ITA,MF,25.0,30240,Serie A
+1774,Nicolò Casale,it ITA,DF,26.0,30240,Serie A
+1775,Remo Freuler,ch SUI,MF,32.0,30240,Serie A
+1776,Łukasz Skorupski,pl POL,GK,33.0,27298,Serie A
+1777,Lewis Ferguson,sct SCO,MF,24.0,20923,Serie A
+1778,Nikola Moro,hr CRO,MF,26.0,20269,Serie A
+1779,Jens Odgaard,dk DEN,"FW,MF",25.0,18144,Serie A
+1780,Nicolò Cambiaghi,it ITA,FW,23.0,18144,Serie A
+1781,Jesper Karlsson,se SWE,FW,26.0,16837,Serie A
+1782,Emil Holm,se SWE,DF,24.0,16837,Serie A
+1783,Dan Ndoye,ch SUI,"FW,MF",23.0,16837,Serie A
+1784,Michel Aebischer,ch SUI,MF,27.0,16837,Serie A
+1785,Stefan Posch,at AUT,DF,27.0,16346,Serie A
+1786,Jhon Lucumí,co COL,DF,26.0,15693,Serie A
+1787,Charalampos Lykogiannis,gr GRE,DF,30.0,15202,Serie A
+1788,Martin Erlic,hr CRO,DF,26.0,15202,Serie A
+1789,Santiago Castro,,CF,19.0,15202,Serie A
+1790,Sam Beukema,nl NED,DF,25.0,14712,Serie A
+1791,Giovanni Fabbian,,CM,21.0,12096,Serie A
+1792,Federico Ravaglia,it ITA,GK,24.0,12096,Serie A
+1793,Benjamín Domínguez,,LW,21.0,12096,Serie A
+1794,Mihajlo Ilić,,CB,21.0,10625,Serie A
+1795,Samuel Iling-Junior,eng ENG,"FW,MF",20.0,10462,Serie A
+1796,Oussama El Azzouzi,ma MAR,MF,23.0,9481,Serie A
+1797,Kacper Urbanski,pl POL,"MF,FW",19.0,9154,Serie A
+1798,Tommaso Corazza,,LB,20.0,7519,Serie A
+1799,Lorenzo De Silvestri,it ITA,DF,36.0,6048,Serie A
+1800,Nicola Bagnolini,,GK,20.0,4577,Serie A
+1801,Niklas Pyyhtiä,,CM,20.0,4577,Serie A
+1802,Raphaël Varane,fr FRA,DF,31.0,90885,Serie A
+1803,Andrea Belotti,it ITA,FW,30.0,45443,Serie A
+1804,Luca Mazzitelli,it ITA,MF,28.0,42337,Serie A
+1805,Sergi Roberto,es ESP,MF,32.0,36288,Serie A
+1806,Alberto Dossena,it ITA,DF,25.0,30240,Serie A
+1807,Máximo Perrone,,DM,21.0,30240,Serie A
+1808,Emil Audero,id IDN,GK,27.0,27298,Serie A
+1809,Simone Verdi,it ITA,"MF,FW",32.0,24193,Serie A
+1810,Daniele Baselli,it ITA,MF,32.0,21250,Serie A
+1811,Alberto Moreno,es ESP,DF,32.0,21250,Serie A
+1812,Marc-Oliver Kempf,de GER,DF,29.0,18144,Serie A
+1813,Alberto Cerri,it ITA,FW,28.0,16673,Serie A
+1814,Yannik Engelhardt,,DM,23.0,15202,Serie A
+1815,Nico Paz,,AM,20.0,15202,Serie A
+1816,Pepe Reina,es ESP,GK,41.0,15202,Serie A
+1817,Alieu Fadera,gm GAM,"FW,DF",22.0,13568,Serie A
+1818,Alessandro Gabrielloni,it ITA,"FW,MF",30.0,12750,Serie A
+1819,Gabriel Strefezza,br BRA,"FW,MF",27.0,12096,Serie A
+1820,Federico Barba,it ITA,DF,30.0,12096,Serie A
+1821,Edoardo Goldaniga,it ITA,DF,30.0,12096,Serie A
+1822,Patrick Cutrone,it ITA,FW,26.0,10462,Serie A
+1823,Ignace Van Der Brempt,be BEL,DF,22.0,7519,Serie A
+1824,Matthias Braunöder,at AUT,MF,22.0,7519,Serie A
+1825,Moutir Chajia,be BEL,AM,26.0,7519,Serie A
+1826,Ben Lhassine Kone,ci CIV,MF,24.0,4577,Serie A
+1827,Marco Sala,it ITA,DF,25.0,4577,Serie A
+1828,Lucas Da Cunha,fr FRA,MF,23.0,3106,Serie A
+1829,Pierre Bolchini,it ITA,GK,25.0,3106,Serie A
+1830,Ali Jasim,,LW,20.0,3106,Serie A
+1831,Naj Razi,,AM,17.0,2779,Serie A
+1832,Mauro Vigorito,it ITA,GK,34.0,2779,Serie A
+1833,Giuseppe Mazzaglia,,CM,18.0,2779,Serie A
+1834,Alessio Iovine,it ITA,"DF,FW",33.0,2452,Serie A
+1835,Fellipe Jack,,CB,18.0,2452,Serie A
+1836,Duván Zapata,co COL,FW,33.0,81731,Serie A
+1837,Samuele Ricci,it ITA,MF,22.0,54432,Serie A
+1838,Che Adams,sct SCO,FW,28.0,54432,Serie A
+1839,Guillermo Maripán,cl CHI,DF,30.0,51490,Serie A
+1840,Antonio Sanabria,py PAR,FW,28.0,48385,Serie A
+1841,Karol Linetty,pl POL,MF,29.0,42337,Serie A
+1842,Nikola Vlašić,hr CRO,"MF,FW",26.0,41846,Serie A
+1843,Valentino Lazaro,at AUT,"DF,FW",28.0,31385,Serie A
+1844,Borna Sosa,hr CRO,DF,26.0,30240,Serie A
+1845,Yann Karamoh,fr FRA,"MF,FW",26.0,30240,Serie A
+1846,Perr Schuurs,nl NED,CB,24.0,29260,Serie A
+1847,Saúl Coco,gq EQG,DF,25.0,27298,Serie A
+1848,Ivan Ilić,rs SRB,MF,23.0,25173,Serie A
+1849,Vanja Milinković-Savić,rs SRB,GK,27.0,21250,Serie A
+1850,Marcus Pedersen,no NOR,DF,24.0,21250,Serie A
+1851,Adrien Tameze,cm CMR,"MF,DF",30.0,20923,Serie A
+1852,Adam Masina,ma MAR,DF,30.0,20923,Serie A
+1853,Sebastian Walukiewicz,pl POL,DF,24.0,18144,Serie A
+1854,Gvidas Gineitis,,CM,20.0,18144,Serie A
+1855,Nemanja Radonjić,rs SRB,LW,28.0,16837,Serie A
+1856,Mërgim Vojvoda,xk KVX,DF,29.0,14712,Serie A
+1857,Brian Bayeye,,RB,24.0,9154,Serie A
+1858,Antonio Donnarumma,it ITA,GK,34.0,9154,Serie A
+1859,Alberto Paleari,it ITA,GK,31.0,9154,Serie A
+1860,Emirhan İlkhan,tr TUR,MF,20.0,5721,Serie A
+1861,Ali Dembélé,,RB,21.0,4577,Serie A
+1862,Zanos Savva,,RW,19.0,4577,Serie A
+1863,Côme Bianay Balcot,,CB,19.0,2452,Serie A
+1864,Ange Caumenan N'Guessan,,CB,21.0,2452,Serie A
+1865,Alexis Sánchez,cl CHI,FW,35.0,45443,Serie A
+1866,Florian Thauvin,fr FRA,"FW,MF",31.0,37760,Serie A
+1867,Gerard Deulofeu,es ESP,CF,30.0,31385,Serie A
+1868,Christian Kabasele,be BEL,DF,33.0,27298,Serie A
+1869,Lautaro Gianetti,ar ARG,DF,30.0,22721,Serie A
+1870,Jurgen Ekkelenkamp,nl NED,MF,24.0,21250,Serie A
+1871,Hassane Kamara,ci CIV,DF,30.0,18798,Serie A
+1872,Jesper Karlström,,DM,29.0,18144,Serie A
+1873,Enzo Ebosse,cm CMR,DF,25.0,16837,Serie A
+1874,Jaka Bijol,si SVN,DF,25.0,16837,Serie A
+1875,Brenner,br BRA,"MF,FW",24.0,15693,Serie A
+1876,Sandi Lovrić,si SVN,MF,26.0,14712,Serie A
+1877,Kingsley Ehizibue,nl NED,DF,29.0,14712,Serie A
+1878,Maduka Okoye,ng NGA,GK,24.0,14712,Serie A
+1879,Keinan Davis,eng ENG,FW,26.0,14712,Serie A
+1880,Martín Payero,ar ARG,MF,25.0,14712,Serie A
+1881,Rui Modesto,,RM,24.0,12096,Serie A
+1882,Damián Pizarro,,CF,19.0,12096,Serie A
+1883,Razvan Sava,ro ROU,GK,22.0,10625,Serie A
+1884,Souleymane Touré,fr FRA,DF,21.0,10625,Serie A
+1885,Jordan Zemura,zw ZIM,DF,24.0,8337,Serie A
+1886,David Pejičić,,AM,17.0,7519,Serie A
+1887,Lorenzo Lucca,it ITA,FW,23.0,7519,Serie A
+1888,Oier Zarraga,es ESP,MF,25.0,7356,Serie A
+1889,Daniele Padelli,it ITA,GK,38.0,6048,Serie A
+1890,Thomas Kristensen,,CB,23.0,5231,Serie A
+1891,Iker Bravo,es ESP,"FW,MF",19.0,4577,Serie A
+1892,Arthur Atta,,DM,21.0,4577,Serie A
+1893,Matteo Palma,,CB,16.0,3106,Serie A
+1894,Axel Guessand,fr FRA,DF,19.0,2452,Serie A
+1895,Sekou Diawara,be BEL,CF,20.0,2125,Serie A
+1896,James Abankwah,,CB,20.0,1962,Serie A
+1897,Edoardo Piana,,GK,20.0,1144,Serie A
+1898,Andrea Pinamonti,it ITA,FW,25.0,72577,Serie A
+1899,Junior Messias,br BRA,"MF,FW",33.0,60481,Serie A
+1900,Vitinha,,CF,24.0,54432,Serie A
+1901,Fabio Miretti,it ITA,"MF,FW",20.0,30240,Serie A
+1902,Milan Badelj,hr CRO,MF,35.0,29260,Serie A
+1903,Pierluigi Gollini,it ITA,GK,29.0,24193,Serie A
+1904,Mattia Bani,it ITA,DF,30.0,21250,Serie A
+1905,Aarón Martín,es ESP,DF,27.0,20923,Serie A
+1906,Ruslan Malinovskyi,ua UKR,"MF,FW",31.0,20923,Serie A
+1907,Morten Thorsby,no NOR,"MF,FW",28.0,17000,Serie A
+1908,Johan Vásquez,mx MEX,DF,25.0,16837,Serie A
+1909,Morten Frendrup,dk DEN,MF,23.0,16837,Serie A
+1910,Emil Bohinen,no NOR,MF,25.0,16346,Serie A
+1911,Marko Pajač,hr CRO,LB,31.0,15202,Serie A
+1912,Alessandro Vogliacco,it ITA,DF,25.0,15202,Serie A
+1913,Brooke Norton-Cuffy,eng ENG,"DF,FW",20.0,15202,Serie A
+1914,Caleb Ekuban,gh GHA,FW,30.0,12587,Serie A
+1915,Koni De Winter,,CB,22.0,12096,Serie A
+1916,Alessandro Zanoli,it ITA,"FW,DF",23.0,12096,Serie A
+1917,Stefano Sabelli,it ITA,DF,31.0,10625,Serie A
+1918,David Ankeye,,CF,22.0,10625,Serie A
+1919,Alessandro Marcandalli,,CB,21.0,10625,Serie A
+1920,Alan Matturro,,CB,19.0,8337,Serie A
+1921,Mario Balotelli,it ITA,"FW,MF",33.0,7519,Serie A
+1922,Nicola Leali,it ITA,GK,31.0,7519,Serie A
+1923,Gastón Pereiro,uy URU,MF,29.0,6048,Serie A
+1924,Filippo Melegoni,it ITA,"MF,FW",25.0,5394,Serie A
+1925,Franz Stolz,,GK,23.0,4904,Serie A
+1926,Daniele Sommariva,it ITA,GK,27.0,4250,Serie A
+1927,Patrizio Masini,it ITA,MF,23.0,2779,Serie A
+1928,Federico Accornero,,LW,20.0,2779,Serie A
+1929,Suat Serdar,de GER,MF,27.0,33510,Serie A
+1930,Amin Sarr,se SWE,FW,23.0,24519,Serie A
+1931,Domagoj Bradarić,hr CRO,DF,24.0,20923,Serie A
+1932,Giangiacomo Magnani,it ITA,DF,28.0,18144,Serie A
+1933,Ondrej Duda,sk SVK,MF,29.0,17981,Serie A
+1934,Davide Faraoni,it ITA,DF,32.0,15202,Serie A
+1935,Darko Lazović,rs SRB,"DF,MF",33.0,13568,Serie A
+1936,Abdou Harroui,nl NED,"MF,FW",26.0,12587,Serie A
+1937,Daniel Bandeira,pt POR,MF,24.0,10625,Serie A
+1938,Flavius Daniliuc,at AUT,DF,23.0,10462,Serie A
+1939,Daniel Mosquera,co COL,FW,24.0,9154,Serie A
+1940,Casper Tengstedt,,CF,24.0,8827,Serie A
+1941,Martin Frese,,LB,27.0,8500,Serie A
+1942,Tomáš Suslov,sk SVK,"MF,FW",22.0,8337,Serie A
+1943,Lorenzo Montipò,it ITA,GK,28.0,8173,Serie A
+1944,Faride Alidou,de GER,"FW,MF",23.0,7846,Serie A
+1945,Alessandro Berardi,it ITA,GK,33.0,7519,Serie A
+1946,Simone Perilli,it ITA,GK,29.0,7519,Serie A
+1947,Ayanda Sishuba,,AM,19.0,7519,Serie A
+1948,Diego Coppola,it ITA,DF,20.0,7519,Serie A
+1949,Dailon Rocha Livramento,,CF,23.0,7519,Serie A
+1950,Daniele Ghilardi,,CB,22.0,7519,Serie A
+1951,Jackson Tchatchoua,,RB,23.0,7356,Serie A
+1952,Paweł Dawidowicz,pl POL,"DF,MF",29.0,6212,Serie A
+1953,Juan Cruz,ar ARG,CF,25.0,6048,Serie A
+1954,Mathis Lambourde,,CF,18.0,5394,Serie A
+1955,Christian Corradi,,CB,19.0,4904,Serie A
+1956,Yllan Okou,,CB,21.0,4577,Serie A
+1957,Reda Belahyane,,DM,20.0,4577,Serie A
+1958,Mattia Chiesa,it ITA,GK,24.0,4577,Serie A
+1959,Luca Monticelli,,CF,19.0,4577,Serie A
+1960,Federico Magro,,GK,19.0,3596,Serie A
+1961,Grigoris Kastanos,cy CYP,"MF,FW",26.0,3106,Serie A
+1962,Junior Ajayi,,CF,20.0,3106,Serie A
+1963,Karlson Nwanege,,CB,19.0,2779,Serie A
+1964,Joselito,,DM,20.0,2779,Serie A
+1965,Alphadjo Cissè,,AM,17.0,1798,Serie A
+1966,Gianluca Lapadula,pe PER,"FW,MF",34.0,33346,Serie A
+1967,Yerry Mina,co COL,DF,29.0,31385,Serie A
+1968,Jakub Jankto,cz CZE,MF,28.0,30240,Serie A
+1969,Sebastiano Luperto,it ITA,DF,27.0,30240,Serie A
+1970,Nicolas Viola,it ITA,"FW,MF",34.0,30240,Serie A
+1971,Leonardo Pavoletti,it ITA,"FW,MF",35.0,21250,Serie A
+1972,Răzvan Marin,ro ROU,MF,28.0,20923,Serie A
+1973,José Luis Palomino,ar ARG,DF,34.0,18144,Serie A
+1974,Zito Luvumbo,,CF,22.0,18144,Serie A
+1975,Antoine Makoumbou,,DM,26.0,15365,Serie A
+1976,Tommaso Augello,it ITA,DF,29.0,15202,Serie A
+1977,Gianluca Gaetano,it ITA,"MF,FW",24.0,15202,Serie A
+1978,Nadir Zortea,it ITA,"DF,MF",25.0,15202,Serie A
+1979,Paulo Azzi,br BRA,DF,30.0,15202,Serie A
+1980,Adam Obert,sk SVK,DF,21.0,12096,Serie A
+1981,Alessandro Deiola,it ITA,MF,28.0,12096,Serie A
+1982,Michel Ndary Adopo,fr FRA,MF,24.0,10625,Serie A
+1983,Mateusz Wieteska,,CB,27.0,10462,Serie A
+1984,Gabriele Zappa,it ITA,DF,24.0,9154,Serie A
+1985,Roberto Piccoli,it ITA,FW,23.0,9154,Serie A
+1986,Mattia Felici,it ITA,"MF,FW",23.0,7519,Serie A
+1987,Matteo Prati,,DM,21.0,7193,Serie A
+1988,Simone Scuffet,it ITA,GK,28.0,6212,Serie A
+1989,Kingstone Mutandwa,,CF,21.0,3923,Serie A
+1990,Alen Sherri,,GK,27.0,3596,Serie A
+1991,Giuseppe Ciocci,it ITA,GK,22.0,1144,Serie A
+1992,Hernani,br BRA,MF,30.0,45443,Serie A
+1993,Dennis Man,ro ROU,"FW,MF",25.0,31385,Serie A
+1994,Enrico Del Prato,it ITA,DF,24.0,27298,Serie A
+1995,Matteo Cancellieri,it ITA,"FW,MF",22.0,24193,Serie A
+1996,Mandela Keita,be BEL,MF,22.0,22721,Serie A
+1997,Pontus Almqvist,se SWE,"FW,MF",25.0,18144,Serie A
+1998,Nahuel Estévez,ar ARG,MF,28.0,18144,Serie A
+1999,Adrian Bernabe,es ESP,MF,23.0,16837,Serie A
+2000,Zion Suzuki,,GK,22.0,15202,Serie A
+2001,Emanuele Valeri,it ITA,DF,25.0,15202,Serie A
+2002,Wylan Cyprien,fr FRA,MF,29.0,14712,Serie A
+2003,Yordan Osorio,ve VEN,DF,30.0,12587,Serie A
+2004,Adrian Benedyczak,pl POL,"FW,MF",23.0,12587,Serie A
+2005,Lautaro Valenti,ar ARG,DF,25.0,12587,Serie A
+2006,Giovanni Leoni,,CB,17.0,12096,Serie A
+2007,Botond Balogh,hu HUN,DF,22.0,12096,Serie A
+2008,Leandro Chichizola,ar ARG,GK,34.0,12096,Serie A
+2009,Simon Sohm,ch SUI,MF,23.0,10462,Serie A
+2010,Gabriel Charpentier,cg CGO,FW,25.0,9644,Serie A
+2011,Valentin Mihaila,ro ROU,"FW,MF",24.0,9481,Serie A
+2012,Ange-Yoan Bonny,fr FRA,FW,20.0,8827,Serie A
+2013,Alessandro Circati,,CB,21.0,7519,Serie A
+2014,Gianluca Di Chiara,it ITA,"DF,MF",30.0,6048,Serie A
+2015,Woyo Coulibaly,ml MLI,DF,25.0,4413,Serie A
+2016,Antoine Hainaut,,CM,22.0,4250,Serie A
+2017,Anas Haj Mohamed,,RW,19.0,3596,Serie A
+2018,Drissa Camara,ci CIV,"MF,FW",22.0,2779,Serie A
+2019,Edoardo Corvi,,GK,23.0,2779,Serie A
+2020,Mateusz Kowalski,,SS,19.0,1798,Serie A
+2021,Kevin Bonifazi,it ITA,DF,28.0,30240,Serie A
+2022,Ante Rebić,hr CRO,"FW,MF",30.0,30240,Serie A
+2023,Frederic Guilbert,fr FRA,DF,29.0,21250,Serie A
+2024,Federico Baschirotto,it ITA,DF,27.0,18144,Serie A
+2025,Wladimiro Falcone,it ITA,GK,29.0,18144,Serie A
+2026,Nicola Sansone,it ITA,"MF,FW",32.0,16346,Serie A
+2027,Antonino Gallo,it ITA,DF,24.0,15693,Serie A
+2028,Lassana Coulibaly,ml MLI,MF,28.0,12587,Serie A
+2029,Tete Morente,es ESP,"FW,MF",27.0,12096,Serie A
+2030,Patrick Dorgu,,LB,19.0,10625,Serie A
+2031,Filip Marchwinski,,AM,23.0,10625,Serie A
+2032,Gaby Jean,,CB,24.0,10625,Serie A
+2033,Lameck Banda,,LW,24.0,10462,Serie A
+2034,Remi Oudin,fr FRA,"MF,FW",27.0,10462,Serie A
+2035,Joan Gonzàlez,es ESP,CM,23.0,10462,Serie A
+2036,Kialonda Gaspar,,CB,27.0,9644,Serie A
+2037,Ylber Ramadani,al ALB,MF,28.0,9481,Serie A
+2038,Santiago Pierotti,ar ARG,FW,23.0,9154,Serie A
+2039,Rareș Burnete,,CF,20.0,9154,Serie A
+2040,Christian Früchtl,de GER,GK,24.0,9154,Serie A
+2041,Andy Pelmard,fr FRA,DF,24.0,7519,Serie A
+2042,Nikola Krstović,,CF,24.0,7356,Serie A
+2043,Hamza Rafia,tn TUN,MF,25.0,6702,Serie A
+2044,Medon Berisha,,CM,21.0,6048,Serie A
+2045,Balthazar Pierret,fr FRA,MF,24.0,6048,Serie A
+2046,Mohamed Kaba,fr FRA,MF,22.0,5231,Serie A
+2047,Luis Hasa,,CM,20.0,4577,Serie A
+2048,Joel Voelkerling Persson,,CF,22.0,3106,Serie A
+2049,Alexandru Borbei,ro ROU,GK,21.0,2452,Serie A
+2050,Ed McJannet,,CM,20.0,2125,Serie A
+2051,Jasper Samooja,fi FIN,GK,21.0,1962,Serie A
+2052,Jeppe Corfitzen,,RW,19.0,1962,Serie A
+2053,Dario Daka,,RW,20.0,1471,Serie A
+2054,Þórir Jóhann Helgason,is ISL,MF,23.0,981,Serie A
+2055,Junior Sambia,fr FRA,"DF,FW",27.0,31385,Serie A
+2056,Nicolas Haas,ch SUI,MF,28.0,27298,Serie A
+2057,Liam Henderson,sct SCO,MF,28.0,24193,Serie A
+2058,Alberto Grassi,it ITA,MF,29.0,21250,Serie A
+2059,Pietro Pellegri,it ITA,FW,23.0,20923,Serie A
+2060,Youssef Maleh,ma MAR,MF,25.0,18144,Serie A
+2061,Emmanuel Gyasi,gh GHA,"DF,FW",30.0,18144,Serie A
+2062,Mattia De Sciglio,it ITA,DF,31.0,15202,Serie A
+2063,Giuseppe Pezzella,it ITA,"DF,FW",26.0,15202,Serie A
+2064,Lorenzo Colombo,it ITA,"FW,MF",22.0,15202,Serie A
+2065,Ardian Ismajli,al ALB,DF,27.0,14712,Serie A
+2066,Szymon Żurkowski,pl POL,MF,26.0,14712,Serie A
+2067,Ola Solbakken,,RW,25.0,14712,Serie A
+2068,Sebastiano Esposito,it ITA,"FW,MF",22.0,12096,Serie A
+2069,Mattia Viti,it ITA,DF,22.0,10625,Serie A
+2070,Saba Sazonov,ge GEO,DF,22.0,10462,Serie A
+2071,Tyronne Ebuehi,ng NGA,"DF,MF",28.0,10462,Serie A
+2072,Faustino Anjorin,eng ENG,MF,22.0,9154,Serie A
+2073,Samuele Perisan,it ITA,GK,26.0,5394,Serie A
+2074,Liberato Cacace,nz NZL,"MF,DF",23.0,5231,Serie A
+2075,Devis Vásquez,,GK,26.0,5068,Serie A
+2076,Luca Belardinelli,it ITA,MF,23.0,3106,Serie A
+2077,Federico Brancolini,it ITA,GK,23.0,3106,Serie A
+2078,Emmanuel Ekong,se SWE,"MF,FW",22.0,3106,Serie A
+2079,Jacopo Fazzini,,CM,21.0,2452,Serie A
+2080,Saba Goglichidze,,CB,20.0,2452,Serie A
+2081,Luca Marianucci,,CB,20.0,2125,Serie A
+2082,Jacopo Seghetti,,GK,19.0,1798,Serie A
+2083,Ridgeciano Haps,sr SUR,DF,31.0,52471,Serie A
+2084,Gianluca Busio,us USA,MF,22.0,41846,Serie A
+2085,Alfred Duncan,gh GHA,MF,31.0,36288,Serie A
+2086,Joel Pohjanpalo,fi FIN,FW,29.0,27298,Serie A
+2087,Jesse Joronen,fi FIN,GK,31.0,22721,Serie A
+2088,Christian Gytkjær,dk DEN,FW,34.0,20923,Serie A
+2089,Antonio Candela,it ITA,DF,24.0,18144,Serie A
+2090,John Yeboah,ec ECU,"FW,MF",24.0,18144,Serie A
+2091,Mikael Ellertsson,is ISL,"DF,MF",22.0,13568,Serie A
+2092,Gaetano Oristanio,it ITA,"FW,MF",21.0,12096,Serie A
+2093,Antonio Raimondo,,CF,20.0,12096,Serie A
+2094,Domen Črnigoj,si SVN,MF,28.0,10462,Serie A
+2095,Marin Šverko,hr CRO,DF,26.0,9481,Serie A
+2096,Richie Sagrado,,RB,21.0,9154,Serie A
+2097,Filip Stankovic,rs SRB,GK,22.0,9154,Serie A
+2098,Joël Schingtienne,,CB,22.0,9154,Serie A
+2099,Michael Svoboda,at AUT,DF,25.0,7356,Serie A
+2100,Jay Idzes,id IDN,DF,24.0,7356,Serie A
+2101,Francesco Zampano,it ITA,DF,30.0,6702,Serie A
+2102,Bjarki Bjarkason,is ISL,"DF,MF",24.0,6212,Serie A
+2103,Hans Nicolussi Caviglia,it ITA,MF,24.0,6048,Serie A
+2104,Issa Doumbia,,CM,20.0,6048,Serie A
+2105,Luca Fiordilino,it ITA,DM,28.0,6048,Serie A
+2106,Giorgio Altare,it ITA,DF,25.0,6048,Serie A
+2107,Bruno,br BRA,GK,26.0,5231,Serie A
+2108,Matteo Grandi,it ITA,GK,31.0,4577,Serie A
+2109,Franco Carboni,it ITA,DF,21.0,4577,Serie A
+2110,Magnus Kofod Andersen,dk DEN,MF,25.0,3596,Serie A
+2111,Filippo Neri,it ITA,GK,21.0,2779,Serie A
+2112,Saad El Haddad,,AM,19.0,2452,Serie A
+2113,Armando Izzo,it ITA,DF,32.0,51490,Serie A
+2114,Roberto Gagliardini,it ITA,"MF,DF",30.0,45443,Serie A
+2115,Andrea Petagna,it ITA,FW,29.0,45443,Serie A
+2116,Pablo Marí,es ESP,DF,30.0,33510,Serie A
+2117,Alessio Cragno,it ITA,GK,30.0,30240,Serie A
+2118,Danilo D'Ambrosio,it ITA,DF,35.0,30240,Serie A
+2119,Stefano Sensi,it ITA,MF,28.0,30240,Serie A
+2120,Gianluca Caprari,it ITA,"MF,FW",31.0,27298,Serie A
+2121,Matteo Pessina,it ITA,MF,27.0,24193,Serie A
+2122,Patrick Ciurria,it ITA,"MF,DF",29.0,24193,Serie A
+2123,Luca Caldirola,it ITA,DF,33.0,20596,Serie A
+2124,Daniel Maldini,it ITA,"MF,FW",22.0,18144,Serie A
+2125,Dany Mota,pt POR,"FW,MF",26.0,18144,Serie A
+2126,Andrea Carboni,it ITA,DF,23.0,15202,Serie A
+2127,Milan Đurić,ba BIH,FW,34.0,14712,Serie A
+2128,Stefano Turati,it ITA,GK,22.0,13894,Serie A
+2129,Samuele Birindelli,it ITA,"DF,MF",25.0,13568,Serie A
+2130,Mattia Valoti,it ITA,MF,30.0,10625,Serie A
+2131,Omari Forson,,RW,20.0,9154,Serie A
+2132,Mirko Marić,hr CRO,"FW,MF",29.0,8663,Serie A
+2133,Giorgos Kyriakopoulos,gr GRE,DF,28.0,8337,Serie A
+2134,Pedro Pereira,pt POR,DF,26.0,6212,Serie A
+2135,Warren Bondo,fr FRA,MF,20.0,6212,Serie A
+2136,Semuel Pizzignacco,it ITA,GK,22.0,3596,Serie A
+2137,Davide Diaw,it ITA,CF,32.0,3596,Serie A
+2138,Alessandro Bianco,it ITA,MF,21.0,3106,Serie A
+2139,Samuele Vignato,it ITA,MF,20.0,2779,Serie A
+2140,Andrea Mazza,,GK,20.0,2779,Serie A
+2141,Ousmane Dembélé,fr FRA,FW,27.0,326923,Ligue 1
+2142,Lucas Hernández,fr FRA,DF,28.0,310577,Ligue 1
+2143,Marquinhos,br BRA,CB,30.0,274615,Ligue 1
+2144,Milan Škriniar,sk SVK,"DF,MF",29.0,267423,Ligue 1
+2145,Achraf Hakimi,ma MAR,DF,25.0,237837,Ligue 1
+2146,Marco Asensio,es ESP,FW,28.0,237837,Ligue 1
+2147,Gianluigi Donnarumma,it ITA,GK,25.0,208087,Ligue 1
+2148,Randal Kolo Muani,fr FRA,FW,25.0,148587,Ligue 1
+2149,Fabián Ruiz Peña,es ESP,MF,28.0,148587,Ligue 1
+2150,João Neves,,DM,19.0,148587,Ligue 1
+2151,Warren Zaïre-Emery,,CM,18.0,137307,Ligue 1
+2152,Presnel Kimpembe,fr FRA,DF,28.0,125538,Ligue 1
+2153,Lee Kang-in,kr KOR,"FW,MF",23.0,118837,Ligue 1
+2154,Bradley Barcola,fr FRA,FW,21.0,107885,Ligue 1
+2155,Gonçalo Ramos,pt POR,FW,23.0,89904,Ligue 1
+2156,Vitinha,pt POR,MF,24.0,89087,Ligue 1
+2157,Willian Pacho,,CB,23.0,74212,Ligue 1
+2158,Lucas Beraldo,br BRA,DF,20.0,53452,Ligue 1
+2159,Matvei Safonov,ru RUS,GK,25.0,50510,Ligue 1
+2160,Désiré Doué,,LW,19.0,44625,Ligue 1
+2161,Nuno Mendes,pt POR,DF,22.0,23538,Ligue 1
+2162,Arnau Tenas,es ESP,GK,23.0,19615,Ligue 1
+2163,Senny Mayulu,,AM,18.0,11769,Ligue 1
+2164,Colin Dagba,fr FRA,RB,25.0,10788,Ligue 1
+2165,Yoram Zague,,RB,18.0,7356,Ligue 1
+2166,Ayman Kari,,CM,19.0,4904,Ligue 1
+2167,Ibrahim Mbaye,,RW,17.0,1962,Ligue 1
+2168,Adrien Rabiot,fr FRA,MF,29.0,103962,Ligue 1
+2169,Geoffrey Kondogbia,cf CTA,"DF,MF",31.0,88269,Ligue 1
+2170,Mason Greenwood,eng ENG,"FW,MF",22.0,74375,Ligue 1
+2171,Elye Wahi,fr FRA,FW,21.0,74375,Ligue 1
+2172,Azzedine Ounahi,ma MAR,CM,24.0,67837,Ligue 1
+2173,Leonardo Balerdi,ar ARG,DF,25.0,65385,Ligue 1
+2174,Valentin Rongier,fr FRA,"MF,DF",29.0,64731,Ligue 1
+2175,Chancel Mbemba,cd COD,CB,30.0,62769,Ligue 1
+2176,Amine Harit,ma MAR,MF,27.0,50673,Ligue 1
+2177,Neal Maupay,fr FRA,FW,27.0,49038,Ligue 1
+2178,Gerónimo Rulli,ar ARG,GK,32.0,41519,Ligue 1
+2179,Rubén Blanco,es ESP,GK,29.0,40865,Ligue 1
+2180,Lilian Brassier,fr FRA,DF,24.0,29750,Ligue 1
+2181,Ismaël Koné,ca CAN,"MF,FW",22.0,22231,Ligue 1
+2182,Luis Henrique,br BRA,"DF,FW",22.0,20923,Ligue 1
+2183,Quentin Merlin,fr FRA,DF,22.0,19615,Ligue 1
+2184,Faris Moumbagna,,CF,24.0,17981,Ligue 1
+2185,Pol Lirola,es ESP,DF,26.0,16346,Ligue 1
+2186,Michael Amir Murillo,pa PAN,DF,28.0,16346,Ligue 1
+2187,Ulisses Garcia,ch SUI,DF,28.0,14712,Ligue 1
+2188,Jonathan Rowe,,LW,21.0,14712,Ligue 1
+2189,Derek Cornelius,ca CAN,DF,26.0,11769,Ligue 1
+2190,Jeffrey De Lange,nl NED,GK,26.0,10462,Ligue 1
+2191,François Mughe,,RW,20.0,8990,Ligue 1
+2192,Emran Soglo,,LM,19.0,4904,Ligue 1
+2193,Bamo Meïté,,CB,22.0,4904,Ligue 1
+2194,Bilal Nadir,ma MAR,MF,20.0,4413,Ligue 1
+2195,Enzo Sternal,,SS,17.0,2288,Ligue 1
+2196,Gaël Lafont,,CM,18.0,2288,Ligue 1
+2197,Keyliane Abdallah,,RW,18.0,1962,Ligue 1
+2198,Aleksandr Golovin,ru RUS,"FW,MF",28.0,93990,Ligue 1
+2199,Folarin Balogun,us USA,FW,23.0,93990,Ligue 1
+2200,Thilo Kehrer,de GER,DF,27.0,78952,Ligue 1
+2201,Takumi Minamino,jp JPN,"MF,FW",29.0,75193,Ligue 1
+2202,Breel Embolo,ch SUI,FW,27.0,65712,Ligue 1
+2203,Denis Zakaria,ch SUI,MF,27.0,63750,Ligue 1
+2204,Mohammed Salisu,gh GHA,DF,25.0,50673,Ligue 1
+2205,Krépin Diatta,sn SEN,DF,25.0,49038,Ligue 1
+2206,Vanderson,br BRA,DF,23.0,49038,Ligue 1
+2207,Caio Henrique Oliveira Silva,br BRA,DF,27.0,44135,Ligue 1
+2208,Jordan Teze,nl NED,"MF,DF",24.0,31875,Ligue 1
+2209,Wilfried Singo,ci CIV,DF,23.0,30077,Ligue 1
+2210,Radosław Majecki,pl POL,GK,24.0,21577,Ligue 1
+2211,Maghnes Akliouche,fr FRA,"FW,MF",22.0,18798,Ligue 1
+2212,Philipp Köhn,ch SUI,GK,26.0,17981,Ligue 1
+2213,Lamine Camara,,CM,20.0,15038,Ligue 1
+2214,George Ilenikhena,,CF,18.0,11279,Ligue 1
+2215,Soungoutou Magassa,,CB,21.0,11279,Ligue 1
+2216,Eliesse Ben Seghir,,AM,19.0,9807,Ligue 1
+2217,Christian Mawissa,,CB,19.0,9481,Ligue 1
+2218,Edan Diop,,CM,20.0,9318,Ligue 1
+2219,Kassoum Ouattara,,LB,20.0,6538,Ligue 1
+2220,Eliot Matazo,be BEL,MF,22.0,6538,Ligue 1
+2221,Yann Lienard,,GK,21.0,1962,Ligue 1
+2222,Tanguy Ndombele,fr FRA,MF,27.0,59500,Ligue 1
+2223,Jonathan Clauss,fr FRA,"DF,MF",31.0,53615,Ligue 1
+2224,Youssoufa Moukoko,de GER,"FW,MF",19.0,49038,Ligue 1
+2225,Jeremie Boga,ci CIV,"MF,FW",27.0,45443,Ligue 1
+2226,Morgan Sanson,fr FRA,MF,29.0,42500,Ligue 1
+2227,Gaëtan Laborde,fr FRA,FW,30.0,35307,Ligue 1
+2228,Dante,br BRA,DF,40.0,24519,Ligue 1
+2229,Melvin Bard,fr FRA,"DF,MF",23.0,17818,Ligue 1
+2230,Sofiane Diop,fr FRA,"MF,FW",24.0,16673,Ligue 1
+2231,Youssouf Ndayishimiye,bi BDI,DF,25.0,15365,Ligue 1
+2232,Terem Moffi,ng NGA,FW,25.0,14712,Ligue 1
+2233,Evann Guessand,ci CIV,"FW,MF",23.0,14712,Ligue 1
+2234,Mohamed Ali Cho,fr FRA,"FW,MF",20.0,14712,Ligue 1
+2235,Mohamed Abdelmonem,,CB,26.0,11769,Ligue 1
+2236,Moïse Bombito,,CB,24.0,11769,Ligue 1
+2237,Ali Abdi,tn TUN,"DF,MF",30.0,10462,Ligue 1
+2238,Hicham Boudaoui,dz ALG,MF,24.0,9807,Ligue 1
+2239,Maxime Dupé,fr FRA,GK,31.0,6865,Ligue 1
+2240,Pablo Rosario,do DOM,"MF,DF",27.0,6375,Ligue 1
+2241,Marcin Bułka,pl POL,GK,24.0,5885,Ligue 1
+2242,Rareș Ilie,,AM,21.0,2943,Ligue 1
+2243,Amidou Doumbouya,,CB,17.0,2615,Ligue 1
+2244,Billal Brahimi,dz ALG,LW,24.0,2288,Ligue 1
+2245,Teddy Boulhendi,fr FRA,GK,23.0,1962,Ligue 1
+2246,Badredine Bouanani,,RW,20.0,1962,Ligue 1
+2247,Tom Louchet,,RM,21.0,1962,Ligue 1
+2248,Victor Orakpo,,CF,18.0,1962,Ligue 1
+2249,Antoine Mendy,,RB,20.0,1962,Ligue 1
+2250,André Gomes,pt POR,MF,31.0,89087,Ligue 1
+2251,Thomas Meunier,be BEL,DF,32.0,74212,Ligue 1
+2252,Mitchel Bakker,nl NED,"FW,DF",24.0,65385,Ligue 1
+2253,Samuel Umtiti,fr FRA,DF,30.0,52307,Ligue 1
+2254,Benjamin André,fr FRA,MF,33.0,35307,Ligue 1
+2255,Jonathan David,ca CAN,FW,24.0,31875,Ligue 1
+2256,Mohamed Lamine Bayo,gn GUI,FW,26.0,29423,Ligue 1
+2257,Ismaily,br BRA,DF,34.0,29423,Ligue 1
+2258,Bafodé Diakité,fr FRA,DF,23.0,25500,Ligue 1
+2259,Rémy Cabella,fr FRA,"MF,FW",34.0,23538,Ligue 1
+2260,Aïssa Mandi,dz ALG,DF,32.0,20923,Ligue 1
+2261,Edon Zhegrova,xk KVX,"FW,MF",25.0,19615,Ligue 1
+2262,Lucas Chevalier,fr FRA,GK,22.0,18635,Ligue 1
+2263,Hákon Arnar Haraldsson,,LW,21.0,16346,Ligue 1
+2264,Tiago Santos,,RB,22.0,16346,Ligue 1
+2265,Nabil Bentaleb,dz ALG,MF,29.0,16346,Ligue 1
+2266,Alexsandro,,CB,25.0,14875,Ligue 1
+2267,Osame Sahraoui,,LW,23.0,14875,Ligue 1
+2268,Akim Zedadka,dz ALG,DF,29.0,12750,Ligue 1
+2269,Matias Fernandez-Pardo,,LW,20.0,11769,Ligue 1
+2270,Angel Gomes,eng ENG,MF,23.0,11606,Ligue 1
+2271,Ngal'ayel Mukau,,DM,19.0,8827,Ligue 1
+2272,Ethan Mbappé,,CM,18.0,8827,Ligue 1
+2273,Gabriel Gudmundsson,se SWE,DF,25.0,6538,Ligue 1
+2274,Rafael Fernandes,,CB,22.0,5721,Ligue 1
+2275,Ayyoub Bouaddi,,CM,16.0,4413,Ligue 1
+2276,Vito Mannone,it ITA,GK,36.0,4087,Ligue 1
+2277,Marc-Aurèle Caillard,fr FRA,GK,30.0,2943,Ligue 1
+2278,Lisandru Olmeta,,GK,19.0,1962,Ligue 1
+2279,Alexandre Lacazette,fr FRA,FW,33.0,98077,Ligue 1
+2280,Nemanja Matić,rs SRB,MF,35.0,98077,Ligue 1
+2281,Saïd Benrahma,dz ALG,"FW,MF",28.0,83202,Ligue 1
+2282,Corentin Tolisso,fr FRA,MF,29.0,78462,Ligue 1
+2283,Nicolás Tagliafico,ar ARG,DF,31.0,74375,Ligue 1
+2284,Moussa Niakhate,sn SEN,DF,28.0,74375,Ligue 1
+2285,Anthony Lopes,pt POR,GK,33.0,68654,Ligue 1
+2286,Rayan Cherki,fr FRA,"FW,MF",20.0,65385,Ligue 1
+2287,Maxence Caqueret,fr FRA,MF,24.0,54923,Ligue 1
+2288,Jordan Veretout,fr FRA,MF,31.0,53452,Ligue 1
+2289,Georges Mikautadze,ge GEO,FW,23.0,53452,Ligue 1
+2290,Wilfried Zaha,ci CIV,FW,31.0,53125,Ligue 1
+2291,Ernest Nuamah,,RW,20.0,44462,Ligue 1
+2292,Duje Ćaleta-Car,hr CRO,DF,27.0,38577,Ligue 1
+2293,Ainsley Maitland-Niles,eng ENG,DF,26.0,35962,Ligue 1
+2294,Tanner Tessmann,us USA,MF,22.0,35635,Ligue 1
+2295,Gift Emmanuel Orban,,CF,22.0,29750,Ligue 1
+2296,Abner,br BRA,DF,24.0,23865,Ligue 1
+2297,Clinton Mata,ao ANG,DF,31.0,17981,Ligue 1
+2298,Malick Fofana,be BEL,FW,19.0,16346,Ligue 1
+2299,Lucas Perri,br BRA,GK,26.0,14712,Ligue 1
+2300,Paul Akouokou,ci CIV,MF,26.0,12260,Ligue 1
+2301,Warmed Omari,km COM,DF,24.0,10462,Ligue 1
+2302,Saël Kumbedi,,RB,19.0,7846,Ligue 1
+2303,Mahamadou Diawara,,CM,19.0,6538,Ligue 1
+2304,Rémy Descamps,fr FRA,GK,28.0,4413,Ligue 1
+2305,Irvyn Lomami,,RB,20.0,2452,Ligue 1
+2306,Justin Bengui Joao,,GK,19.0,1962,Ligue 1
+2307,Florent da Silva,fr FRA,CM,21.0,1962,Ligue 1
+2308,Sekou Mara,fr FRA,"FW,MF",22.0,25337,Ligue 1
+2309,Đorđe Petrović,rs SRB,GK,24.0,25337,Ligue 1
+2310,Habib Diarra,sn SEN,"MF,FW",20.0,20923,Ligue 1
+2311,Sebastian Nanasi,,LM,22.0,17818,Ligue 1
+2312,Abakar Sylla,ci CIV,DF,21.0,14712,Ligue 1
+2313,Guéla Doué,,RB,21.0,14712,Ligue 1
+2314,Félix Lemaréchal,fr FRA,"MF,FW",20.0,14712,Ligue 1
+2315,Andrey Santos,,CM,20.0,14712,Ligue 1
+2316,Mamadou Sarr,,CB,19.0,13404,Ligue 1
+2317,Emanuel Emegha,nl NED,FW,21.0,12260,Ligue 1
+2318,Eduard Sobol,ua UKR,DF,29.0,11769,Ligue 1
+2319,Diego Moreira,,LW,20.0,11769,Ligue 1
+2320,Caleb Wiley,us USA,"DF,MF",19.0,11769,Ligue 1
+2321,Óscar Perea,,LW,19.0,11769,Ligue 1
+2322,Dilane Bakwa,fr FRA,"MF,DF",21.0,11443,Ligue 1
+2323,Junior Mwanga,,DM,21.0,11115,Ligue 1
+2324,Saidou Sow,gn GUI,DF,22.0,10625,Ligue 1
+2325,Alaa Bellaarouch,ma MAR,GK,22.0,10462,Ligue 1
+2326,Matthieu Dreyer,fr FRA,GK,35.0,9807,Ligue 1
+2327,Karl-Johan Johnsson,se SWE,GK,34.0,9807,Ligue 1
+2328,Thomas Delaine,fr FRA,DF,32.0,8500,Ligue 1
+2329,Karol Fila,pl POL,MF,26.0,8173,Ligue 1
+2330,Ismaël Doukouré,fr FRA,"DF,MF",21.0,6538,Ligue 1
+2331,Milos Lukovic,,CF,18.0,5885,Ligue 1
+2332,Pape Diong,,DM,18.0,5231,Ligue 1
+2333,Robin Risser,,GK,19.0,4904,Ligue 1
+2334,Dion Moise Sahi,ci CIV,CF,23.0,4413,Ligue 1
+2335,Jérémy Sebas,,LW,21.0,2943,Ligue 1
+2336,Marvin Senaya,tg TOG,DF,23.0,2288,Ligue 1
+2337,Mohamed Bechikh,,CF,19.0,1962,Ligue 1
+2338,Nolan Ferro,,CM,18.0,1962,Ligue 1
+2339,Tidiane Diallo,,AM,18.0,1962,Ligue 1
+2340,Walid Hasbi,,GK,20.0,1471,Ligue 1
+2341,Yoni Gomis,,CB,18.0,1471,Ligue 1
+2342,Brice Samba,fr FRA,GK,30.0,49038,Ligue 1
+2343,M'Bala Nzola,ao ANG,FW,27.0,44625,Ligue 1
+2344,Angelo Fulgini,fr FRA,"MF,FW",27.0,29750,Ligue 1
+2345,Facundo Medina,ar ARG,DF,25.0,26807,Ligue 1
+2346,Przemysław Frankowski,pl POL,DF,29.0,25337,Ligue 1
+2347,Kevin Danso,at AUT,DF,25.0,24519,Ligue 1
+2348,Ruben Aguilar,fr FRA,"DF,MF",31.0,24519,Ligue 1
+2349,Malang Sarr,fr FRA,DF,25.0,23865,Ligue 1
+2350,Anass Zaroury,ma MAR,"FW,MF",23.0,22231,Ligue 1
+2351,Nampalys Mendy,sn SEN,MF,32.0,21250,Ligue 1
+2352,Adrien Thomasson,fr FRA,MF,30.0,17654,Ligue 1
+2353,Andy Diouf,fr FRA,MF,21.0,14712,Ligue 1
+2354,Jonathan Gradit,fr FRA,DF,31.0,13731,Ligue 1
+2355,David Costa,pt POR,"MF,FW",23.0,11769,Ligue 1
+2356,Hervé Koffi,bf BFA,GK,27.0,11769,Ligue 1
+2357,Jimmy Cabot,fr FRA,RM,30.0,11769,Ligue 1
+2358,Martin Satriano,uy URU,"FW,DF",23.0,10462,Ligue 1
+2359,Florian Sotoca,fr FRA,"FW,MF",33.0,9807,Ligue 1
+2360,Wesley Saïd,fr FRA,FW,29.0,8827,Ligue 1
+2361,Deiver Machado,co COL,"DF,MF",30.0,8827,Ligue 1
+2362,Jhoanner Chávez,,LB,22.0,7356,Ligue 1
+2363,Rémy Labeau Lascary,,CF,21.0,7356,Ligue 1
+2364,Denis Petrić,rs SRB,GK,36.0,3923,Ligue 1
+2365,Neil El Aynaoui,fr FRA,MF,23.0,2452,Ligue 1
+2366,Abdukodir Khusanov,,CB,20.0,2288,Ligue 1
+2367,Hamzat Ojediran,,DM,20.0,1962,Ligue 1
+2368,Sidi Bane,,CB,20.0,1635,Ligue 1
+2369,Ismaëlo Ganiou,,CB,19.0,1471,Ligue 1
+2370,Tom Pouilly,,DM,21.0,1471,Ligue 1
+2371,Romain Faivre,fr FRA,"MF,FW",26.0,35635,Ligue 1
+2372,Pierre Lees-Melou,fr FRA,MF,31.0,35635,Ligue 1
+2373,Ludovic Ajorque,fr FRA,FW,30.0,35307,Ligue 1
+2374,Edimilson Fernandes,ch SUI,MF,28.0,32365,Ligue 1
+2375,Abdallah Sima,sn SEN,FW,23.0,21250,Ligue 1
+2376,Brendan Chardonnet,fr FRA,DF,29.0,20923,Ligue 1
+2377,Mama Samba Baldé,gw GNB,"FW,MF",28.0,20923,Ligue 1
+2378,Romain Del Castillo,fr FRA,FW,28.0,17818,Ligue 1
+2379,Jordan Amavi,fr FRA,DF,30.0,17818,Ligue 1
+2380,Ibrahim Salah,,LW,23.0,17654,Ligue 1
+2381,Soumaïla Coulibaly,fr FRA,DF,20.0,17000,Ligue 1
+2382,Massadio Haïdara,ml MLI,DF,31.0,14875,Ligue 1
+2383,Marco Bizot,nl NED,GK,33.0,14875,Ligue 1
+2384,Hugo Magnetti,fr FRA,MF,26.0,13404,Ligue 1
+2385,Jonas Martin,fr FRA,MF,34.0,13077,Ligue 1
+2386,Kenny Lala,mg MAD,DF,32.0,11769,Ligue 1
+2387,Kamory Doumbia,ml MLI,"MF,FW",21.0,10462,Ligue 1
+2388,Mathias Pereira Lage,pt POR,"DF,MF",27.0,8337,Ligue 1
+2389,Bradley Locko,fr FRA,DF,22.0,8173,Ligue 1
+2390,Julien Le Cardinal,fr FRA,DF,26.0,7846,Ligue 1
+2391,Abdoulaye Ndiaye,,CB,22.0,6375,Ligue 1
+2392,Grégoire Coudert,fr FRA,GK,25.0,5231,Ligue 1
+2393,Mahdi Camara,fr FRA,MF,26.0,4904,Ligue 1
+2394,Axel Camblan,,LM,21.0,1962,Ligue 1
+2395,Luck Zogbé,,RB,19.0,1471,Ligue 1
+2396,Noah Jauny,,GK,20.0,1307,Ligue 1
+2397,Joshua King,no NOR,"FW,MF",32.0,35635,Ligue 1
+2398,Miha Zajc,si SVN,MF,30.0,29750,Ligue 1
+2399,Mark McKenzie,us USA,DF,25.0,25173,Ligue 1
+2400,Djibril Sidibé,fr FRA,DF,32.0,23865,Ligue 1
+2401,Charlie Cresswell,eng ENG,DF,21.0,11769,Ligue 1
+2402,Guillaume Restes,,GK,19.0,10462,Ligue 1
+2403,Gabriel Suazo,,LB,27.0,9807,Ligue 1
+2404,Aron Dønnum,no NOR,"DF,MF",26.0,9807,Ligue 1
+2405,Niklas Schmidt,de GER,MF,26.0,9318,Ligue 1
+2406,Rasmus Nicolaisen,dk DEN,DF,27.0,8990,Ligue 1
+2407,Frank Magri,cm CMR,"FW,MF",24.0,8173,Ligue 1
+2408,Cristian Cásseres Jr.,ve VEN,MF,24.0,7356,Ligue 1
+2409,Yann Gboho,fr FRA,"MF,FW",23.0,6538,Ligue 1
+2410,Vincent Sierro,ch SUI,MF,28.0,5885,Ligue 1
+2411,Zakaria Aboukhlal,ma MAR,"MF,FW",24.0,4904,Ligue 1
+2412,Kjetil Haug,no NOR,GK,26.0,4904,Ligue 1
+2413,Álex Domínguez,es ESP,GK,26.0,4087,Ligue 1
+2414,Shavy Babicka,,RW,24.0,3923,Ligue 1
+2415,Warren Kamanzi,,RB,24.0,3923,Ligue 1
+2416,Denis Genreau,au AUS,MF,25.0,2943,Ligue 1
+2417,Ümit Akdağ,,CB,21.0,2615,Ligue 1
+2418,Justin Lacombe,,GK,21.0,2288,Ligue 1
+2419,Ylies Aradj,,LB,19.0,1962,Ligue 1
+2420,Hamed Junior Traorè,ci CIV,MF,24.0,44625,Ligue 1
+2421,Ki-Jana Hoever,nl NED,DF,22.0,40865,Ligue 1
+2422,Ado Onaiwu,jp JPN,"MF,FW",28.0,13731,Ligue 1
+2423,Sinaly Diomande,ci CIV,DF,23.0,13404,Ligue 1
+2424,Florian Ayé,fr FRA,FW,27.0,12750,Ligue 1
+2425,Gideon Mensah,gh GHA,DF,26.0,12260,Ligue 1
+2426,Saad Agouzoul,ma MAR,DF,26.0,11769,Ligue 1
+2427,Rayan Raveloson,mg MAD,"MF,DF",27.0,11769,Ligue 1
+2428,Elisha Owusu,gh GHA,MF,26.0,11769,Ligue 1
+2429,Gabriel Osho,ng NGA,DF,25.0,11769,Ligue 1
+2430,Jubal,br BRA,DF,30.0,11443,Ligue 1
+2431,Lassine Sinayoko,ml MLI,"FW,MF",24.0,11443,Ligue 1
+2432,Clément Akpa,ci CIV,DF,22.0,10462,Ligue 1
+2433,Assane Dioussé,sn SEN,MF,26.0,9807,Ligue 1
+2434,Donovan Léon,gf GUF,GK,31.0,8500,Ligue 1
+2435,Gaëtan Perrin,fr FRA,"MF,FW",28.0,7846,Ligue 1
+2436,Théo Pellenard,fr FRA,DF,30.0,7193,Ligue 1
+2437,Lasso Coulibaly,,RM,22.0,5885,Ligue 1
+2438,Theo Bair,ca CAN,FW,24.0,5394,Ligue 1
+2439,Paul Joly,fr FRA,DF,24.0,4904,Ligue 1
+2440,Eros Maddy,,RW,24.0,3923,Ligue 1
+2441,Kévin Danois,,CM,20.0,2288,Ligue 1
+2442,Nicolas Mercier,fr FRA,LW,21.0,2288,Ligue 1
+2443,Raphaël Adiceam,fr FRA,GK,34.0,2288,Ligue 1
+2444,Ange Loic N'Gatta,,RB,21.0,1962,Ligue 1
+2445,Théo De Percin,mq MTQ,GK,23.0,1962,Ligue 1
+2446,Nathan Buayi-Kiala,,DM,20.0,1962,Ligue 1
+2447,Ben Viadere,,AM,19.0,1307,Ligue 1
+2448,Tom Negrel,,GK,21.0,1307,Ligue 1
+2449,Ludovic Blas,fr FRA,"MF,FW",26.0,42500,Ligue 1
+2450,Jota,pt POR,"FW,MF",25.0,38577,Ligue 1
+2451,Steve Mandanda,fr FRA,GK,39.0,37269,Ligue 1
+2452,Leo Skiri Østigård,no NOR,DF,24.0,35798,Ligue 1
+2453,Baptiste Santamaria,fr FRA,MF,29.0,32693,Ligue 1
+2454,Glen Kamara,fi FIN,MF,28.0,29750,Ligue 1
+2455,Arnaud Kalimuendo,fr FRA,"FW,MF",22.0,24519,Ligue 1
+2456,Hans Hateboer,nl NED,DF,30.0,23865,Ligue 1
+2457,Azor Matusiwa,nl NED,MF,26.0,21250,Ligue 1
+2458,Mikayil Faye,,CB,20.0,20923,Ligue 1
+2459,Lorenz Assignon,tg TOG,"DF,MF",24.0,20923,Ligue 1
+2460,Naouirou Ahamada,fr FRA,"MF,FW",22.0,20432,Ligue 1
+2461,Amine Gouiri,dz ALG,"MF,FW",24.0,19615,Ligue 1
+2462,Albert Grønbaek,,CM,23.0,17818,Ligue 1
+2463,Adrien Truffert,fr FRA,"DF,MF",22.0,16346,Ligue 1
+2464,Carlos Andrés Gómez,,RW,22.0,14712,Ligue 1
+2465,Alidu Seidu,gh GHA,DF,24.0,13077,Ligue 1
+2466,Gauthier Gallon,fr FRA,GK,31.0,10462,Ligue 1
+2467,Jordan James,,CM,20.0,10462,Ligue 1
+2468,Henrik Meister,,CF,20.0,8990,Ligue 1
+2469,Christopher Wooh,cm CMR,DF,22.0,3923,Ligue 1
+2470,Doğan Alemdar,tr TUR,GK,21.0,3596,Ligue 1
+2471,Geoffrey Lembet,,GK,36.0,2452,Ligue 1
+2472,Alan Do Marcolino,,CF,22.0,1962,Ligue 1
+2473,Mahamadou Nagida,,LB,19.0,1962,Ligue 1
+2474,Moses Simon,ng NGA,"FW,MF",29.0,39231,Ligue 1
+2475,Mostafa Mohamed,eg EGY,FW,26.0,28932,Ligue 1
+2476,Florent Mollet,fr FRA,"MF,FW",32.0,26807,Ligue 1
+2477,Alban Lafont,fr FRA,GK,25.0,24519,Ligue 1
+2478,Nicolas Pallois,fr FRA,DF,36.0,21577,Ligue 1
+2479,Nicolas Cozza,fr FRA,"DF,MF",25.0,18798,Ligue 1
+2480,Jean-Philippe Gbamin,ci CIV,MF,28.0,17818,Ligue 1
+2481,Fabien Centonze,fr FRA,DF,28.0,15365,Ligue 1
+2482,Tino Kadewere,zw ZIM,"MF,FW",28.0,14875,Ligue 1
+2483,Ignatius Ganago,cm CMR,"FW,MF",25.0,14875,Ligue 1
+2484,Jean-Charles Castelletto,cm CMR,"DF,MF",29.0,14875,Ligue 1
+2485,Matthis Abline,fr FRA,FW,21.0,14875,Ligue 1
+2486,Kelvin Amian,fr FRA,DF,26.0,14712,Ligue 1
+2487,Sorba Thomas,,RW,26.0,14712,Ligue 1
+2488,Douglas Augusto,,CM,28.0,14712,Ligue 1
+2489,Pedro Chirivella,es ESP,MF,27.0,11769,Ligue 1
+2490,Marcus Coco,fr FRA,DF,28.0,11769,Ligue 1
+2491,Johann Lepenant,fr FRA,MF,21.0,11769,Ligue 1
+2492,Jean-Kevin Duverne,ht HAI,DF,27.0,10135,Ligue 1
+2493,Patrik Carlgren,se SWE,GK,32.0,8827,Ligue 1
+2494,Nathan Zézé,,CB,19.0,7356,Ligue 1
+2495,Hugo Barbet,fr FRA,GK,22.0,2288,Ligue 1
+2496,Herba Guirassy,,LW,18.0,1635,Ligue 1
+2497,Lois Diony,fr FRA,FW,31.0,22231,Ligue 1
+2498,Zinedine Ferhat,dz ALG,"FW,MF",31.0,21577,Ligue 1
+2499,Jordan Lefort,fr FRA,DF,30.0,16673,Ligue 1
+2500,Adrien Hunou,fr FRA,CF,31.0,15693,Ligue 1
+2501,Jim Allevinah,ga GAB,FW,29.0,14712,Ligue 1
+2502,Jean-Eudes Aholou,ci CIV,MF,30.0,14712,Ligue 1
+2503,Bamba Dieng,sn SEN,FW,24.0,14712,Ligue 1
+2504,Haris Belkebla,dz ALG,MF,30.0,13404,Ligue 1
+2505,Joseph Lopy,sn SEN,"DF,MF",32.0,12750,Ligue 1
+2506,Cédric Hountondji,bj BEN,DF,30.0,10298,Ligue 1
+2507,Ibrahima Niane,sn SEN,FW,25.0,9807,Ligue 1
+2508,Florent Hanin,dz ALG,DF,34.0,8827,Ligue 1
+2509,Pierrick Capelle,fr FRA,MF,37.0,8827,Ligue 1
+2510,Farid El Melali,dz ALG,FW,27.0,6865,Ligue 1
+2511,Carlens Arcus,ht HAI,DF,28.0,6375,Ligue 1
+2512,Jacques Ekomié,,LB,21.0,5885,Ligue 1
+2513,Abdoulaye Bamba,ci CIV,DF,34.0,4413,Ligue 1
+2514,Esteban Lepaul,,CF,24.0,4413,Ligue 1
+2515,Yahia Fofana,ci CIV,GK,23.0,3923,Ligue 1
+2516,Yassin Belkhdim,fr FRA,MF,22.0,2943,Ligue 1
+2517,Halid Šabanović,ba BIH,RB,25.0,2943,Ligue 1
+2518,Ousmane Camara,fr FRA,DF,21.0,2943,Ligue 1
+2519,Zinédine Ould Khaled,fr FRA,MF,24.0,2452,Ligue 1
+2520,Lilian Raolisoa,,RB,24.0,2452,Ligue 1
+2521,Melvin Zinga,,GK,22.0,1962,Ligue 1
+2522,Emmanuel Biumla,,DM,19.0,1962,Ligue 1
+2523,Himad Abdelli,dz ALG,"MF,FW",24.0,1962,Ligue 1
+2524,Sidiki Chérif,,LW,18.0,1635,Ligue 1
+2525,Justin-Noël Kalumba,,RW,20.0,1635,Ligue 1
+2526,Guédé Nadje,,CF,20.0,1635,Ligue 1
+2527,Oumar Pona,,GK,18.0,1307,Ligue 1
+2528,Marius Courcoul,,CB,17.0,1307,Ligue 1
+2529,Daler Kuzyaev,ru RUS,MF,31.0,29423,Ligue 1
+2530,Abdoulaye Touré,gn GUI,MF,30.0,17981,Ligue 1
+2531,Yoann Salmier,gf GUF,DF,31.0,11443,Ligue 1
+2532,Christopher Operi,ci CIV,"DF,FW",27.0,8827,Ligue 1
+2533,Étienne Youté Kinkoué,,CB,22.0,8827,Ligue 1
+2534,Gautier Lloris,fr FRA,DF,29.0,8827,Ligue 1
+2535,Yassine Kechta,,CM,22.0,8500,Ligue 1
+2536,Samuel Grandsir,fr FRA,"MF,FW",27.0,8337,Ligue 1
+2537,Timothee Pembele,fr FRA,DF,21.0,7519,Ligue 1
+2538,Arouna Sangante,sn SEN,DF,22.0,6865,Ligue 1
+2539,Loïc Nego,hu HUN,"DF,FW",33.0,6538,Ligue 1
+2540,Ilyes Housni,,CF,19.0,5885,Ligue 1
+2541,Mathieu Gorgelin,fr FRA,GK,33.0,5721,Ligue 1
+2542,Rassoul Ndiaye,sn SEN,MF,22.0,5394,Ligue 1
+2543,Oualid El Hajjam,ma MAR,DF,33.0,5231,Ligue 1
+2544,Josué Casimir,fr FRA,"FW,MF",22.0,4904,Ligue 1
+2545,Arthur Desmas,fr FRA,GK,30.0,4904,Ligue 1
+2546,Oussama Targhalline,ma MAR,MF,22.0,4413,Ligue 1
+2547,Emmanuel Sabbi,,RW,27.0,4250,Ligue 1
+2548,Issa Soumaré,sn SEN,"FW,MF",23.0,4087,Ligue 1
+2549,Yanis Zouaoui,,LB,26.0,4087,Ligue 1
+2550,Yann Kitala,,FW,26.0,3432,Ligue 1
+2551,Antoine Joujou,,LW,21.0,2779,Ligue 1
+2552,Steve Ngoura,,CF,19.0,1962,Ligue 1
+2553,Alois Confais,fr FRA,MF,27.0,1962,Ligue 1
+2554,Paul Argney,,GK,18.0,1471,Ligue 1
+2555,Ruben Londja,,RW,18.0,1307,Ligue 1
+2556,Ismaïl Bouneb,,AM,18.0,1307,Ligue 1
+2557,Mohamed Daramy,,LW,23.0,24519,Ligue 1
+2558,Junya Ito,jp JPN,"FW,MF",31.0,19615,Ligue 1
+2559,Emmanuel Agbadou,ci CIV,DF,27.0,19288,Ligue 1
+2560,Maxime Busi,be BEL,DF,24.0,17818,Ligue 1
+2561,Cédric Kipré,ci CIV,DF,27.0,17818,Ligue 1
+2562,Joseph Okumu,ke KEN,DF,27.0,16346,Ligue 1
+2563,Sergio Akieme,es ESP,DF,26.0,14712,Ligue 1
+2564,Keito Nakamura,jp JPN,"FW,MF",24.0,14712,Ligue 1
+2565,Gabriel Moscardo,,DM,19.0,14712,Ligue 1
+2566,Teddy Teuma,mt MLT,MF,30.0,13894,Ligue 1
+2567,Marshall Munetsi,zw ZIM,MF,28.0,11769,Ligue 1
+2568,Thibault De Smet,be BEL,DF,26.0,11769,Ligue 1
+2569,Reda Khadra,de GER,"MF,FW",23.0,11443,Ligue 1
+2570,Yehvann Diouf,sn SEN,GK,24.0,9807,Ligue 1
+2571,Oumar Diakité,,CF,21.0,8173,Ligue 1
+2572,Aurélio Buta,pt POR,DF,27.0,7846,Ligue 1
+2573,Valentin Atangana,,CM,19.0,7519,Ligue 1
+2574,Yaya Fofana,,CM,20.0,7519,Ligue 1
+2575,Amine Salama,fr FRA,FW,24.0,6702,Ligue 1
+2576,Ludovic Butelle,fr FRA,GK,41.0,5721,Ligue 1
+2577,Alexandre Olliero,fr FRA,GK,28.0,5231,Ligue 1
+2578,Mamadou Diakhon,,LW,18.0,1962,Ligue 1
+2579,Amadou Koné,,DM,19.0,1962,Ligue 1
+2580,Adama Bojang,,CF,20.0,1962,Ligue 1
+2581,Nhoa Sangui,,LB,18.0,1635,Ligue 1
+2582,Abdoul Koné,,CB,19.0,1635,Ligue 1
+2583,Yunis Abdelhamid,ma MAR,DF,36.0,17818,Ligue 1
+2584,Zuriko Davitashvili,ge GEO,"FW,MF",23.0,14712,Ligue 1
+2585,Anthony Briançon,fr FRA,DF,29.0,13731,Ligue 1
+2586,Florian Tardieu,fr FRA,MF,32.0,12750,Ligue 1
+2587,Benjamin Bouchouari,,CM,23.0,12260,Ligue 1
+2588,Aimen Moueffek,fr FRA,MF,23.0,11769,Ligue 1
+2589,Augustine Boakye,gh GHA,"FW,MF",23.0,11769,Ligue 1
+2590,Mickael Nade,fr FRA,DF,25.0,11769,Ligue 1
+2591,Lucas Stassin,,CF,20.0,11769,Ligue 1
+2592,Dylan Batubinsika,cd COD,DF,28.0,11769,Ligue 1
+2593,Dennis Appiah,fr FRA,DF,32.0,10788,Ligue 1
+2594,Igor Miladinovic,,AM,21.0,10462,Ligue 1
+2595,Ibrahima Wadji,,CF,29.0,9807,Ligue 1
+2596,Yvann Macon,fr FRA,DF,25.0,8827,Ligue 1
+2597,Thomas Monconduit,fr FRA,DM,33.0,8337,Ligue 1
+2598,Gautier Larsonneur,fr FRA,GK,27.0,7682,Ligue 1
+2599,Lamine Fomba,fr FRA,MF,26.0,7356,Ligue 1
+2600,Pierre Cornud,fr FRA,DF,27.0,7356,Ligue 1
+2601,Ibrahim Sissoko,ml MLI,FW,28.0,6865,Ligue 1
+2602,Léo Pétrot,fr FRA,DF,27.0,6865,Ligue 1
+2603,Brice Maubleu,fr FRA,GK,34.0,5885,Ligue 1
+2604,Mathieu Cafaro,fr FRA,"MF,FW",27.0,5721,Ligue 1
+2605,Boubacar Fall,sn SEN,GK,24.0,4087,Ligue 1
+2606,Louis Mouton,,DM,22.0,3923,Ligue 1
+2607,Ben Old,,LW,22.0,3923,Ligue 1
+2608,Pierre Ekwah,,DM,23.0,3269,Ligue 1
+2609,Mathis Amougou,,CM,18.0,1962,Ligue 1
+2610,Wahbi Khazri,tn TUN,"FW,MF",33.0,49038,Ligue 1
+2611,Benjamin Lecomte,fr FRA,GK,33.0,29750,Ligue 1
+2612,Jordan Ferri,fr FRA,MF,32.0,23538,Ligue 1
+2613,Téji Savanier,fr FRA,MF,32.0,21577,Ligue 1
+2614,Christopher Jullien,fr FRA,DF,31.0,14712,Ligue 1
+2615,Arnaud Nordin,fr FRA,FW,26.0,12260,Ligue 1
+2616,Boubakar Kouyaté,ml MLI,DF,27.0,10462,Ligue 1
+2617,Akor Adams,,CF,24.0,9807,Ligue 1
+2618,Becir Omeragic,ch SUI,DF,22.0,8990,Ligue 1
+2619,Modibo Sagnan,ml MLI,DF,25.0,8173,Ligue 1
+2620,Mousa Al-Tamari,,RW,27.0,7356,Ligue 1
+2621,Issiaga Sylla,gn GUI,DF,30.0,6538,Ligue 1
+2622,Théo Sainte-Luce,fr FRA,DF,25.0,5885,Ligue 1
+2623,Tanguy Coulibaly,fr FRA,"FW,MF",23.0,5231,Ligue 1
+2624,Khalil Fayad,,CM,20.0,4904,Ligue 1
+2625,Gabriel Bares,ch SUI,"MF,DF",23.0,3923,Ligue 1
+2626,Lucas Mincarelli,,LB,20.0,2943,Ligue 1
+2627,Belmin Dizdarevic,,GK,23.0,2615,Ligue 1
+2628,Falaye Sacko,ml MLI,DF,29.0,2288,Ligue 1
+2629,Dimitry Bertaud,cd COD,GK,26.0,1962,Ligue 1
+2630,Othmane Maamma,,RW,18.0,1962,Ligue 1
+2631,Rabby Nzingoula,,DM,19.0,1962,Ligue 1
+2632,Joris Chotard,fr FRA,MF,22.0,1962,Ligue 1
+2633,Enzo Tchato,cm CMR,DF,21.0,1962,Ligue 1
